@@ -12,8 +12,9 @@ export default async function Home() {
       {data.bookcase.map((book) => {
         return (
           <div key={book.id} className={styles.book}>
+            <div className={styles.series}>{book.series}</div>
             <div>{book.title}</div>
-            <div>{book.author}</div>
+            <div className={styles.author}>{book.author}</div>
           </div>
         );
       })}

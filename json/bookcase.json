@@ -2,6 +2,7 @@
   "bookcase": [
     {
       "id": 1,
+      "series": "Star Wars",
       "title": "Episode IV: A New Hope",
       "author": "George Lucas",
       "releaseDate": "1976-12-01"
@@ -14,16 +15,19 @@
     },
     {
       "id": 3,
+      "series": "Star Wars",
       "title": "Episode V: The Empire Strikes Back",
       "releaseDate": "1980-05-01"
     },
     {
       "id": 4,
+      "series": "Han Solo Trilogy",
       "title": "Han Solo At Stars End",
       "releaseDate": "1979-04-01"
     },
     {
       "id": 5,
+      "series": "Han Solo Trilogy",
       "title": "Han Solo's Revenge",
       "releaseDate": "1979-11-01"
     }

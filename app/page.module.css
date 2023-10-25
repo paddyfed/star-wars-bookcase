@@ -16,4 +16,13 @@
   flex-direction: column;
   padding: 0.5em;
   min-height: 300px;
+  gap: 0.2em;
+}
+
+.author {
+  font-size: small;
+}
+
+.series {
+  font-size: small;
 }
