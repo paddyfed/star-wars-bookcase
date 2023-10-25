@@ -2,23 +2,30 @@
   "bookcase": [
     {
       "id": 1,
-      "ReleaseDate": "1976-12-01"
+      "title": "Episode IV: A New Hope",
+      "author": "George Lucas",
+      "releaseDate": "1976-12-01"
     },
     {
       "id": 2,
-      "ReleaseDate": "1978-04-01"
+      "title": "Splinter of the Minds Eye",
+      "author": "Alan D Foster",
+      "releaseDate": "1978-04-01"
     },
     {
       "id": 3,
-      "ReleaseDate": "1980-05-01"
+      "title": "Episode V: The Empire Strikes Back",
+      "releaseDate": "1980-05-01"
     },
     {
       "id": 4,
-      "ReleaseDate": "1979-04-01"
+      "title": "Han Solo At Stars End",
+      "releaseDate": "1979-04-01"
     },
     {
       "id": 5,
-      "ReleaseDate": "1979-11-01"
+      "title": "Han Solo's Revenge",
+      "releaseDate": "1979-11-01"
     }
   ]
 }

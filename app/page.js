@@ -8,14 +8,15 @@ export default async function Home() {
   const data = await getData(api);
 
   return (
-    <>
+    <div className={styles.bookcase}>
       {data.bookcase.map((book) => {
         return (
-          <div key={book.id}>
-            {book.id} {book.ReleaseDate}
+          <div key={book.id} className={styles.book}>
+            <div>{book.title}</div>
+            <div>{book.author}</div>
           </div>
         );
       })}
-    </>
+    </div>
   );
 }
