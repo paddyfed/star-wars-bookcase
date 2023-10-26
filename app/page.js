@@ -7,7 +7,7 @@ const styleClassses = {
 };
 
 export default async function Home() {
-  const api = `${process.env.API_URL}/api/books/release-date`;
+  const api = `${process.env.API_URL}`;
 
   const data = await getData(api);
 
