@@ -1,8 +1,19 @@
 import { NextResponse } from "next/server";
 import bookcase from "@/json/bookcase.json";
 
+// Create an empty array to hold the ordered books
+const orderedBooks = [];
+
+// Find the book with no "next" value (end book)
+let currentBook = bookcase.bookcase.find((book) => !book.next);
+
+// Start with the "end book" and follow the "next" values to order the books
+while (currentBook) {
+  orderedBooks.push(currentBook);
+  currentBook = bookcase.bookcase.find((book) => book.next === currentBook.id);
+}
+
 export async function GET() {
-  const ordered = bookcase.bookcase;
-  ordered.sort((a, b) => (a.releaseDate > b.releaseDate ? 1 : -1));
-  return NextResponse.json({ bookcase: ordered });
+  // Return the books in reverse order
+  return NextResponse.json({ bookcase: orderedBooks.reverse() });
 }

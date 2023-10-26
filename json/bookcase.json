@@ -7,7 +7,6 @@
       "author": "George Lucas",
       "releaseDate": "1976-12-01",
       "type": "novel",
-      "prev": 5,
       "next": 2
     },
     {
@@ -15,7 +14,6 @@
       "title": "Splinter of the Minds Eye",
       "author": "Alan D Foster",
       "releaseDate": "1978-04-01",
-      "prev": 1,
       "next": 3
     },
     {
@@ -23,7 +21,6 @@
       "series": "Star Wars",
       "title": "Episode V: The Empire Strikes Back",
       "releaseDate": "1980-05-01",
-      "prev": 2,
       "next": null
     },
     {
@@ -31,16 +28,21 @@
       "series": "The Han Solo Adventures",
       "title": "Han Solo At Stars End",
       "releaseDate": "1979-04-01",
-      "prev": null,
       "next": 5
+    },
+    {
+      "id": 6,
+      "series": "The Han Solo Adventures",
+      "title": "Han Solo and the Lost Legacy",
+      "releaseDate": "1980-09-01",
+      "next": 1
     },
     {
       "id": 5,
       "series": "The Han Solo Adventures",
       "title": "Han Solo's Revenge",
       "releaseDate": "1979-11-01",
-      "prev": 4,
-      "next": 1
+      "next": 6
     }
   ]
 }

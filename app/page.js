@@ -7,7 +7,7 @@ const styleClassses = {
 };
 
 export default async function Home() {
-  const api = `${process.env.API_URL}`;
+  const api = `${process.env.API_URL}/books/timeline-order`;
 
   const data = await getData(api);
 
