@@ -7,13 +7,13 @@ const styleClassses = {
 };
 
 export default async function Home() {
-  const api = `https://api.sampleapis.com/beers/ale`;
+  const api = `${process.env.API_URL}/books/timeline-order`;
 
   const data = await getData(api);
 
   return (
     <div className={styles.bookcase}>
-      {/* {data.bookcase.map((book) => {
+      {data.bookcase.map((book) => {
         return (
           <div
             key={book.id}
@@ -24,7 +24,7 @@ export default async function Home() {
             <div className={styles.author}>{book.author}</div>
           </div>
         );
-      })} */}
+      })}
     </div>
   );
 }
