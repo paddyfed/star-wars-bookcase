@@ -31,11 +31,18 @@
       "next": 5
     },
     {
+      "id": 6,
+      "series": "The Han Solo Adventures",
+      "title": "Han Solo and the Lost Legacy",
+      "releaseDate": "1980-09-01",
+      "next": 1
+    },
+    {
       "id": 5,
       "series": "The Han Solo Adventures",
       "title": "Han Solo's Revenge",
       "releaseDate": "1979-11-01",
-      "next": 1
+      "next": 6
     }
   ]
 }
