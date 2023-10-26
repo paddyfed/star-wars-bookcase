@@ -4,21 +4,16 @@ import bookcase from "@/json/bookcase.json";
 // Create an empty array to hold the ordered books
 const orderedBooks = [];
 
-// Find the book with no "prev" value (start book)
-const startBook = bookcase.bookcase.find((book) => book.prev === null);
+// Find the book with no "next" value (end book)
+let currentBook = bookcase.bookcase.find((book) => !book.next);
 
-// Start with the "start book" and follow the "next" values to order the books
-let currentBook = startBook;
+// Start with the "end book" and follow the "next" values to order the books
 while (currentBook) {
   orderedBooks.push(currentBook);
-  currentBook = bookcase.bookcase.find((book) => book.id === currentBook.next);
+  currentBook = bookcase.bookcase.find((book) => book.next === currentBook.id);
 }
 
-// console.log("bookList", orderedBooks);
-// console.log("bookMap", bookMap);
-
 export async function GET() {
-  //const ordered = bookcase.bookcase;
-  // ordered.sort((a, b) => (a.releaseDate > b.releaseDate ? 1 : -1));
-  return NextResponse.json({ bookcase: orderedBooks });
+  // Return the books in reverse order
+  return NextResponse.json({ bookcase: orderedBooks.reverse() });
 }
