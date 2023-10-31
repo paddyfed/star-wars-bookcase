@@ -10,13 +10,16 @@
 }
 
 .book {
-  writing-mode: vertical-rl;
-  background-color: cadetblue;
+  background-color: black;
   display: flex;
-  flex-direction: column;
+  writing-mode: vertical-rl;
   padding: 0.5em;
   min-height: 300px;
   gap: 0.2em;
+}
+
+.bookText {
+  color: red;
 }
 
 .author {
@@ -28,4 +31,10 @@
 }
 .novel {
   background-color: brown;
+}
+.title {
+  font-weight: bold;
+}
+.image {
+  fill: blue;
 }
