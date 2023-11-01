@@ -18,9 +18,9 @@
   gap: 0.2em;
 }
 
-.bookText {
+/* .bookText {
   color: red;
-}
+} */
 
 .author {
   font-size: small;
@@ -30,7 +30,15 @@
   font-size: small;
 }
 .novel {
-  background-color: brown;
+  background-color: black;
+  color: red;
+}
+
+.default {
+  background-color: darkblue;
+  color: white;
+  background-color: black;
+  color: red;
 }
 .title {
   font-weight: bold;

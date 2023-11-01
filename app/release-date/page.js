@@ -1,6 +1,7 @@
 import Image from "next/image";
 import styles from "../page.module.css";
 import { getData } from "../helpers/apiHelpers";
+import Book from "../components/book";
 
 const styleClassses = {
   novel: styles.novel,
@@ -14,16 +15,7 @@ export default async function Home() {
   return (
     <div className={styles.bookcase}>
       {data.bookcase.map((book) => {
-        return (
-          <div
-            key={book.id}
-            className={`${styles.book} ${styleClassses[book.type]}`}
-          >
-            <div className={styles.series}>{book.series}</div>
-            <div>{book.title}</div>
-            <div className={styles.author}>{book.author}</div>
-          </div>
-        );
+        return <Book book={book} key={book.id} />;
       })}
     </div>
   );
