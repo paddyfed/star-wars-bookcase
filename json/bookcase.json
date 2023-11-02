@@ -6,6 +6,7 @@
       "title": "Into the Void",
       "author": "Tim Lebbon",
       "releaseDate": "2013-03-31",
+      "type": "novel",
       "next": 2
     },
     {
@@ -126,6 +127,15 @@
       "title": "Episode I: The Phantom Menace",
       "author": "",
       "releaseDate": "1999-05-01",
+      "next": 161
+    },
+    {
+      "id": 161,
+      "series": "Star Wars",
+      "title": "Episode I: The Phantom Menace",
+      "author": "",
+      "releaseDate": "2000-04-08",
+      "type": "vhs",
       "next": 17
     },
     {
@@ -158,6 +168,15 @@
       "title": "Episode II: Attack of the Clones",
       "author": "",
       "releaseDate": "2002-04-01",
+      "next": 162
+    },
+    {
+      "id": 162,
+      "series": "Star Wars",
+      "title": "Episode II: Attack of the Clones",
+      "author": "",
+      "releaseDate": "2002-11-01",
+      "type": "vhs",
       "next": 21
     },
     {
@@ -294,6 +313,15 @@
       "title": "Episode III: Revenge of the Sith",
       "author": "",
       "releaseDate": "2005-04-01",
+      "next": 163
+    },
+    {
+      "id": 163,
+      "series": "Star Wars",
+      "title": "Episode III: Revenge of the Sith",
+      "author": "",
+      "releaseDate": "2005-11-01",
+      "type": "vhs",
       "next": 38
     },
     {
@@ -470,6 +498,16 @@
       "title": "Episode IV: A New Hope",
       "author": "George Lucas",
       "releaseDate": "1976-12-01",
+      "type": "novel",
+      "next": 158
+    },
+    {
+      "id": 158,
+      "series": "Star Wars",
+      "title": "Episode IV: A New Hope",
+      "author": "George Lucas",
+      "releaseDate": "1995-06-16",
+      "type": "vhs",
       "next": 60
     },
     {
@@ -558,6 +596,15 @@
       "title": "Episode V: The Empire Strikes Back",
       "author": "",
       "releaseDate": "1980-05-01",
+      "next": 159
+    },
+    {
+      "id": 159,
+      "series": "Star Wars",
+      "title": "Episode V: The Empire Strikes Back",
+      "author": "George Lucas",
+      "releaseDate": "1995-06-16",
+      "type": "vhs",
       "next": 71
     },
     {
@@ -582,8 +629,18 @@
       "title": "Episode VI: Return of the Jedi",
       "author": "",
       "releaseDate": "1983-06-01",
+      "next": 160
+    },
+    {
+      "id": 160,
+      "series": "Star Wars",
+      "title": "Episode VI: Return of the Jedi",
+      "author": "",
+      "releaseDate": "1995-06-16",
+      "type": "vhs",
       "next": 74
     },
+
     {
       "id": 74,
       "series": "",

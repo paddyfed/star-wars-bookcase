@@ -4,11 +4,12 @@ import styles from "../page.module.css";
 
 const styleClassses = {
   novel: styles.novel,
+  vhs: styles.vhs,
   default: styles.default,
 };
 
 export default function Book({ book }) {
-  const type = book.type ? book.type : "default";
+  const type = book.type ?? "default";
   return (
     <div className={`${styles.book} ${styleClassses[type]}`}>
       <div>

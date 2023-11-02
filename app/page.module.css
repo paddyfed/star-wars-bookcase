@@ -34,9 +34,12 @@
   color: red;
 }
 
-.default {
+.vhs {
   background-color: darkblue;
   color: white;
+}
+
+.default {
   background-color: black;
   color: red;
 }
