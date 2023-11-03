@@ -136,6 +136,15 @@
       "author": "",
       "releaseDate": "2000-04-08",
       "type": "vhs",
+      "next": 166
+    },
+    {
+      "id": 166,
+      "series": "Star Wars",
+      "title": "Episode I: The Phantom Menace",
+      "author": "",
+      "releaseDate": "2001-10-16",
+      "type": "dvd",
       "next": 17
     },
     {
@@ -177,6 +186,15 @@
       "author": "",
       "releaseDate": "2002-11-01",
       "type": "vhs",
+      "next": 165
+    },
+    {
+      "id": 165,
+      "series": "Star Wars",
+      "title": "Episode II: Attack of the Clones",
+      "author": "",
+      "releaseDate": "2002-11-01",
+      "type": "dvd",
       "next": 21
     },
     {
@@ -322,6 +340,15 @@
       "author": "",
       "releaseDate": "2005-11-01",
       "type": "vhs",
+      "next": 164
+    },
+    {
+      "id": 164,
+      "series": "Star Wars",
+      "title": "Episode III: Revenge of the Sith",
+      "author": "",
+      "releaseDate": "2005-11-01",
+      "type": "dvd",
       "next": 38
     },
     {
@@ -508,6 +535,15 @@
       "author": "George Lucas",
       "releaseDate": "1995-06-16",
       "type": "vhs",
+      "next": 167
+    },
+    {
+      "id": 167,
+      "series": "Star Wars",
+      "title": "Episode IV: A New Hope",
+      "author": "George Lucas",
+      "releaseDate": "2004-09-21",
+      "type": "dvd",
       "next": 60
     },
     {
@@ -605,6 +641,15 @@
       "author": "George Lucas",
       "releaseDate": "1995-06-16",
       "type": "vhs",
+      "next": 168
+    },
+    {
+      "id": 168,
+      "series": "Star Wars",
+      "title": "Episode V: The Empire Strikes Back",
+      "author": "George Lucas",
+      "releaseDate": "2004-09-21",
+      "type": "dvd",
       "next": 71
     },
     {
@@ -638,9 +683,17 @@
       "author": "",
       "releaseDate": "1995-06-16",
       "type": "vhs",
+      "next": 169
+    },
+    {
+      "id": 169,
+      "series": "Star Wars",
+      "title": "Episode VI: Return of the Jedi",
+      "author": "",
+      "releaseDate": "2004-09-21",
+      "type": "dvd",
       "next": 74
     },
-
     {
       "id": 74,
       "series": "",

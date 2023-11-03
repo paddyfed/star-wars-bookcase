@@ -5,6 +5,7 @@ import styles from "../page.module.css";
 const styleClassses = {
   novel: styles.novel,
   vhs: styles.vhs,
+  dvd: styles.dvd,
   default: styles.default,
 };
 

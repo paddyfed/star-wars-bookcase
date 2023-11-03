@@ -39,6 +39,11 @@
   color: white;
 }
 
+.dvd {
+  background-color: green;
+  color: white;
+}
+
 .default {
   background-color: black;
   color: red;
