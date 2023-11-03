@@ -1,5 +1,5 @@
 import { NextResponse } from "next/server";
-import bookcase from "@/json/canon-bookcase.json";
+import bookcase from "@/json/canonbookcase.json";
 
 export const dynamic = "force-dynamic";
 
