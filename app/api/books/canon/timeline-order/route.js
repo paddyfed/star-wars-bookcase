@@ -1,5 +1,5 @@
 import { NextResponse } from "next/server";
-import bookcase from "@/json/bookcase.json";
+import bookcase from "@/json/canon-bookcase.json";
 
 // Create an empty array to hold the ordered books
 const orderedBooks = [];
