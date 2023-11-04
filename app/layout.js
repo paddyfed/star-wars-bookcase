@@ -16,6 +16,9 @@ export default function RootLayout({ children }) {
         <nav>
           <ul>
             <li>
+              <Link href="/">Home</Link>
+            </li>
+            <li>
               <Link href="/legends/timeline-order">Legends - By Timeline</Link>
             </li>
             <li>
