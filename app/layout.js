@@ -16,10 +16,12 @@ export default function RootLayout({ children }) {
         <nav>
           <ul>
             <li>
-              <Link href="/timeline-order">By Timeline</Link>
+              <Link href="/legends/timeline-order">Legends - By Timeline</Link>
             </li>
             <li>
-              <Link href="/release-date">By Release Date</Link>
+              <Link href="/legends/release-date">
+                Legends - By Release Date
+              </Link>
             </li>
           </ul>
         </nav>

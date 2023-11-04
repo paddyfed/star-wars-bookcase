@@ -1,14 +1,14 @@
 import Image from "next/image";
-import styles from "../page.module.css";
-import { getData } from "../helpers/apiHelpers";
-import Book from "../components/book";
+import styles from "../../page.module.css";
+import { getData } from "../../helpers/apiHelpers";
+import Book from "../../components/book";
 
 const styleClassses = {
   novel: styles.novel,
 };
 
 export default async function Home() {
-  const api = `${process.env.API_URL}/books/release-date`;
+  const api = `${process.env.API_URL}/books/legends/release-date`;
 
   const data = await getData(api);
 
