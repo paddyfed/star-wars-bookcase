@@ -26,6 +26,12 @@ export default function RootLayout({ children }) {
                 Legends - By Release Date
               </Link>
             </li>
+            <li>
+              <Link href="/canon/timeline-order">Canon - By Timeline</Link>
+            </li>
+            <li>
+              <Link href="/canon/release-date">Canon - By Release Date</Link>
+            </li>
           </ul>
         </nav>
         {children}
