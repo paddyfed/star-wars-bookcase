@@ -77,6 +77,44 @@
       "author": "",
       "releaseDate": "2005-11-01",
       "type": "dvd",
+      "next": 179
+    },
+    {
+      "id": 179,
+      "series": "A Star Wars Story",
+      "title": "Solo",
+      "author": "Mur Lafferty",
+      "releaseDate": "2018-09-04",
+      "type": "novel",
+      "next": 180
+    },
+
+    {
+      "id": 180,
+      "series": "A Star Wars Story",
+      "title": "Solo",
+      "author": "",
+      "releaseDate": "2018-09-14",
+      "type": "dvd",
+      "next": 177
+    },
+    {
+      "id": 177,
+      "series": "A Star Wars Story",
+      "title": "Rogue One",
+      "author": "Alexander Freed",
+      "releaseDate": "2016-12-16",
+      "type": "novel",
+      "next": 178
+    },
+
+    {
+      "id": 178,
+      "series": "A Star Wars Story",
+      "title": "Rogue One",
+      "author": "",
+      "releaseDate": "2017-03-24",
+      "type": "dvd",
       "next": 59
     },
 
@@ -158,6 +196,60 @@
       "title": "Episode VI: Return of the Jedi",
       "author": "",
       "releaseDate": "2004-09-21",
+      "type": "dvd",
+      "next": 170
+    },
+    {
+      "id": 170,
+      "series": "Star Wars",
+      "title": "Episode VII: The Force Awakens",
+      "author": "Alan Dean Foster",
+      "releaseDate": "2016-01-05",
+      "type": "novel",
+      "next": 171
+    },
+    {
+      "id": 171,
+      "series": "Star Wars",
+      "title": "Episode VII: The Force Awakens",
+      "author": "",
+      "releaseDate": "2016-04-05",
+      "type": "dvd",
+      "next": 173
+    },
+    {
+      "id": 173,
+      "series": "Star Wars",
+      "title": "Episode VIII: The Last Jedi",
+      "author": "Jason Fry",
+      "releaseDate": "2018-03-06",
+      "type": "novel",
+      "next": 174
+    },
+    {
+      "id": 174,
+      "series": "Star Wars",
+      "title": "Episode VIII: The Last Jedi",
+      "author": "",
+      "releaseDate": "2018-03-27",
+      "type": "dvd",
+      "next": 175
+    },
+    {
+      "id": 175,
+      "series": "Star Wars",
+      "title": "Episode IX: The Rise of Skywalker",
+      "author": "Rae Carson",
+      "releaseDate": "2020-03-17",
+      "type": "novel",
+      "next": 176
+    },
+    {
+      "id": 176,
+      "series": "Star Wars",
+      "title": "Episode IX: The Rise of Skywalker",
+      "author": "",
+      "releaseDate": "2020-03-31",
       "type": "dvd",
       "next": null
     }
