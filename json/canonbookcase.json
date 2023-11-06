@@ -1,6 +1,87 @@
 {
   "bookcase": [
     {
+      "id": 224,
+      "series": "The High Republic",
+      "title": "Convergence",
+      "author": "Zoraida Córdova",
+      "releaseDate": "2022-11-22",
+      "type": "novel",
+      "next": 222
+    },
+    {
+      "id": 223,
+      "series": "The High Republic",
+      "title": "The Battle of Jedha",
+      "author": "George Mann",
+      "releaseDate": "2023-02-14",
+      "type": "novel",
+      "next": 222
+    },
+    {
+      "id": 222,
+      "series": "The High Republic",
+      "title": "Cataclysm",
+      "author": "Lydia Kang",
+      "releaseDate": "2023-04-04",
+      "type": "novel",
+      "next": 221
+    },
+    {
+      "id": 221,
+      "series": "The High Republic",
+      "title": "Light of the Jedi",
+      "author": "Charles Soule",
+      "releaseDate": "2021-01-05",
+      "type": "novel",
+      "next": 220
+    },
+    {
+      "id": 220,
+      "series": "The High Republic",
+      "title": "The Rising storm",
+      "author": "Cavan Scott",
+      "releaseDate": "2021-06-29",
+      "type": "novel",
+      "next": 219
+    },
+    {
+      "id": 219,
+      "series": "The High Republic",
+      "title": "Tempest Runner",
+      "author": "Cavan Scott",
+      "releaseDate": "2022-03-01",
+      "type": "novel",
+      "next": 218
+    },
+    {
+      "id": 218,
+      "series": "The High Republic",
+      "title": "The Fallen Star",
+      "author": "Claudia Gray",
+      "releaseDate": "2022-01-04",
+      "type": "novel",
+      "next": 217
+    },
+    {
+      "id": 217,
+      "series": "",
+      "title": "Dooku: Jedi Lost",
+      "author": "Cavan Scott",
+      "releaseDate": "2019-10-01",
+      "type": "novel",
+      "next": 216
+    },
+    {
+      "id": 216,
+      "series": "",
+      "title": "Master & Apprentice",
+      "author": "Claudia Gray",
+      "releaseDate": "2019-04-16",
+      "type": "novel",
+      "next": 16
+    },
+    {
       "id": 16,
       "series": "Star Wars",
       "title": "Episode I: The Phantom Menace",
