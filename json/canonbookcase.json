@@ -124,8 +124,18 @@
       "author": "Mike Chen",
       "releaseDate": "2022-05-10",
       "type": "novel",
+      "next": 225
+    },
+    {
+      "id": 225,
+      "series": "",
+      "title": "The Clone Wars",
+      "author": "",
+      "releaseDate": "2008-08-15",
+      "type": "dvd",
       "next": 214
     },
+
     {
       "id": 214,
       "series": "",
