@@ -15,7 +15,6 @@ while (currentBook) {
 
 const reversedBooks = orderedBooks.reverse();
 
-export const dynamic = "force-dynamic";
 export async function GET() {
   // Return the books in reverse order
   return NextResponse.json({ bookcase: reversedBooks });
