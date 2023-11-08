@@ -3,7 +3,7 @@ import { getData } from "../../helpers/apiHelpers";
 import Book from "../../components/book";
 
 export default async function Home() {
-  const api = `${process.env.API_URL}/books/canon/release-date`;
+  const api = `${process.env.API_URL}/books/release-date`;
 
   const data = await getData(api);
 
