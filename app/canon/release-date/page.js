@@ -1,17 +1,10 @@
-import styles from "../../page.module.css";
 import { getData } from "../../helpers/apiHelpers";
-import Book from "../../components/book";
+import BookCase from "@/app/components/bookcase";
 
 export default async function Home() {
   const api = `${process.env.API_URL}/books/canon/release-date`;
 
   const data = await getData(api);
 
-  return (
-    <div className={styles.bookcase}>
-      {data.bookcase.map((book) => {
-        return <Book book={book} key={book.id} />;
-      })}
-    </div>
-  );
+  return <BookCase bookcase={data} />;
 }
