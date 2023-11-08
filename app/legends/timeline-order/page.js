@@ -3,7 +3,7 @@ import { getData } from "../../helpers/apiHelpers";
 import Book from "../../components/book";
 
 export default async function Home() {
-  const api = `${process.env.API_URL}/books/timeline-order`;
+  const api = `${process.env.API_URL}/books/legends/timeline-order`;
 
   const data = await getData(api);
 
