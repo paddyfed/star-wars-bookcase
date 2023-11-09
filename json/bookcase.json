@@ -45,7 +45,7 @@
       "id": 6,
       "series": "The Old Republic",
       "title": "Fatal Alliance",
-      "author": "",
+      "author": "Sean Williams",
       "releaseDate": "2010-07-02",
       "next": 7
     },
@@ -61,7 +61,7 @@
       "id": 8,
       "series": "",
       "title": "Knight Errant",
-      "author": "",
+      "author": "John Jackson Miller",
       "releaseDate": "2011-01-01",
       "next": 9
     },
@@ -69,7 +69,7 @@
       "id": 9,
       "series": "Darth Bane",
       "title": "Path of Destruction",
-      "author": "",
+      "author": "Drew Karpyshyn",
       "releaseDate": "2006-09-02",
       "next": 10
     },
@@ -77,7 +77,7 @@
       "id": 10,
       "series": "Darth Bane",
       "title": "The Rule of Two",
-      "author": "",
+      "author": "Drew Karpyshyn",
       "releaseDate": "2007-12-01",
       "next": 11
     },
@@ -85,7 +85,7 @@
       "id": 11,
       "series": "Darth Bane",
       "title": "Dynasty of Evil",
-      "author": "",
+      "author": "Drew Karpyshyn",
       "releaseDate": "2009-12-01",
       "next": 12
     },
@@ -101,7 +101,7 @@
       "id": 13,
       "series": "",
       "title": "Cloak of Deception",
-      "author": "",
+      "author": "James Luceno",
       "releaseDate": "2001-07-01",
       "next": 14
     },
@@ -109,7 +109,7 @@
       "id": 14,
       "series": "Darth Maul",
       "title": "Shadow Hunter",
-      "author": "",
+      "author": "Michael Reaves",
       "releaseDate": "2001-02-01",
       "next": 15
     },
@@ -125,8 +125,9 @@
       "id": 16,
       "series": "Star Wars",
       "title": "Episode I: The Phantom Menace",
-      "author": "",
+      "author": "Terry Brooks",
       "releaseDate": "1999-05-01",
+      "type": "novel",
       "next": 161
     },
     {
@@ -151,7 +152,7 @@
       "id": 17,
       "series": "",
       "title": "Rogue Planet",
-      "author": "",
+      "author": "Greg Bear",
       "releaseDate": "2000-05-01",
       "next": 18
     },
@@ -159,7 +160,7 @@
       "id": 18,
       "series": "",
       "title": "Outbound Flight",
-      "author": "",
+      "author": "Timothy Zahn",
       "releaseDate": "2006-02-01",
       "next": 19
     },
@@ -167,7 +168,7 @@
       "id": 19,
       "series": "",
       "title": "The Approaching Storm",
-      "author": "",
+      "author": "Alan Dean Foster",
       "releaseDate": "2002-02-02",
       "next": 20
     },
@@ -175,8 +176,9 @@
       "id": 20,
       "series": "Star Wars",
       "title": "Episode II: Attack of the Clones",
-      "author": "",
+      "author": "R.A. Salvatore",
       "releaseDate": "2002-04-01",
+      "type": "novel",
       "next": 162
     },
     {
@@ -201,7 +203,7 @@
       "id": 21,
       "series": "",
       "title": "The Clone Wars",
-      "author": "",
+      "author": "Karen Traviss",
       "releaseDate": "2008-07-01",
       "next": 22
     },
@@ -209,7 +211,7 @@
       "id": 22,
       "series": "The Clone Wars",
       "title": "Wild Space",
-      "author": "",
+      "author": "Karen Miller",
       "releaseDate": "2008-12-01",
       "next": 23
     },
@@ -217,7 +219,7 @@
       "id": 23,
       "series": "The Clone Wars",
       "title": "No Prisoners",
-      "author": "",
+      "author": "Karen Traviss",
       "releaseDate": "2009-05-01",
       "next": 24
     },
@@ -225,7 +227,7 @@
       "id": 24,
       "series": "Clone Wars Gambit",
       "title": "Stealth",
-      "author": "",
+      "author": "Karen Miller",
       "releaseDate": "2010-02-01",
       "next": 25
     },
@@ -233,7 +235,7 @@
       "id": 25,
       "series": "Clone Wars Gambit",
       "title": "Siege",
-      "author": "",
+      "author": "Karen Miller",
       "releaseDate": "2010-07-01",
       "next": 26
     },
@@ -241,7 +243,7 @@
       "id": 26,
       "series": "Republic Commando",
       "title": "Hard Contact",
-      "author": "",
+      "author": "Karen Traviss",
       "releaseDate": "2004-11-01",
       "next": 27
     },
@@ -249,7 +251,7 @@
       "id": 27,
       "series": "Republic Commando",
       "title": "Triple Zero",
-      "author": "",
+      "author": "Karen Traviss",
       "releaseDate": "2006-02-02",
       "next": 28
     },
@@ -257,7 +259,7 @@
       "id": 28,
       "series": "Republic Commando",
       "title": "True Colors",
-      "author": "",
+      "author": "Karen Traviss",
       "releaseDate": "2007-10-02",
       "next": 29
     },
@@ -265,7 +267,7 @@
       "id": 29,
       "series": "Republic Commando",
       "title": "Order 66",
-      "author": "",
+      "author": "Karen Traviss",
       "releaseDate": "2008-09-01",
       "next": 30
     },
@@ -273,7 +275,7 @@
       "id": 30,
       "series": "",
       "title": "Shatterpoint",
-      "author": "",
+      "author": "Matthew Stover",
       "releaseDate": "2003-06-01",
       "next": 31
     },
@@ -281,7 +283,7 @@
       "id": 31,
       "series": "",
       "title": "The Cestus Deception",
-      "author": "",
+      "author": "Steven Barnes",
       "releaseDate": "2004-06-01",
       "next": 32
     },
@@ -289,7 +291,7 @@
       "id": 32,
       "series": "Medstar Duology",
       "title": "Medstar I: Battle Surgeons",
-      "author": "",
+      "author": "Michael Reaves, Steve Perry",
       "releaseDate": "2004-07-01",
       "next": 33
     },
@@ -297,7 +299,7 @@
       "id": 33,
       "series": "Medstar Duology",
       "title": "Medsatr II: Jedi Healer",
-      "author": "",
+      "author": "Michael Reaves, Steve Perry",
       "releaseDate": "2004-10-01",
       "next": 34
     },
@@ -305,7 +307,7 @@
       "id": 34,
       "series": "",
       "title": "Jedi Trial",
-      "author": "",
+      "author": "David Sherman, Dan Cragg",
       "releaseDate": "2004-10-02",
       "next": 35
     },
@@ -313,7 +315,7 @@
       "id": 35,
       "series": "Yoda",
       "title": "Dark Rendezvous",
-      "author": "",
+      "author": "Sean Stewart",
       "releaseDate": "2004-12-01",
       "next": 36
     },
@@ -321,7 +323,7 @@
       "id": 36,
       "series": "",
       "title": "Labrynth of Evil",
-      "author": "",
+      "author": "James Luceno",
       "releaseDate": "2005-02-01",
       "next": 37
     },
@@ -329,7 +331,8 @@
       "id": 37,
       "series": "Star Wars",
       "title": "Episode III: Revenge of the Sith",
-      "author": "",
+      "author": "Matthew Stover",
+      "type": "novel",
       "releaseDate": "2005-04-01",
       "next": 163
     },
@@ -363,7 +366,7 @@
       "id": 39,
       "series": "Dark Lord",
       "title": "The Rise of Darth Vader",
-      "author": "",
+      "author": "James Luceno",
       "releaseDate": "2005-11-01",
       "next": 40
     },
@@ -371,7 +374,7 @@
       "id": 40,
       "series": "Imperial Commando",
       "title": "501st",
-      "author": "",
+      "author": "Karen Traviss",
       "releaseDate": "2009-10-02",
       "next": 41
     },
@@ -379,7 +382,7 @@
       "id": 41,
       "series": "Coruscant Nights Trilogy",
       "title": "Coruscant Nights I: Jedi Twilight",
-      "author": "",
+      "author": "Michael Reaves",
       "releaseDate": "2008-06-01",
       "next": 42
     },
@@ -387,7 +390,7 @@
       "id": 42,
       "series": "Coruscant Nights Trilogy",
       "title": "Coruscant Nights II: Street of Shadows",
-      "author": "",
+      "author": "Michael Reaves",
       "releaseDate": "2008-08-02",
       "next": 43
     },
@@ -395,7 +398,7 @@
       "id": 43,
       "series": "Coruscant Nights Trilogy",
       "title": "Coruscant Nights III: Patterns of Force",
-      "author": "",
+      "author": "Michael Reaves",
       "releaseDate": "2009-01-01",
       "next": 44
     },
@@ -411,7 +414,7 @@
       "id": 45,
       "series": "The Han Solo Trilogy",
       "title": "The Paradise Snare",
-      "author": "",
+      "author": "A.C Crispin",
       "releaseDate": "1997-07-01",
       "next": 46
     },
@@ -419,7 +422,7 @@
       "id": 46,
       "series": "The Han Solo Trilogy",
       "title": "The Hutt Gambit",
-      "author": "",
+      "author": "A.C Crispin",
       "releaseDate": "1997-09-01",
       "next": 47
     },
@@ -427,7 +430,7 @@
       "id": 47,
       "series": "The Han Solo Trilogy",
       "title": "Rebel Dawn",
-      "author": "",
+      "author": "A.C Crispin",
       "releaseDate": "1998-03-01",
       "next": 48
     },
@@ -435,7 +438,7 @@
       "id": 48,
       "series": "Lando Calrissian Trilogy",
       "title": "Lando Calrissian and the Mindharp of Sharu",
-      "author": "",
+      "author": "L. Neil Smith",
       "releaseDate": "1983-07-01",
       "next": 49
     },
@@ -443,7 +446,7 @@
       "id": 49,
       "series": "Lando Calrissian Trilogy",
       "title": "Lando Calrissian and the Flamewind of Oseon",
-      "author": "",
+      "author": "L. Neil Smith",
       "releaseDate": "1983-10-01",
       "next": 50
     },
@@ -451,7 +454,7 @@
       "id": 50,
       "series": "Lando Calrissian Trilogy",
       "title": "Lando Calrissian and the Starcave of ThonBoka",
-      "author": "",
+      "author": "L. Neil Smith",
       "releaseDate": "1983-12-01",
       "next": 51
     },
@@ -459,7 +462,7 @@
       "id": 51,
       "series": "Force Unleashed",
       "title": "The Force Unleashed",
-      "author": "",
+      "author": "Sean Williams",
       "releaseDate": "2008-08-01",
       "next": 52
     },
@@ -467,7 +470,7 @@
       "id": 52,
       "series": "Han Solo Trilogy",
       "title": "Han Solo At Stars End",
-      "author": "",
+      "author": "Brian Daley",
       "releaseDate": "1979-04-01",
       "next": 53
     },
@@ -475,7 +478,7 @@
       "id": 53,
       "series": "Han Solo Trilogy",
       "title": "Han Solo's Revenge",
-      "author": "",
+      "author": "Brian Daley",
       "releaseDate": "1979-11-01",
       "next": 54
     },
@@ -483,7 +486,7 @@
       "id": 54,
       "series": "Han Solo Trilogy",
       "title": "Han Solo and the Lost Legacy",
-      "author": "",
+      "author": "Brian Daley",
       "releaseDate": "1980-09-01",
       "next": 55
     },
@@ -491,7 +494,7 @@
       "id": 55,
       "series": "",
       "title": "Death Troopers",
-      "author": "",
+      "author": "Joe Schreiber",
       "releaseDate": "2009-10-01",
       "next": 56
     },
@@ -507,7 +510,7 @@
       "id": 57,
       "series": "",
       "title": "Death Star",
-      "author": "",
+      "author": "Michael Reaves, Steve Perry",
       "releaseDate": "2007-10-01",
       "next": 58
     },
@@ -550,7 +553,7 @@
       "id": 60,
       "series": "",
       "title": "Tales from the Mos Eisley Cantina",
-      "author": "",
+      "author": "Various",
       "releaseDate": "1995-07-01",
       "next": 61
     },
@@ -558,7 +561,7 @@
       "id": 61,
       "series": "",
       "title": "Tales from the Empire",
-      "author": "",
+      "author": "Various",
       "releaseDate": "1997-11-01",
       "next": 62
     },
@@ -566,7 +569,7 @@
       "id": 62,
       "series": "",
       "title": "Tales from the New Republic",
-      "author": "",
+      "author": "Various",
       "releaseDate": "1999-12-01",
       "next": 63
     },
@@ -582,7 +585,7 @@
       "id": 64,
       "series": "",
       "title": "Allegiance",
-      "author": "",
+      "author": "Timothy Zahn",
       "releaseDate": "2007-02-01",
       "next": 65
     },
@@ -606,7 +609,7 @@
       "id": 67,
       "series": "Galaxies",
       "title": "The Ruins of Dantooine",
-      "author": "",
+      "author": "Veronica Whitney-Robinson, Haden Blackman",
       "releaseDate": "2004-01-01",
       "next": 68
     },
@@ -614,7 +617,7 @@
       "id": 68,
       "series": "",
       "title": "Splinter of the Minds Eye",
-      "author": "Alan D Foster",
+      "author": "Alan Dean Foster",
       "releaseDate": "1978-04-01",
       "next": 69
     },
@@ -630,8 +633,9 @@
       "id": 70,
       "series": "Star Wars",
       "title": "Episode V: The Empire Strikes Back",
-      "author": "",
+      "author": "Donald F. Glut",
       "releaseDate": "1980-05-01",
+      "type": "novel",
       "next": 159
     },
     {
@@ -656,7 +660,7 @@
       "id": 71,
       "series": "",
       "title": "Tales of the Bounty Hunters",
-      "author": "",
+      "author": "Various",
       "releaseDate": "1996-12-02",
       "next": 72
     },
@@ -664,7 +668,7 @@
       "id": 72,
       "series": "",
       "title": "Shadows of the Empire",
-      "author": "",
+      "author": "Stteve Perry",
       "releaseDate": "1996-05-01",
       "next": 73
     },
@@ -672,8 +676,9 @@
       "id": 73,
       "series": "Star Wars",
       "title": "Episode VI: Return of the Jedi",
-      "author": "",
+      "author": "James Kahn",
       "releaseDate": "1983-06-01",
+      "type": "novel",
       "next": 160
     },
     {
@@ -698,7 +703,7 @@
       "id": 74,
       "series": "",
       "title": "Tales from Jabbas Palace",
-      "author": "",
+      "author": "Various",
       "releaseDate": "1996-01-01",
       "next": 75
     },
@@ -706,7 +711,7 @@
       "id": 75,
       "series": "The Bounty Hunter Wars",
       "title": "The Mandalorian Armour",
-      "author": "",
+      "author": "K.W. Jeter",
       "releaseDate": "1998-06-01",
       "next": 76
     },
@@ -714,7 +719,7 @@
       "id": 76,
       "series": "The Bounty Hunter Wars",
       "title": "Slave Ship",
-      "author": "",
+      "author": "K.W. Jeter",
       "releaseDate": "1998-10-01",
       "next": 77
     },
@@ -722,7 +727,7 @@
       "id": 77,
       "series": "The Bounty Hunter Wars",
       "title": "Hard Merchandise",
-      "author": "",
+      "author": "K.W. Jeter",
       "releaseDate": "1999-07-01",
       "next": 78
     },
@@ -730,7 +735,7 @@
       "id": 78,
       "series": "",
       "title": "The Truce at Bakura",
-      "author": "Kathy Tyres",
+      "author": "Kathy Tyers",
       "releaseDate": "1994-01-01",
       "next": 79
     },
@@ -738,7 +743,7 @@
       "id": 79,
       "series": "",
       "title": "Luke Skywalker and the Shadows of Mindor",
-      "author": "",
+      "author": "Matthew Stover",
       "releaseDate": "2008-12-02",
       "next": 80
     },
@@ -802,7 +807,7 @@
       "id": 87,
       "series": "",
       "title": "The Courtship of Princess Leia",
-      "author": "",
+      "author": "Dave Wolverton",
       "releaseDate": "1994-05-01",
       "next": 88
     },
@@ -810,7 +815,7 @@
       "id": 88,
       "series": "",
       "title": "Tatooine Ghost",
-      "author": "",
+      "author": "Troy Denning",
       "releaseDate": "2003-03-01",
       "next": 89
     },
@@ -874,7 +879,7 @@
       "id": 96,
       "series": "",
       "title": "I, Jedi",
-      "author": "",
+      "author": "Michael A Stackpole",
       "releaseDate": "1998-05-01",
       "next": 97
     },
@@ -882,7 +887,7 @@
       "id": 97,
       "series": "",
       "title": "Children of the Jedi",
-      "author": "",
+      "author": "Barbara Hambly",
       "releaseDate": "1995-05-01",
       "next": 98
     },
@@ -890,7 +895,7 @@
       "id": 98,
       "series": "",
       "title": "Darksaber",
-      "author": "",
+      "author": "Kevin J Anderson",
       "releaseDate": "1995-11-01",
       "next": 99
     },
@@ -898,7 +903,7 @@
       "id": 99,
       "series": "",
       "title": "Planet of Twilight",
-      "author": "",
+      "author": "Barbara Hambly",
       "releaseDate": "1997-03-01",
       "next": 100
     },
@@ -914,7 +919,7 @@
       "id": 101,
       "series": "",
       "title": "The Crystal Star",
-      "author": "",
+      "author": "Vonda N. McIntyre",
       "releaseDate": "1994-12-01",
       "next": 102
     },
@@ -922,7 +927,7 @@
       "id": 102,
       "series": "The Black Fleet Crisis",
       "title": "Before the Storm",
-      "author": "",
+      "author": "Michael P. Kube-McDowell",
       "releaseDate": "1996-04-01",
       "next": 103
     },
@@ -930,7 +935,7 @@
       "id": 103,
       "series": "The Black Fleet Crisis",
       "title": "Shield of Lies",
-      "author": "",
+      "author": "Michael P. Kube-McDowell",
       "releaseDate": "1996-09-01",
       "next": 104
     },
@@ -938,7 +943,7 @@
       "id": 104,
       "series": "The Black Fleet Crisis",
       "title": "Tyrant's Test",
-      "author": "",
+      "author": "Michael P. Kube-McDowell",
       "releaseDate": "1997-01-01",
       "next": 105
     },
@@ -946,7 +951,7 @@
       "id": 105,
       "series": "",
       "title": "The New Rebellion",
-      "author": "",
+      "author": "Kristine Kathryn Rusch",
       "releaseDate": "1996-12-01",
       "next": 106
     },
@@ -954,7 +959,7 @@
       "id": 106,
       "series": "Corellian Trilogy",
       "title": "Ambush at Corellia",
-      "author": "",
+      "author": "Roger MacBride Allen",
       "releaseDate": "1995-03-01",
       "next": 107
     },
@@ -962,7 +967,7 @@
       "id": 107,
       "series": "Corellian Trilogy",
       "title": "Assault at Selonia",
-      "author": "",
+      "author": "Roger MacBride Allen",
       "releaseDate": "1995-07-01",
       "next": 108
     },
@@ -970,7 +975,7 @@
       "id": 108,
       "series": "Corellian Trilogy",
       "title": "Showdown at Centerpoint",
-      "author": "",
+      "author": "Roger MacBride Allen",
       "releaseDate": "1995-10-01",
       "next": 109
     },
@@ -978,7 +983,7 @@
       "id": 109,
       "series": "Hand of Thrawn",
       "title": "Specter of the Past",
-      "author": "",
+      "author": "Timothy Zahn",
       "releaseDate": "1997-12-01",
       "next": 110
     },
@@ -986,7 +991,7 @@
       "id": 110,
       "series": "Hand of Thrawn",
       "title": "Vision of the Future",
-      "author": "",
+      "author": "Timothy Zahn",
       "releaseDate": "1998-09-01",
       "next": 111
     },
@@ -1002,7 +1007,7 @@
       "id": 112,
       "series": "",
       "title": "Survivors Quest",
-      "author": "",
+      "author": "Timothy Zahn",
       "releaseDate": "2004-02-01",
       "next": 113
     },
@@ -1018,7 +1023,7 @@
       "id": 114,
       "series": "The New Jedi Order",
       "title": "Dark Tide I: Onslaught",
-      "author": "",
+      "author": "Michael A Stackpole",
       "releaseDate": "2000-02-01",
       "next": 115
     },
@@ -1026,7 +1031,7 @@
       "id": 115,
       "series": "The New Jedi Order",
       "title": "Dark Tide II: Ruin",
-      "author": "",
+      "author": "Michael A Stackpole",
       "releaseDate": "2000-06-01",
       "next": 116
     },
@@ -1034,7 +1039,7 @@
       "id": 116,
       "series": "The New Jedi Order",
       "title": "Agents of Chaos I: Hero's Trial",
-      "author": "",
+      "author": "James Luceno",
       "releaseDate": "2000-08-01",
       "next": 117
     },
@@ -1042,7 +1047,7 @@
       "id": 117,
       "series": "The New Jedi Order",
       "title": "Agents of Chaos II: Jedi Eclipse",
-      "author": "",
+      "author": "James Luceno",
       "releaseDate": "2000-10-01",
       "next": 118
     },
@@ -1050,7 +1055,7 @@
       "id": 118,
       "series": "The New Jedi Order",
       "title": "Balance Point",
-      "author": "",
+      "author": "Kathy Tyers",
       "releaseDate": "2000-11-01",
       "next": 119
     },
@@ -1058,7 +1063,7 @@
       "id": 119,
       "series": "The New Jedi Order",
       "title": "Edge of Victory I: Conquest",
-      "author": "",
+      "author": "Greg Keyes",
       "releaseDate": "2001-04-01",
       "next": 120
     },
@@ -1066,7 +1071,7 @@
       "id": 120,
       "series": "The New Jedi Order",
       "title": "Edge of Victory II: Rebirth",
-      "author": "",
+      "author": "Greg Keyes",
       "releaseDate": "2001-08-01",
       "next": 121
     },
@@ -1074,7 +1079,7 @@
       "id": 121,
       "series": "The New Jedi Order",
       "title": "Star by Star",
-      "author": "",
+      "author": "Troy Denning",
       "releaseDate": "2001-11-01",
       "next": 122
     },
@@ -1082,7 +1087,7 @@
       "id": 122,
       "series": "The New Jedi Order",
       "title": "Dark Journey",
-      "author": "",
+      "author": "Elaine Cunningham",
       "releaseDate": "2002-02-01",
       "next": 123
     },
@@ -1090,7 +1095,7 @@
       "id": 123,
       "series": "The New Jedi Order",
       "title": "Enemy Lines I: Rebel Dream",
-      "author": "",
+      "author": "Aaron Allston",
       "releaseDate": "2002-04-02",
       "next": 124
     },
@@ -1098,7 +1103,7 @@
       "id": 124,
       "series": "The New Jedi Order",
       "title": "Enemy Lines II: Rebel Stand",
-      "author": "",
+      "author": "Aaron Allston",
       "releaseDate": "2002-06-01",
       "next": 125
     },
@@ -1106,7 +1111,7 @@
       "id": 125,
       "series": "The New Jedi Order",
       "title": "Traitor",
-      "author": "",
+      "author": "Matthew Stover",
       "releaseDate": "2002-08-01",
       "next": 126
     },
@@ -1114,7 +1119,7 @@
       "id": 126,
       "series": "The New Jedi Order",
       "title": "Destiny's Way",
-      "author": "",
+      "author": "Walter Jon Williams",
       "releaseDate": "2002-10-01",
       "next": 127
     },
@@ -1122,7 +1127,7 @@
       "id": 127,
       "series": "The New Jedi Order",
       "title": "Force Heretic I: Remnant",
-      "author": "",
+      "author": "Sean Williams, Shane Dix",
       "releaseDate": "2003-02-01",
       "next": 128
     },
@@ -1130,7 +1135,7 @@
       "id": 128,
       "series": "The New Jedi Order",
       "title": "Force Heretic II: Refugee",
-      "author": "",
+      "author": "Sean Williams, Shane Dix",
       "releaseDate": "2003-05-01",
       "next": 129
     },
@@ -1138,7 +1143,7 @@
       "id": 129,
       "series": "The New Jedi Order",
       "title": "Force Heretic III: Reunion",
-      "author": "",
+      "author": "Sean Williams, Shane Dix",
       "releaseDate": "2003-07-01",
       "next": 130
     },
@@ -1146,7 +1151,7 @@
       "id": 130,
       "series": "The New Jedi Order",
       "title": "The Final Prophecy",
-      "author": "",
+      "author": "Greg Keyes",
       "releaseDate": "2003-10-01",
       "next": 131
     },
@@ -1154,7 +1159,7 @@
       "id": 131,
       "series": "The New Jedi Order",
       "title": "The Unifying Force",
-      "author": "",
+      "author": "James Luceno",
       "releaseDate": "2003-11-01",
       "next": 132
     },
@@ -1162,7 +1167,7 @@
       "id": 132,
       "series": "Dark Nest Trilogy",
       "title": "Dark Nest I: The Joiner King",
-      "author": "",
+      "author": "Troy Denning",
       "releaseDate": "2005-07-01",
       "next": 133
     },
@@ -1170,7 +1175,7 @@
       "id": 133,
       "series": "Dark Nest Trilogy",
       "title": "Dark Nest II: The Unseen Queen",
-      "author": "",
+      "author": "Troy Denning",
       "releaseDate": "2005-09-01",
       "next": 134
     },
@@ -1178,7 +1183,7 @@
       "id": 134,
       "series": "Dark Nest Trilogy",
       "title": "Dark Nest III: The Swarm War",
-      "author": "",
+      "author": "Troy Denning",
       "releaseDate": "2005-12-01",
       "next": 135
     },
@@ -1186,7 +1191,7 @@
       "id": 135,
       "series": "Legacy of the Force",
       "title": "Betrayal",
-      "author": "",
+      "author": "Aaron Allston",
       "releaseDate": "2006-06-01",
       "next": 136
     },
@@ -1194,7 +1199,7 @@
       "id": 136,
       "series": "Legacy of the Force",
       "title": "Bloodlines",
-      "author": "",
+      "author": "Karen Miller",
       "releaseDate": "2006-09-01",
       "next": 137
     },
@@ -1202,7 +1207,7 @@
       "id": 137,
       "series": "Legacy of the Force",
       "title": "Tempest",
-      "author": "",
+      "author": "Troy Denning",
       "releaseDate": "2006-12-01",
       "next": 138
     },
@@ -1210,7 +1215,7 @@
       "id": 138,
       "series": "Legacy of the Force",
       "title": "Exile",
-      "author": "",
+      "author": "Aaron Allston",
       "releaseDate": "2007-03-01",
       "next": 139
     },
@@ -1218,7 +1223,7 @@
       "id": 139,
       "series": "Legacy of the Force",
       "title": "Sacrifice",
-      "author": "",
+      "author": "Karen Traviss",
       "releaseDate": "2007-06-01",
       "next": 140
     },
@@ -1226,7 +1231,7 @@
       "id": 140,
       "series": "Legacy of the Force",
       "title": "Inferno",
-      "author": "",
+      "author": "Troy Denning",
       "releaseDate": "2007-08-01",
       "next": 141
     },
@@ -1234,7 +1239,7 @@
       "id": 141,
       "series": "Legacy of the Force",
       "title": "Fury",
-      "author": "",
+      "author": "Aaron Allston",
       "releaseDate": "2007-11-01",
       "next": 142
     },
@@ -1242,7 +1247,7 @@
       "id": 142,
       "series": "Legacy of the Force",
       "title": "Revelation",
-      "author": "",
+      "author": "Karen Traviss",
       "releaseDate": "2008-02-01",
       "next": 143
     },
@@ -1250,7 +1255,7 @@
       "id": 143,
       "series": "Legacy of the Force",
       "title": "Invincible",
-      "author": "",
+      "author": "Troy Denning",
       "releaseDate": "2008-05-01",
       "next": 144
     },
@@ -1258,7 +1263,7 @@
       "id": 144,
       "series": "",
       "title": "Crosscurrent",
-      "author": "",
+      "author": "Paul S Kemp",
       "releaseDate": "2010-01-01",
       "next": 145
     },
@@ -1274,7 +1279,7 @@
       "id": 146,
       "series": "",
       "title": "Millennium Falcon",
-      "author": "",
+      "author": "James Luceno",
       "releaseDate": "2008-10-01",
       "next": 147
     },
@@ -1282,7 +1287,7 @@
       "id": 147,
       "series": "Fate of the Jedi",
       "title": "Outcast",
-      "author": "",
+      "author": "Aaron Allston",
       "releaseDate": "2009-03-01",
       "next": 148
     },
@@ -1290,7 +1295,7 @@
       "id": 148,
       "series": "Fate of the Jedi",
       "title": "Omen",
-      "author": "",
+      "author": "Christie Golden",
       "releaseDate": "2009-06-01",
       "next": 149
     },
@@ -1298,7 +1303,7 @@
       "id": 149,
       "series": "Fate of the Jedi",
       "title": "Abyss",
-      "author": "",
+      "author": "Troy Denning",
       "releaseDate": "2009-08-01",
       "next": 150
     },
@@ -1306,7 +1311,7 @@
       "id": 150,
       "series": "Fate of the Jedi",
       "title": "Backlash",
-      "author": "",
+      "author": "Aaron Allston",
       "releaseDate": "2010-03-01",
       "next": 151
     },
@@ -1314,7 +1319,7 @@
       "id": 151,
       "series": "Fate of the Jedi",
       "title": "Allies",
-      "author": "",
+      "author": "Christie Golden",
       "releaseDate": "2010-05-01",
       "next": 152
     },
