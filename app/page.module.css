@@ -18,10 +18,6 @@
   gap: 0.2em;
 }
 
-/* .bookText {
-  color: red;
-} */
-
 .author {
   font-size: small;
 }
@@ -29,6 +25,7 @@
 .series {
   font-size: small;
 }
+
 .novel {
   background-color: black;
   color: red;
@@ -48,9 +45,26 @@
   background-color: black;
   color: red;
 }
+
 .title {
   font-weight: bold;
 }
+
 .image {
   fill: blue;
+}
+
+.authorsBookCases {
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 1em;
+}
+
+.authorBookCase {
+  display: flex;
+}
+
+.authorHeader {
+  writing-mode: vertical-rl;
+  padding: 1em 0;
 }

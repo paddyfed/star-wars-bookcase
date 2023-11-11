@@ -535,8 +535,8 @@
       "id": 158,
       "series": "Star Wars",
       "title": "Episode IV: A New Hope",
-      "author": "George Lucas",
       "releaseDate": "1995-06-16",
+      "author": "",
       "type": "vhs",
       "next": 167
     },
@@ -544,8 +544,8 @@
       "id": 167,
       "series": "Star Wars",
       "title": "Episode IV: A New Hope",
-      "author": "George Lucas",
       "releaseDate": "2004-09-21",
+      "author": "",
       "type": "dvd",
       "next": 60
     },
@@ -642,8 +642,8 @@
       "id": 159,
       "series": "Star Wars",
       "title": "Episode V: The Empire Strikes Back",
-      "author": "George Lucas",
       "releaseDate": "1995-06-16",
+      "author": "",
       "type": "vhs",
       "next": 168
     },
@@ -651,8 +651,8 @@
       "id": 168,
       "series": "Star Wars",
       "title": "Episode V: The Empire Strikes Back",
-      "author": "George Lucas",
       "releaseDate": "2004-09-21",
+      "author": "",
       "type": "dvd",
       "next": 71
     },
@@ -1015,7 +1015,7 @@
       "id": 113,
       "series": "The New Jedi Order",
       "title": "Vector Prime",
-      "author": "R A Salvatore",
+      "author": "R.A. Salvatore",
       "releaseDate": "1999-11-01",
       "next": 114
     },
