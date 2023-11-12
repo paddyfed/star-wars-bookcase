@@ -48,3 +48,21 @@ export function bookCaseByAuthor(bookcase) {
 
   return returnArr;
 }
+
+export function bookCaseBySeries(bookcase) {
+  const ordered = bookcase.bookcase;
+  const returnArr = ordered
+    .sort((a, b) => (a.series > b.series ? 1 : -1)) // sort by author name
+    .reduce((acc, book) => {
+      // group by author name also - returns an array of objects using the author name
+      const series = book.series;
+      if (!acc[series]) {
+        acc[series] = [];
+      }
+      acc[series].push(book);
+      acc[series].sort((a, b) => (a.releaseDate > b.releaseDate ? 1 : -1));
+      return acc;
+    }, {});
+
+  return returnArr;
+}
