@@ -30,6 +30,9 @@ export default function RootLayout({ children }) {
               <Link href="/legends/by-author">Legends - By Author</Link>
             </li>
             <li>
+              <Link href="/legends/by-series">Legends - By Series</Link>
+            </li>
+            <li>
               <Link href="/canon/timeline-order">Canon - By Timeline</Link>
             </li>
             <li>
@@ -37,6 +40,9 @@ export default function RootLayout({ children }) {
             </li>
             <li>
               <Link href="/canon/by-author">Canon - By Author</Link>
+            </li>
+            <li>
+              <Link href="/canon/by-series">Canon - By Series</Link>
             </li>
           </ul>
         </nav>
