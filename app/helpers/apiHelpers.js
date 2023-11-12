@@ -42,6 +42,7 @@ export function bookCaseByAuthor(bookcase) {
         acc[author] = [];
       }
       acc[author].push(book);
+      acc[author].sort((a, b) => (a.releaseDate > b.releaseDate ? 1 : -1));
       return acc;
     }, {});
 

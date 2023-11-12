@@ -85,8 +85,9 @@
       "id": 16,
       "series": "Star Wars",
       "title": "Episode I: The Phantom Menace",
-      "author": "",
+      "author": "Terry Brooks",
       "releaseDate": "1999-05-01",
+      "type": "novel",
       "next": 166
     },
 
@@ -103,8 +104,9 @@
       "id": 20,
       "series": "Star Wars",
       "title": "Episode II: Attack of the Clones",
-      "author": "",
+      "author": "R.A. Salvatore",
       "releaseDate": "2002-04-01",
+      "type": "novel",
       "next": 162
     },
 
@@ -176,7 +178,8 @@
       "id": 37,
       "series": "Star Wars",
       "title": "Episode III: Revenge of the Sith",
-      "author": "",
+      "author": "Matthew Stover",
+      "type": "novel",
       "releaseDate": "2005-04-01",
       "next": 164
     },
@@ -324,7 +327,7 @@
       "id": 167,
       "series": "Star Wars",
       "title": "Episode IV: A New Hope",
-      "author": "George Lucas",
+      "author": "",
       "releaseDate": "2004-09-21",
       "type": "dvd",
       "next": 201
@@ -378,7 +381,8 @@
       "id": 70,
       "series": "Star Wars",
       "title": "Episode V: The Empire Strikes Back",
-      "author": "",
+      "author": "Donald F. Glut",
+      "type": "novel",
       "releaseDate": "1980-05-01",
       "next": 168
     },
@@ -387,7 +391,7 @@
       "id": 168,
       "series": "Star Wars",
       "title": "Episode V: The Empire Strikes Back",
-      "author": "George Lucas",
+      "author": "",
       "releaseDate": "2004-09-21",
       "type": "dvd",
       "next": 196
@@ -405,8 +409,9 @@
       "id": 73,
       "series": "Star Wars",
       "title": "Episode VI: Return of the Jedi",
-      "author": "",
+      "author": "James Kahn",
       "releaseDate": "1983-06-01",
+      "type": "novel",
       "next": 169
     },
 
