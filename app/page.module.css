@@ -64,7 +64,7 @@
   display: flex;
 }
 
-.authorHeader {
+.bookCaseHeader {
   writing-mode: vertical-rl;
   padding: 1em 0;
 }
