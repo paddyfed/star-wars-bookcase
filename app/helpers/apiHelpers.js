@@ -26,9 +26,23 @@ export function bookCaseTimelineOrder(bookcase) {
   return orderedBooks.reverse();
 }
 
+// export function bookCaseReleaseOrder(bookcase) {
+//   const ordered = bookcase.bookcase;
+//   return ordered.sort((a, b) => (a.releaseDate > b.releaseDate ? 1 : -1));
+// }
 export function bookCaseReleaseOrder(bookcase) {
   const ordered = bookcase.bookcase;
-  return ordered.sort((a, b) => (a.releaseDate > b.releaseDate ? 1 : -1));
+  const returnArr = ordered
+    .sort((a, b) => (a.releaseDate > b.releaseDate ? 1 : -1))
+    .reduce((acc, book) => {
+      const releaseDate = new Date(book.releaseDate).getFullYear();
+      if (!acc[releaseDate]) {
+        acc[releaseDate] = [];
+      }
+      acc[releaseDate].push(book);
+      return acc;
+    }, {});
+  return returnArr;
 }
 
 export function bookCaseByAuthor(bookcase) {
