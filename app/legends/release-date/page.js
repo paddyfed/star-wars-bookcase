@@ -1,10 +1,10 @@
+import ReleaseDateBookCase from "@/app/components/releaseDateBookCase";
 import { getData } from "../../helpers/apiHelpers";
-import BookCase from "@/app/components/bookcase";
 
 export default async function Home() {
   const api = `${process.env.API_URL}/books/legends/release-date`;
 
   const data = await getData(api);
 
-  return <BookCase bookcase={data} />;
+  return <ReleaseDateBookCase data={data} />;
 }
