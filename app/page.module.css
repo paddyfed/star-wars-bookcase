@@ -68,3 +68,11 @@
   writing-mode: vertical-rl;
   padding: 1em 0;
 }
+
+.toggleSwitch {
+  margin: 0.5em;
+}
+
+.toggleSwitchLabel {
+  margin-left: 0.5em;
+}

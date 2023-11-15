@@ -1,6 +1,6 @@
 "use client";
-import { useState } from "react";
 
+import { useState } from "react";
 import styles from "@/app/page.module.css";
 import BookCase from "@/app/components/bookcase";
 import BookCaseHeader from "./bookCaseHeader";
@@ -15,7 +15,12 @@ export default function ReleaseDateBookCase({ data }) {
   }
   return (
     <>
-      <button onClick={toggle}>toggle</button>
+      <div className={styles.toggleSwitch}>
+        <input type="checkbox" id="switch" onChange={toggle} checked={show} />
+        <label htmlFor="switch" className={styles.toggleSwitchLabel}>
+          Show Release Year
+        </label>
+      </div>
       {show ? (
         <div className={styles.authorsBookCases}>
           {Object.entries(data.bookcase).map(([releaseDate, books]) => (
