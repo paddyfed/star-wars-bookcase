@@ -1,6 +1,6 @@
 import styles from "@/app/page.module.css";
 import BookCase from "@/app/components/bookcase";
-import BookCaseHeader from "./bookCaseHeader";
+import BookCaseHeader from "@/app/components/bookCaseHeader";
 
 export default function SeriesBookCase({ data }) {
   return (

@@ -3,8 +3,8 @@
 import { useState } from "react";
 import styles from "@/app/page.module.css";
 import BookCase from "@/app/components/bookcase";
-import BookCaseHeader from "./bookCaseHeader";
-import Book from "./book";
+import BookCaseHeader from "@/app/components/bookCaseHeader";
+import Book from "@/app/components/book";
 import { Fragment } from "react";
 
 export default function TimeLineOrderBookCase({ data }) {
