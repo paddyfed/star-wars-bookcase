@@ -23,7 +23,17 @@ export function bookCaseTimelineOrder(bookcase) {
     );
   }
 
-  return orderedBooks.reverse();
+  const ordered = orderedBooks.reverse();
+
+  const returnArr = ordered.reduce((acc, book) => {
+    const era = book.era;
+    if (!acc[era]) {
+      acc[era] = [];
+    }
+    acc[era].push(book);
+    return acc;
+  }, {});
+  return returnArr;
 }
 
 // export function bookCaseReleaseOrder(bookcase) {

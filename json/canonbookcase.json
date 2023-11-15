@@ -7,7 +7,8 @@
       "author": "Zoraida Córdova",
       "releaseDate": "2022-11-22",
       "type": "novel",
-      "next": 222
+      "next": 222,
+      "era": "The High Republic"
     },
     {
       "id": 223,
@@ -16,7 +17,8 @@
       "author": "George Mann",
       "releaseDate": "2023-02-14",
       "type": "novel",
-      "next": 222
+      "next": 222,
+      "era": "The High Republic"
     },
     {
       "id": 222,
@@ -25,7 +27,8 @@
       "author": "Lydia Kang",
       "releaseDate": "2023-04-04",
       "type": "novel",
-      "next": 221
+      "next": 221,
+      "era": "The High Republic"
     },
     {
       "id": 221,
@@ -34,7 +37,8 @@
       "author": "Charles Soule",
       "releaseDate": "2021-01-05",
       "type": "novel",
-      "next": 220
+      "next": 220,
+      "era": "The High Republic"
     },
     {
       "id": 220,
@@ -43,7 +47,8 @@
       "author": "Cavan Scott",
       "releaseDate": "2021-06-29",
       "type": "novel",
-      "next": 219
+      "next": 219,
+      "era": "The High Republic"
     },
     {
       "id": 219,
@@ -52,7 +57,8 @@
       "author": "Cavan Scott",
       "releaseDate": "2022-03-01",
       "type": "novel",
-      "next": 218
+      "next": 218,
+      "era": "The High Republic"
     },
     {
       "id": 218,
@@ -61,7 +67,8 @@
       "author": "Claudia Gray",
       "releaseDate": "2022-01-04",
       "type": "novel",
-      "next": 217
+      "next": 217,
+      "era": "The High Republic"
     },
     {
       "id": 217,
@@ -70,7 +77,8 @@
       "author": "Cavan Scott",
       "releaseDate": "2019-10-01",
       "type": "novel",
-      "next": 216
+      "next": 216,
+      "era": "Fall Of The Jedi"
     },
     {
       "id": 216,
@@ -79,7 +87,8 @@
       "author": "Claudia Gray",
       "releaseDate": "2019-04-16",
       "type": "novel",
-      "next": 16
+      "next": 16,
+      "era": "Fall Of The Jedi"
     },
     {
       "id": 16,
@@ -88,7 +97,8 @@
       "author": "Terry Brooks",
       "releaseDate": "1999-05-01",
       "type": "novel",
-      "next": 166
+      "next": 166,
+      "era": "Fall Of The Jedi"
     },
 
     {
@@ -98,7 +108,8 @@
       "author": "",
       "releaseDate": "2001-10-16",
       "type": "dvd",
-      "next": 20
+      "next": 20,
+      "era": "Fall Of The Jedi"
     },
     {
       "id": 20,
@@ -107,7 +118,8 @@
       "author": "R.A. Salvatore",
       "releaseDate": "2002-04-01",
       "type": "novel",
-      "next": 162
+      "next": 162,
+      "era": "Fall Of The Jedi"
     },
 
     {
@@ -117,7 +129,8 @@
       "author": "",
       "releaseDate": "2002-11-01",
       "type": "dvd",
-      "next": 215
+      "next": 215,
+      "era": "Fall Of The Jedi"
     },
     {
       "id": 215,
@@ -126,7 +139,8 @@
       "author": "Mike Chen",
       "releaseDate": "2022-05-10",
       "type": "novel",
-      "next": 225
+      "next": 225,
+      "era": "Fall Of The Jedi"
     },
     {
       "id": 225,
@@ -135,7 +149,8 @@
       "author": "",
       "releaseDate": "2008-08-15",
       "type": "dvd",
-      "next": 214
+      "next": 214,
+      "era": "Fall Of The Jedi"
     },
 
     {
@@ -145,7 +160,8 @@
       "author": "Timothy Zahn",
       "releaseDate": "2020-09-01",
       "type": "novel",
-      "next": 213
+      "next": 213,
+      "era": "Fall Of The Jedi"
     },
     {
       "id": 213,
@@ -154,7 +170,8 @@
       "author": "Timothy Zahn",
       "releaseDate": "2021-04-27",
       "type": "novel",
-      "next": 212
+      "next": 212,
+      "era": "Fall Of The Jedi"
     },
     {
       "id": 212,
@@ -163,7 +180,8 @@
       "author": "Timothy Zahn",
       "releaseDate": "2021-11-16",
       "type": "novel",
-      "next": 211
+      "next": 211,
+      "era": "Fall Of The Jedi"
     },
     {
       "id": 211,
@@ -172,7 +190,8 @@
       "author": "Delilah S. Dawson",
       "releaseDate": "2015-07-07",
       "type": "novel",
-      "next": 37
+      "next": 37,
+      "era": "Fall Of The Jedi"
     },
     {
       "id": 37,
@@ -181,7 +200,8 @@
       "author": "Matthew Stover",
       "type": "novel",
       "releaseDate": "2005-04-01",
-      "next": 164
+      "next": 164,
+      "era": "Fall Of The Jedi"
     },
 
     {
@@ -191,7 +211,8 @@
       "author": "",
       "releaseDate": "2005-11-01",
       "type": "dvd",
-      "next": 210
+      "next": 210,
+      "era": "Fall Of The Jedi"
     },
     {
       "id": 210,
@@ -200,7 +221,8 @@
       "author": "Delilah S. Dawson",
       "releaseDate": "2023-07-18",
       "type": "novel",
-      "next": 209
+      "next": 209,
+      "era": "Reign Of The Empire"
     },
     {
       "id": 209,
@@ -209,7 +231,8 @@
       "author": "James Luceno",
       "releaseDate": "2016-11-15",
       "type": "novel",
-      "next": 208
+      "next": 208,
+      "era": "Reign Of The Empire"
     },
     {
       "id": 208,
@@ -218,7 +241,8 @@
       "author": "Timothy Zahn",
       "releaseDate": "2017-04-11",
       "type": "novel",
-      "next": 207
+      "next": 207,
+      "era": "Reign Of The Empire"
     },
     {
       "id": 207,
@@ -227,7 +251,8 @@
       "author": "Paul S. Kemp",
       "releaseDate": "2015-04-28",
       "type": "novel",
-      "next": 206
+      "next": 206,
+      "era": "Reign Of The Empire"
     },
     {
       "id": 206,
@@ -236,7 +261,8 @@
       "author": "James Luceno",
       "releaseDate": "2014-11-04",
       "type": "novel",
-      "next": 179
+      "next": 179,
+      "era": "Reign Of The Empire"
     },
     {
       "id": 179,
@@ -245,7 +271,8 @@
       "author": "Mur Lafferty",
       "releaseDate": "2018-09-04",
       "type": "novel",
-      "next": 180
+      "next": 180,
+      "era": "Reign Of The Empire"
     },
     {
       "id": 180,
@@ -254,7 +281,8 @@
       "author": "",
       "releaseDate": "2018-09-14",
       "type": "dvd",
-      "next": 205
+      "next": 205,
+      "era": "Reign Of The Empire"
     },
     {
       "id": 205,
@@ -263,7 +291,8 @@
       "author": "John Jackson Miller",
       "releaseDate": "2014-09-02",
       "type": "novel",
-      "next": 204
+      "next": 204,
+      "era": "Reign Of The Empire"
     },
     {
       "id": 204,
@@ -272,7 +301,8 @@
       "author": "Sam Maggs",
       "releaseDate": "2023-03-07",
       "type": "novel",
-      "next": 203
+      "next": 203,
+      "era": "Reign Of The Empire"
     },
     {
       "id": 203,
@@ -281,7 +311,8 @@
       "author": "Timothy Zahn",
       "releaseDate": "2018-07-24",
       "type": "novel",
-      "next": 202
+      "next": 202,
+      "era": "Reign Of The Empire"
     },
     {
       "id": 202,
@@ -290,7 +321,8 @@
       "author": "Timothy Zahn",
       "releaseDate": "2019-07-23",
       "type": "novel",
-      "next": 177
+      "next": 177,
+      "era": "Reign Of The Empire"
     },
 
     {
@@ -300,7 +332,8 @@
       "author": "Alexander Freed",
       "releaseDate": "2016-12-16",
       "type": "novel",
-      "next": 178
+      "next": 178,
+      "era": "Reign Of The Empire"
     },
 
     {
@@ -310,7 +343,8 @@
       "author": "",
       "releaseDate": "2017-03-24",
       "type": "dvd",
-      "next": 59
+      "next": 59,
+      "era": "Reign Of The Empire"
     },
 
     {
@@ -320,7 +354,8 @@
       "author": "George Lucas",
       "releaseDate": "1976-12-01",
       "type": "novel",
-      "next": 167
+      "next": 167,
+      "era": "Age Of Rebellion"
     },
 
     {
@@ -330,7 +365,8 @@
       "author": "",
       "releaseDate": "2004-09-21",
       "type": "dvd",
-      "next": 201
+      "next": 201,
+      "era": "Age Of Rebellion"
     },
     {
       "id": 201,
@@ -339,7 +375,8 @@
       "author": "Various",
       "releaseDate": "2020-11-10",
       "type": "novel",
-      "next": 200
+      "next": 200,
+      "era": "Age Of Rebellion"
     },
     {
       "id": 200,
@@ -348,7 +385,8 @@
       "author": "Christie Golden",
       "releaseDate": "2017-07-25",
       "type": "novel",
-      "next": 199
+      "next": 199,
+      "era": "Age Of Rebellion"
     },
     {
       "id": 199,
@@ -357,7 +395,8 @@
       "author": "Kevin Hearne",
       "releaseDate": "2015-03-03",
       "type": "novel",
-      "next": 198
+      "next": 198,
+      "era": "Age Of Rebellion"
     },
     {
       "id": 198,
@@ -366,7 +405,8 @@
       "author": "Sarah Kuhn",
       "releaseDate": "2021-04-06",
       "type": "novel",
-      "next": 197
+      "next": 197,
+      "era": "Age Of Rebellion"
     },
     {
       "id": 197,
@@ -375,7 +415,8 @@
       "author": "Alexander Freed",
       "releaseDate": "2015-11-03",
       "type": "novel",
-      "next": 70
+      "next": 70,
+      "era": "Age Of Rebellion"
     },
     {
       "id": 70,
@@ -384,7 +425,8 @@
       "author": "Donald F. Glut",
       "type": "novel",
       "releaseDate": "1980-05-01",
-      "next": 168
+      "next": 168,
+      "era": "Age Of Rebellion"
     },
 
     {
@@ -394,7 +436,8 @@
       "author": "",
       "releaseDate": "2004-09-21",
       "type": "dvd",
-      "next": 196
+      "next": 196,
+      "era": "Age Of Rebellion"
     },
     {
       "id": 196,
@@ -403,7 +446,8 @@
       "author": "Various",
       "releaseDate": "2020-11-10",
       "type": "novel",
-      "next": 73
+      "next": 73,
+      "era": "Age Of Rebellion"
     },
     {
       "id": 73,
@@ -412,7 +456,8 @@
       "author": "James Kahn",
       "releaseDate": "1983-06-01",
       "type": "novel",
-      "next": 169
+      "next": 169,
+      "era": "Age Of Rebellion"
     },
 
     {
@@ -422,7 +467,8 @@
       "author": "",
       "releaseDate": "2004-09-21",
       "type": "dvd",
-      "next": 195
+      "next": 195,
+      "era": "Age Of Rebellion"
     },
     {
       "id": 195,
@@ -431,7 +477,8 @@
       "author": "Various",
       "releaseDate": "2023-08-29",
       "type": "novel",
-      "next": 194
+      "next": 194,
+      "era": "Age Of Rebellion"
     },
 
     {
@@ -441,7 +488,8 @@
       "author": "Beth Revis",
       "releaseDate": "2022-08-16",
       "type": "novel",
-      "next": 192
+      "next": 192,
+      "era": "The New Republic"
     },
     {
       "id": 192,
@@ -450,7 +498,8 @@
       "author": "Alexander Freed",
       "releaseDate": "2019-06-11",
       "type": "novel",
-      "next": 191
+      "next": 191,
+      "era": "The New Republic"
     },
     {
       "id": 191,
@@ -459,7 +508,8 @@
       "author": "Alexander Freed",
       "releaseDate": "2020-06-23",
       "type": "novel",
-      "next": 190
+      "next": 190,
+      "era": "The New Republic"
     },
     {
       "id": 190,
@@ -468,7 +518,8 @@
       "author": "Alexander Freed",
       "releaseDate": "2021-03-02",
       "type": "novel",
-      "next": 189
+      "next": 189,
+      "era": "The New Republic"
     },
     {
       "id": 189,
@@ -477,7 +528,8 @@
       "author": "Chuck Wendig",
       "releaseDate": "2015-09-04",
       "type": "novel",
-      "next": 188
+      "next": 188,
+      "era": "The New Republic"
     },
     {
       "id": 188,
@@ -486,7 +538,8 @@
       "author": "Chuck Wendig",
       "releaseDate": "2016-07-12",
       "type": "novel",
-      "next": 187
+      "next": 187,
+      "era": "The New Republic"
     },
     {
       "id": 187,
@@ -495,7 +548,8 @@
       "author": "Chuck Wendig",
       "releaseDate": "2017-02-21",
       "type": "novel",
-      "next": 186
+      "next": 186,
+      "era": "The New Republic"
     },
     {
       "id": 186,
@@ -504,7 +558,8 @@
       "author": "Daniel José Older",
       "releaseDate": "2018-04-17",
       "type": "novel",
-      "next": 185
+      "next": 185,
+      "era": "The New Republic"
     },
     {
       "id": 185,
@@ -513,7 +568,8 @@
       "author": "Adam Christopher",
       "releaseDate": "2022-06-28",
       "type": "novel",
-      "next": 183
+      "next": 183,
+      "era": "The New Republic"
     },
     {
       "id": 183,
@@ -522,7 +578,8 @@
       "author": "Claudia Gray",
       "releaseDate": "2016-05-03",
       "type": "novel",
-      "next": 184
+      "next": 184,
+      "era": "The New Republic"
     },
     {
       "id": 184,
@@ -531,7 +588,8 @@
       "author": "Delilah S. Dawson",
       "releaseDate": "2017-09-01",
       "type": "novel",
-      "next": 170
+      "next": 170,
+      "era": "The New Republic"
     },
     {
       "id": 170,
@@ -540,7 +598,8 @@
       "author": "Alan Dean Foster",
       "releaseDate": "2016-01-05",
       "type": "novel",
-      "next": 171
+      "next": 171,
+      "era": "Rise Of The First Order"
     },
     {
       "id": 171,
@@ -549,7 +608,8 @@
       "author": "",
       "releaseDate": "2016-04-05",
       "type": "dvd",
-      "next": 173
+      "next": 173,
+      "era": "Rise Of The First Order"
     },
     {
       "id": 173,
@@ -558,7 +618,8 @@
       "author": "Jason Fry",
       "releaseDate": "2018-03-06",
       "type": "novel",
-      "next": 174
+      "next": 174,
+      "era": "Rise Of The First Order"
     },
     {
       "id": 174,
@@ -567,7 +628,8 @@
       "author": "",
       "releaseDate": "2018-03-27",
       "type": "dvd",
-      "next": 181
+      "next": 181,
+      "era": "Rise Of The First Order"
     },
     {
       "id": 181,
@@ -576,7 +638,8 @@
       "author": "Rebecca Roanhorse",
       "releaseDate": "2019-11-05",
       "type": "novel",
-      "next": 182
+      "next": 182,
+      "era": "Rise Of The First Order"
     },
     {
       "id": 182,
@@ -585,7 +648,8 @@
       "author": "Delilah S. Dawson",
       "releaseDate": "2019-09-03",
       "type": "novel",
-      "next": 175
+      "next": 175,
+      "era": "Rise Of The First Order"
     },
     {
       "id": 175,
@@ -594,7 +658,8 @@
       "author": "Rae Carson",
       "releaseDate": "2020-03-17",
       "type": "novel",
-      "next": 176
+      "next": 176,
+      "era": "Rise Of The First Order"
     },
 
     {
@@ -604,7 +669,8 @@
       "author": "",
       "releaseDate": "2020-03-31",
       "type": "dvd",
-      "next": null
+      "next": null,
+      "era": "Rise Of The First Order"
     }
   ]
 }
