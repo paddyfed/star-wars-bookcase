@@ -1,10 +1,10 @@
 import { getData } from "./helpers/apiHelpers";
-import BookCase from "./components/bookcase";
+import TimeLineOrderBookCase from "@/app/components/timelineOrderBookCase";
 
 export default async function Home() {
   const api = `${process.env.API_URL}/books/legends/timeline-order`;
 
   const data = await getData(api);
 
-  return <BookCase bookcase={data} />;
+  return <TimeLineOrderBookCase data={data} />;
 }

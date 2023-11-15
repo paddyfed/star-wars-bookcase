@@ -1,4 +1,4 @@
-import Book from "./book";
+import Book from "@/app/components/book";
 import styles from "../page.module.css";
 
 export default function BookCase({ bookcase }) {

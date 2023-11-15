@@ -7,7 +7,7 @@ import BookCaseHeader from "@/app/components/bookCaseHeader";
 import Book from "@/app/components/book";
 import { Fragment } from "react";
 
-export default function ReleaseDateBookCase({ data }) {
+export default function TimeLineOrderBookCase({ data }) {
   const [show, setShow] = useState(false);
 
   function toggle() {
@@ -18,7 +18,7 @@ export default function ReleaseDateBookCase({ data }) {
       <div className={styles.toggleSwitch}>
         <input type="checkbox" id="switch" onChange={toggle} checked={show} />
         <label htmlFor="switch" className={styles.toggleSwitchLabel}>
-          Show Release Year
+          Show Publishing Eras
         </label>
       </div>
       {show ? (
