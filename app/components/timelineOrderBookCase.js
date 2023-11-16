@@ -2,10 +2,8 @@
 
 import { useState } from "react";
 import styles from "@/app/page.module.css";
-import BookCase from "@/app/components/bookcase";
-import BookCaseHeader from "@/app/components/bookCaseHeader";
-import Book from "@/app/components/book";
-import { Fragment } from "react";
+import SplitBookCase from "./splitBookCase";
+import CombinedBookCase from "./combinedBookCase";
 
 export default function TimeLineOrderBookCase({ data }) {
   const [show, setShow] = useState(false);
@@ -21,26 +19,7 @@ export default function TimeLineOrderBookCase({ data }) {
           Show Publishing Eras
         </label>
       </div>
-      {show ? (
-        <div className={styles.authorsBookCases}>
-          {Object.entries(data.bookcase).map(([releaseDate, books]) => (
-            <div key={releaseDate} className={styles.authorBookCase}>
-              <BookCaseHeader header={releaseDate} />
-              <BookCase bookcase={books} />
-            </div>
-          ))}
-        </div>
-      ) : (
-        <div className={styles.bookcase}>
-          {Object.entries(data.bookcase).map(([releaseDate, books]) => (
-            <Fragment key={releaseDate}>
-              {books.map((book) => {
-                return <Book book={book} key={book.id} />;
-              })}
-            </Fragment>
-          ))}
-        </div>
-      )}
+      {show ? <SplitBookCase data={data} /> : <CombinedBookCase data={data} />}
     </>
   );
 }

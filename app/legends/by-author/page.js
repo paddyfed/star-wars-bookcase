@@ -1,10 +1,10 @@
+import SplitBookCase from "@/app/components/splitBookCase";
 import { getData } from "../../helpers/apiHelpers";
-import AuthorsBookCase from "@/app/components/authorsBookCase";
 
 export default async function Home() {
   const api = `${process.env.API_URL}/books/legends/by-author`;
 
   const data = await getData(api);
 
-  return <AuthorsBookCase data={data} />;
+  return <SplitBookCase data={data} />;
 }
