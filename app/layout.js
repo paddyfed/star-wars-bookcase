@@ -13,12 +13,11 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={inter.className}>
-        <h1>Star Wars Bookcase</h1>
         <nav>
+          <h1>
+            <Link href="/">Star Wars Bookcase</Link>
+          </h1>
           <ul>
-            <li>
-              <Link href="/">Home</Link>
-            </li>
             <li>
               <Link href="/legends/timeline-order">Legends - By Timeline</Link>
             </li>
