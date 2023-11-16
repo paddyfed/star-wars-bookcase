@@ -6,5 +6,10 @@ export default async function Home() {
 
   const data = await getData(api);
 
-  return <TimeLineOrderBookCase data={data} />;
+  return (
+    <>
+      <h2>Legends - By Timeline</h2>
+      <TimeLineOrderBookCase data={data} />
+    </>
+  );
 }

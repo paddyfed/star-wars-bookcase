@@ -6,5 +6,10 @@ export default async function Home() {
 
   const data = await getData(api);
 
-  return <SplitBookCase data={data} />;
+  return (
+    <>
+      <h2>Canon - By Series</h2>
+      <SplitBookCase data={data} />
+    </>
+  );
 }
