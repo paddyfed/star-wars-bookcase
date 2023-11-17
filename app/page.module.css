@@ -7,15 +7,17 @@
   border: 1px solid black;
   row-gap: 1em;
   box-sizing: border-box;
+  align-items: flex-end; /* keeps the books at the bottom of the bookcase */
 }
 
 .book {
   background-color: black;
-  display: flex;
+  display: grid;
   writing-mode: vertical-rl;
   padding: 0.5em;
   height: 400px;
   gap: 0.2em;
+  grid-template-columns: min-content 1fr min-content;
   align-items: center;
 }
 
@@ -35,11 +37,13 @@
 .vhs {
   background-color: darkblue;
   color: white;
+  height: 420px;
 }
 
 .dvd {
   background-color: green;
   color: white;
+  height: 420px;
 }
 
 .default {
@@ -77,4 +81,8 @@
 
 .toggleSwitchLabel {
   margin-left: 0.5em;
+}
+
+.type {
+  writing-mode: horizontal-tb;
 }

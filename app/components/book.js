@@ -27,6 +27,9 @@ export default function Book({ book }) {
         <div className={styles.title}>{book.title}</div>
         <div className={styles.author}>{book.author}</div>
       </div>
+      {book.type === "vhs" || book.type === "dvd" ? (
+        <i className={styles.type}>{book.type}</i>
+      ) : null}
     </div>
   );
 }
