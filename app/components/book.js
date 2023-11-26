@@ -6,6 +6,7 @@ const styleClassses = {
   novel: styles.novel,
   vhs: styles.vhs,
   dvd: styles.dvd,
+  ya: styles.ya,
   default: styles.default,
 };
 
@@ -27,8 +28,8 @@ export default function Book({ book }) {
         <div className={styles.title}>{book.title}</div>
         <div className={styles.author}>{book.author}</div>
       </div>
-      {book.type === "vhs" || book.type === "dvd" ? (
-        <i className={styles.type}>{book.type}</i>
+      {book.type === "vhs" || book.type === "dvd" || book.type === "ya" ? (
+        <i className={styles.type}>{book.type.toUpperCase()}</i>
       ) : null}
     </div>
   );
