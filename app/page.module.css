@@ -100,3 +100,7 @@
 .type {
   writing-mode: horizontal-tb;
 }
+
+.hidden {
+  display: none;
+}
