@@ -12,6 +12,7 @@
 
 .book {
   background-color: black;
+  border: 1px solid gray;
   display: grid;
   writing-mode: vertical-rl;
   padding: 0.5em;
@@ -54,6 +55,14 @@
 .default {
   background-color: black;
   color: red;
+}
+
+.notbought {
+  opacity: 0.75;
+  border: 1px dashed white;
+}
+.bought {
+  opacity: 1;
 }
 
 .title {
