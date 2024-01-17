@@ -7,41 +7,45 @@ import CombinedBookCase from "./combinedBookCase";
 
 export default function ReleaseDateBookCase({ data }) {
   const [show, setShow] = useState(false);
-  const [showNotBought, setShowNotBought] = useState(true);
+  const [onlyShowBoughtBooks, setOnlyShowBoughtBooks] = useState(false);
 
   function toggle() {
     setShow(!show);
   }
 
-  function toggleNotBought() {
-    setShowNotBought(!showNotBought);
-    const hello = document.querySelectorAll(`.${styles.notbought}`);
-    console.log(hello);
-    hello.forEach((item) => {
-      item.classList.toggle(styles.hidden);
-    });
+  function toggleOnlyShowBoughtBooks() {
+    setOnlyShowBoughtBooks(!onlyShowBoughtBooks);
   }
 
   return (
     <>
-      <div className={styles.toggleSwitch}>
-        <input type="checkbox" id="switch" onChange={toggle} checked={show} />
-        <label htmlFor="switch" className={styles.toggleSwitchLabel}>
-          Show Release Year
-        </label>
+      <div className={styles.switches}>
+        <span className={styles.toggleSwitch}>
+          <input type="checkbox" id="switch" onChange={toggle} checked={show} />
+          <label htmlFor="switch" className={styles.toggleSwitchLabel}>
+            Show Release Year
+          </label>
+        </span>
+        <span className={styles.toggleSwitch}>
+          <input
+            type="checkbox"
+            id="switchNotBought"
+            onChange={toggleOnlyShowBoughtBooks}
+            checked={onlyShowBoughtBooks}
+          />
+          <label htmlFor="switchNotBought" className={styles.toggleSwitchLabel}>
+            Only show bought books
+          </label>
+        </span>
       </div>
-      <div className={styles.toggleSwitch}>
-        <input
-          type="checkbox"
-          id="switchNotBought"
-          onChange={toggleNotBought}
-          checked={showNotBought}
+      {show ? (
+        <SplitBookCase data={data} onlyShowBoughtBooks={onlyShowBoughtBooks} />
+      ) : (
+        <CombinedBookCase
+          data={data}
+          onlyShowBoughtBooks={onlyShowBoughtBooks}
         />
-        <label htmlFor="switchNotBought" className={styles.toggleSwitchLabel}>
-          Show Bought Books
-        </label>
-      </div>
-      {show ? <SplitBookCase data={data} /> : <CombinedBookCase data={data} />}
+      )}
     </>
   );
 }

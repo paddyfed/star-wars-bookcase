@@ -10,15 +10,18 @@ const styleClassses = {
   default: styles.default,
 };
 
-export default function Book({ book }) {
+export default function Book({ book, onlyShowBoughtBooks }) {
   const type = book.type ?? "default";
   return (
     <div
       className={`${styles.book} ${styleClassses[type]} ${
         !Object.hasOwn(book, "bought") || book.bought // if the book hasn't got the 'bought' property or where the bought property is true
           ? styles.bought
-          : styles.notbought
-      }`}
+          : !onlyShowBoughtBooks
+          ? styles.notbought
+          : styles.hidden
+      }       
+      `}
     >
       <div>
         <Image
