@@ -5,7 +5,10 @@ import Link from "next/link";
 const inter = Inter({ subsets: ["latin"], display: "swap" });
 
 export const metadata = {
-  title: "Star Wars Bookcase",
+  title: {
+    template: "Star Wars Bookcase - %s",
+    default: "Star Wars Bookcase",
+  },
   description: "My personal Star Wars Bookcase",
 };
 
