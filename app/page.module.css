@@ -89,16 +89,20 @@
   height: 400px;
 }
 
+.toggleSwitchHeader {
+  position: sticky;
+  top: 0;
+  background-color: white;
+  z-index: 1;
+  padding-bottom: 1em;
+}
+
 .toggleSwitch {
   margin: 0.5em;
 }
 
 .toggleSwitchLabel {
   margin-left: 0.5em;
-}
-
-.switches {
-  margin-bottom: 1em;
 }
 
 .type {

@@ -6,10 +6,7 @@ export default async function Home() {
 
   const data = await getData(api);
 
-  return (
-    <>
-      <h2>Canon - By Timeline</h2>
-      <TimeLineOrderBookCase data={data} />
-    </>
-  );
+  const title = "Canon - By Timeline";
+
+  return <TimeLineOrderBookCase data={data} title={title} />;
 }
