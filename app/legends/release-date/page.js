@@ -6,10 +6,7 @@ export default async function Home() {
 
   const data = await getData(api);
 
-  return (
-    <>
-      <h2>Legends - By Release Date</h2>
-      <ReleaseDateBookCase data={data} />
-    </>
-  );
+  const title = "Legends - By Release Date";
+
+  return <ReleaseDateBookCase data={data} title={title} />;
 }

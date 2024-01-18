@@ -6,10 +6,7 @@ export default async function Home() {
 
   const data = await getData(api);
 
-  return (
-    <>
-      <h2>Legends - By Author</h2>
-      <SplitBookCase data={data} />;
-    </>
-  );
+  const title = "Legends - By Author";
+
+  return <SplitBookCase data={data} title={title} />;
 }
