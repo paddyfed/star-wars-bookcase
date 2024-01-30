@@ -52,6 +52,17 @@
   height: 420px;
 }
 
+.tv {
+  background-color: darkred;
+  color: white;
+  height: 420px;
+}
+.game {
+  background-color: darkslateblue;
+  color: white;
+  height: 420px;
+}
+
 .default {
   background-color: black;
   color: red;
