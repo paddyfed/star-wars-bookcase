@@ -20,6 +20,7 @@ export default function ReleaseDateBookCase({ data, title }) {
           setOnlyShowBoughtBooks={() =>
             setOnlyShowBoughtBooks(!onlyShowBoughtBooks)
           }
+          releaseOrTimeline={"Show Release Year"}
         />
       </header>
       {show ? (

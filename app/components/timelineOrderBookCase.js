@@ -21,6 +21,7 @@ export default function TimeLineOrderBookCase({ data, title }) {
           setOnlyShowBoughtBooks={() =>
             setOnlyShowBoughtBooks(!onlyShowBoughtBooks)
           }
+          releaseOrTimeline={"Show Publishing Eras"}
         />
       </header>
       {show ? (

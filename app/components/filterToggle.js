@@ -5,13 +5,14 @@ export default function FilterToggle({
   show,
   setShow,
   setOnlyShowBoughtBooks,
+  releaseOrTimeline = "Show Release Year",
 }) {
   return (
     <div>
       <span className={styles.toggleSwitch}>
         <input type="checkbox" id="switch" onChange={setShow} checked={show} />
         <label htmlFor="switch" className={styles.toggleSwitchLabel}>
-          Show Release Year
+          {releaseOrTimeline}
         </label>
       </span>
       <span className={styles.toggleSwitch}>
