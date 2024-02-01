@@ -6,8 +6,23 @@ export default function BookCase({
   onlyShowBoughtBooks,
   showNovels,
 }) {
+  const showDvd = true;
+  const showVhs = true;
+  const showYoungAdult = true;
+  const showGame = true;
+  const showTv = true;
+
   function parseQuery(value) {
-    if (showNovels === true) return value.type === "novel";
+    const queryFilter = [];
+    if (showNovels === true) queryFilter.push("novel");
+    if (showDvd === true) queryFilter.push("dvd");
+    if (showVhs === true) queryFilter.push("vhs");
+    if (showYoungAdult === true) queryFilter.push("ya");
+    if (showGame === true) queryFilter.push("game");
+    if (showTv === true) queryFilter.push("tv");
+    if (queryFilter.includes(value.type)) return true;
+
+    return false;
   }
   return (
     <div className={styles.bookcase}>
