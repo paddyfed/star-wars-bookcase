@@ -8,15 +8,23 @@ export default function FilterToggle({
   releaseOrTimeline = "Show Release Year",
   showNovels,
   setShowNovels,
+  showReleaseOrErasToggle = true,
 }) {
   return (
     <div>
-      <span className={styles.toggleSwitch}>
-        <input type="checkbox" id="switch" onChange={setShow} checked={show} />
-        <label htmlFor="switch" className={styles.toggleSwitchLabel}>
-          {releaseOrTimeline}
-        </label>
-      </span>
+      {showReleaseOrErasToggle && (
+        <span className={styles.toggleSwitch}>
+          <input
+            type="checkbox"
+            id="switch"
+            onChange={setShow}
+            checked={show}
+          />
+          <label htmlFor="switch" className={styles.toggleSwitchLabel}>
+            {releaseOrTimeline}
+          </label>
+        </span>
+      )}
       <span className={styles.toggleSwitch}>
         <input
           type="checkbox"

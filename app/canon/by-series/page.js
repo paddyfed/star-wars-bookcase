@@ -12,5 +12,12 @@ export default async function Home() {
 
   const data = await getData(api);
 
-  return <SplitBookCase data={data} title={title} showNovels={true} />;
+  return (
+    <SplitBookCase
+      data={data}
+      title={title}
+      showNovels={true}
+      showReleaseOrErasToggle={false}
+    />
+  );
 }

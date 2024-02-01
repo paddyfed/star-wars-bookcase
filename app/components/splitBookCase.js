@@ -1,18 +1,21 @@
 import styles from "@/app/page.module.css";
 import BookCase from "@/app/components/bookcase";
 import BookCaseHeader from "@/app/components/bookCaseHeader";
+import FilterToggle from "./filterToggle";
 
 export default function SplitBookCase({
   data,
   onlyShowBoughtBooks,
   title,
   showNovels,
+  showReleaseOrErasToggle,
 }) {
   return (
     <>
       {title && (
         <header className={styles.toggleSwitchHeader}>
           <h2>{title}</h2>
+          <FilterToggle showReleaseOrErasToggle={showReleaseOrErasToggle} />
         </header>
       )}
       <div className={styles.splitBookCases}>
