@@ -2,7 +2,12 @@ import styles from "@/app/page.module.css";
 import BookCase from "@/app/components/bookcase";
 import BookCaseHeader from "@/app/components/bookCaseHeader";
 
-export default function SplitBookCase({ data, onlyShowBoughtBooks, title }) {
+export default function SplitBookCase({
+  data,
+  onlyShowBoughtBooks,
+  title,
+  showNovels,
+}) {
   return (
     <>
       {title && (
@@ -17,6 +22,7 @@ export default function SplitBookCase({ data, onlyShowBoughtBooks, title }) {
             <BookCase
               bookcase={books}
               onlyShowBoughtBooks={onlyShowBoughtBooks}
+              showNovels={showNovels}
             />
           </div>
         ))}

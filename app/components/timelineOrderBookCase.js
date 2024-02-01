@@ -9,6 +9,7 @@ import FilterToggle from "./filterToggle";
 export default function TimeLineOrderBookCase({ data, title }) {
   const [show, setShow] = useState(false);
   const [onlyShowBoughtBooks, setOnlyShowBoughtBooks] = useState(false);
+  const [showNovels, setShowNovels] = useState(true);
 
   return (
     <>
@@ -17,19 +18,26 @@ export default function TimeLineOrderBookCase({ data, title }) {
         <FilterToggle
           onlyShowBoughtBooks={onlyShowBoughtBooks}
           show={show}
+          showNovels={showNovels}
           setShow={() => setShow(!show)}
           setOnlyShowBoughtBooks={() =>
             setOnlyShowBoughtBooks(!onlyShowBoughtBooks)
           }
+          setShowNovels={() => setShowNovels(!showNovels)}
           releaseOrTimeline={"Show Publishing Eras"}
         />
       </header>
       {show ? (
-        <SplitBookCase data={data} onlyShowBoughtBooks={onlyShowBoughtBooks} />
+        <SplitBookCase
+          data={data}
+          onlyShowBoughtBooks={onlyShowBoughtBooks}
+          showNovels={showNovels}
+        />
       ) : (
         <CombinedBookCase
           data={data}
           onlyShowBoughtBooks={onlyShowBoughtBooks}
+          showNovels={showNovels}
         />
       )}
     </>

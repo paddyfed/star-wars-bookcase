@@ -6,6 +6,8 @@ export default function FilterToggle({
   setShow,
   setOnlyShowBoughtBooks,
   releaseOrTimeline = "Show Release Year",
+  showNovels,
+  setShowNovels,
 }) {
   return (
     <div>
@@ -24,6 +26,17 @@ export default function FilterToggle({
         />
         <label htmlFor="switchNotBought" className={styles.toggleSwitchLabel}>
           Only show bought books
+        </label>
+      </span>
+      <span className={styles.toggleSwitch}>
+        <input
+          type="checkbox"
+          id="switchNovels"
+          onChange={setShowNovels}
+          checked={showNovels}
+        />
+        <label htmlFor="switchNovels" className={styles.toggleSwitchLabel}>
+          Novels
         </label>
       </span>
     </div>

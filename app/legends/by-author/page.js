@@ -12,5 +12,5 @@ export default async function Home() {
 
   const data = await getData(api);
 
-  return <SplitBookCase data={data} title={title} />;
+  return <SplitBookCase data={data} title={title} showNovels={true} />;
 }
