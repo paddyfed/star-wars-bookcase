@@ -5,8 +5,6 @@ import styles from "@/app/page.module.css";
 import BookCase from "@/app/components/bookcase";
 import BookCaseHeader from "@/app/components/bookCaseHeader";
 import FilterToggle from "./filterToggle";
-import { Fragment } from "react";
-import Book from "@/app/components/book";
 
 export default function SplitBookCase({
   data,
