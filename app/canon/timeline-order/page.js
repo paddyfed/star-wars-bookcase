@@ -1,5 +1,5 @@
 import { getData } from "../../helpers/apiHelpers";
-import TimeLineOrderBookCase from "@/app/components/timelineOrderBookCase";
+import SplitBookCase from "@/app/components/splitBookCase";
 
 const title = "Canon - By Timeline";
 
@@ -12,5 +12,11 @@ export default async function Home() {
 
   const data = await getData(api);
 
-  return <TimeLineOrderBookCase data={data} title={title} />;
+  return (
+    <SplitBookCase
+      data={data}
+      title={title}
+      releaseOrTimeline="Show Publishing Eras"
+    />
+  );
 }
