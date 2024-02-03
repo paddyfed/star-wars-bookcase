@@ -16,8 +16,8 @@ export default async function Home() {
     <SplitBookCase
       data={data}
       title={title}
-      showNovels={true}
       showReleaseOrErasToggle={false}
+      showSplitPass={true}
     />
   );
 }

@@ -5,14 +5,19 @@ import styles from "@/app/page.module.css";
 import BookCase from "@/app/components/bookcase";
 import BookCaseHeader from "@/app/components/bookCaseHeader";
 import FilterToggle from "./filterToggle";
+import { Fragment } from "react";
+import Book from "@/app/components/book";
 
 export default function SplitBookCase({
   data,
   title,
   showReleaseOrErasToggle,
+  showSplitPass,
+  releaseOrTimeline,
 }) {
   const [showNovels, setShowNovels] = useState(true);
   const [onlyShowBoughtBooks, setOnlyShowBoughtBooks] = useState(false);
+  const [showSplit, setShowSplit] = useState(showSplitPass);
 
   return (
     <>
@@ -20,6 +25,7 @@ export default function SplitBookCase({
         <header className={styles.toggleSwitchHeader}>
           <h2>{title}</h2>
           <FilterToggle
+            showSplit={showSplit}
             showReleaseOrErasToggle={showReleaseOrErasToggle}
             showNovels={showNovels}
             setShowNovels={() => setShowNovels(!showNovels)}
@@ -27,21 +33,31 @@ export default function SplitBookCase({
             setOnlyShowBoughtBooks={() =>
               setOnlyShowBoughtBooks(!onlyShowBoughtBooks)
             }
+            setShowSplit={() => setShowSplit(!showSplit)}
+            releaseOrTimeline={releaseOrTimeline}
           />
         </header>
       )}
-      <div className={styles.splitBookCases}>
-        {Object.entries(data.bookcase).map(([groupItem, books]) => (
-          <div key={groupItem} className={styles.splitBookCase}>
-            <BookCaseHeader header={groupItem} />
-            <BookCase
-              bookcase={books}
-              onlyShowBoughtBooks={onlyShowBoughtBooks}
-              showNovels={showNovels}
-            />
-          </div>
-        ))}
-      </div>
+      {showSplit ? (
+        <div className={styles.splitBookCases}>
+          {Object.entries(data.bookcase).map(([groupItem, books]) => (
+            <div key={groupItem} className={styles.splitBookCase}>
+              <BookCaseHeader header={groupItem} />
+              <BookCase
+                bookcase={books}
+                onlyShowBoughtBooks={onlyShowBoughtBooks}
+                showNovels={showNovels}
+              />
+            </div>
+          ))}
+        </div>
+      ) : (
+        <BookCase
+          bookcase={Object.values(data.bookcase).flat()}
+          onlyShowBoughtBooks={onlyShowBoughtBooks}
+          showNovels={showNovels}
+        />
+      )}
     </>
   );
 }

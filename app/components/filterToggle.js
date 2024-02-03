@@ -2,8 +2,8 @@ import styles from "@/app/page.module.css";
 
 export default function FilterToggle({
   onlyShowBoughtBooks,
-  show,
-  setShow,
+  showSplit,
+  setShowSplit,
   setOnlyShowBoughtBooks,
   releaseOrTimeline = "Show Release Year",
   showNovels,
@@ -17,8 +17,8 @@ export default function FilterToggle({
           <input
             type="checkbox"
             id="switch"
-            onChange={setShow}
-            checked={show}
+            onChange={setShowSplit}
+            checked={showSplit}
           />
           <label htmlFor="switch" className={styles.toggleSwitchLabel}>
             {releaseOrTimeline}
