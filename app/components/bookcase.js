@@ -5,8 +5,8 @@ export default function BookCase({
   bookcase,
   onlyShowBoughtBooks,
   showNovels,
+  showDvds,
 }) {
-  const showDvd = true;
   const showVhs = true;
   const showYoungAdult = true;
   const showGame = true;
@@ -15,7 +15,7 @@ export default function BookCase({
   function parseQuery(value) {
     const queryFilter = [];
     if (showNovels === true) queryFilter.push("novel");
-    if (showDvd === true) queryFilter.push("dvd");
+    if (showDvds === true) queryFilter.push("dvd");
     if (showVhs === true) queryFilter.push("vhs");
     if (showYoungAdult === true) queryFilter.push("ya");
     if (showGame === true) queryFilter.push("game");
