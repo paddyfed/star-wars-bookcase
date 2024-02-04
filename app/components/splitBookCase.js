@@ -14,6 +14,7 @@ export default function SplitBookCase({
   releaseOrTimeline,
 }) {
   const [showNovels, setShowNovels] = useState(true);
+  const [showDvds, setShowDvds] = useState(true);
   const [onlyShowBoughtBooks, setOnlyShowBoughtBooks] = useState(false);
   const [showSplit, setShowSplit] = useState(showSplitPass);
 
@@ -27,6 +28,8 @@ export default function SplitBookCase({
             showReleaseOrErasToggle={showReleaseOrErasToggle}
             showNovels={showNovels}
             setShowNovels={() => setShowNovels(!showNovels)}
+            showDvds={showDvds}
+            setShowDvds={() => setShowDvds(!showDvds)}
             onlyShowBoughtBooks={onlyShowBoughtBooks}
             setOnlyShowBoughtBooks={() =>
               setOnlyShowBoughtBooks(!onlyShowBoughtBooks)
@@ -45,6 +48,7 @@ export default function SplitBookCase({
                 bookcase={books}
                 onlyShowBoughtBooks={onlyShowBoughtBooks}
                 showNovels={showNovels}
+                showDvds={showDvds}
               />
             </div>
           ))}
@@ -54,6 +58,7 @@ export default function SplitBookCase({
           bookcase={Object.values(data.bookcase).flat()}
           onlyShowBoughtBooks={onlyShowBoughtBooks}
           showNovels={showNovels}
+          showDvds={showDvds}
         />
       )}
     </>
