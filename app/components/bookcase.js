@@ -24,9 +24,19 @@ export default function BookCase({
 
     return false;
   }
+
+  function parseBoughtBooksQuery(value) {
+    if (!Object.hasOwn(value, "bought")) return true;
+
+    if (onlyShowBoughtBooks === true && value.bought !== true) return false;
+
+    return true;
+  }
+
   return (
     <div className={styles.bookcase}>
       {bookcase
+        .filter((b) => parseBoughtBooksQuery(b))
         .filter((d) => parseQuery(d))
         .map((book) => {
           return (
