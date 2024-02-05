@@ -19,6 +19,7 @@ export default function SplitBookCase({
   const [showVhs, setShowVhs] = useState(true);
   const [showGame, setShowGame] = useState(true);
   const [onlyShowBoughtBooks, setOnlyShowBoughtBooks] = useState(false);
+  const [showTv, setShowTv] = useState(true);
   const [showSplit, setShowSplit] = useState(showSplitPass);
 
   return (
@@ -39,6 +40,8 @@ export default function SplitBookCase({
             setShowVhs={() => setShowVhs(!showVhs)}
             showGame={showGame}
             setShowGame={() => setShowGame(!showGame)}
+            showTv={showTv}
+            setShowTv={() => setShowTv(!showTv)}
             onlyShowBoughtBooks={onlyShowBoughtBooks}
             setOnlyShowBoughtBooks={() =>
               setOnlyShowBoughtBooks(!onlyShowBoughtBooks)
@@ -61,6 +64,7 @@ export default function SplitBookCase({
                 showYoungAdult={showYoungAdult}
                 showVhs={showVhs}
                 showGame={showGame}
+                showTv={showTv}
               />
             </div>
           ))}
@@ -74,6 +78,7 @@ export default function SplitBookCase({
           showYoungAdult={showYoungAdult}
           showVhs={showVhs}
           showGame={showGame}
+          showTv={showTv}
         />
       )}
     </>
