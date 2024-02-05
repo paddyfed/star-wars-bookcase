@@ -8,8 +8,8 @@ export default function BookCase({
   showDvds,
   showYoungAdult,
   showVhs,
+  showGame,
 }) {
-  const showGame = true;
   const showTv = true;
 
   function parseQuery(value) {
