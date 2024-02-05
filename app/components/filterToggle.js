@@ -12,6 +12,8 @@ export default function FilterToggle({
   setShowDvds,
   showYoungAdult,
   setShowYoungAdult,
+  showVhs,
+  setShowVhs,
   showReleaseOrErasToggle = true,
 }) {
   return (
@@ -70,7 +72,18 @@ export default function FilterToggle({
           checked={showDvds}
         />
         <label htmlFor="switchDvds" className={styles.toggleSwitchLabel}>
-          DVDs
+          DVD
+        </label>
+      </span>
+      <span className={styles.toggleSwitch}>
+        <input
+          type="checkbox"
+          id="switchVhs"
+          onChange={setShowVhs}
+          checked={showVhs}
+        />
+        <label htmlFor="switchVhs" className={styles.toggleSwitchLabel}>
+          VHS
         </label>
       </span>
     </div>

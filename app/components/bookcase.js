@@ -7,8 +7,8 @@ export default function BookCase({
   showNovels,
   showDvds,
   showYoungAdult,
+  showVhs,
 }) {
-  const showVhs = true;
   const showGame = true;
   const showTv = true;
 
