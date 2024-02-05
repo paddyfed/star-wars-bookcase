@@ -6,9 +6,9 @@ export default function BookCase({
   onlyShowBoughtBooks,
   showNovels,
   showDvds,
+  showYoungAdult,
 }) {
   const showVhs = true;
-  const showYoungAdult = true;
   const showGame = true;
   const showTv = true;
 

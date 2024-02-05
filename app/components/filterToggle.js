@@ -10,6 +10,8 @@ export default function FilterToggle({
   setShowNovels,
   showDvds,
   setShowDvds,
+  showYoungAdult,
+  setShowYoungAdult,
   showReleaseOrErasToggle = true,
 }) {
   return (
@@ -47,6 +49,17 @@ export default function FilterToggle({
         />
         <label htmlFor="switchNovels" className={styles.toggleSwitchLabel}>
           Novels
+        </label>
+      </span>
+      <span className={styles.toggleSwitch}>
+        <input
+          type="checkbox"
+          id="switchYoungAdult"
+          onChange={setShowYoungAdult}
+          checked={showYoungAdult}
+        />
+        <label htmlFor="switchYoungAdult" className={styles.toggleSwitchLabel}>
+          Young Adult
         </label>
       </span>
       <span className={styles.toggleSwitch}>
