@@ -9,9 +9,8 @@ export default function BookCase({
   showYoungAdult,
   showVhs,
   showGame,
+  showTv,
 }) {
-  const showTv = true;
-
   function parseQuery(value) {
     const queryFilter = [];
     if (showNovels === true) queryFilter.push("novel");
