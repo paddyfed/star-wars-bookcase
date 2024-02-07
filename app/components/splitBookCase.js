@@ -10,7 +10,7 @@ export default function SplitBookCase({
   data,
   title,
   showReleaseOrErasToggle,
-  showSplitPass,
+  showSplitPass = false,
   releaseOrTimeline,
 }) {
   const [showNovels, setShowNovels] = useState(true);
