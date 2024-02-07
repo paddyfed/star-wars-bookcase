@@ -167,11 +167,11 @@
       "author": "",
       "releaseDate": "2000-04-08",
       "type": "vhs",
-      "next": 166,
+      "next": 164,
       "era": "Rise of the Empire"
     },
     {
-      "id": 166,
+      "id": 164,
       "series": "Star Wars",
       "title": "Episode I: The Phantom Menace",
       "author": "",
@@ -417,11 +417,11 @@
       "author": "",
       "releaseDate": "2005-11-01",
       "type": "vhs",
-      "next": 164,
+      "next": 166,
       "era": "Rise of the Empire"
     },
     {
-      "id": 164,
+      "id": 166,
       "series": "Star Wars",
       "title": "Episode III: Revenge of the Sith",
       "author": "",

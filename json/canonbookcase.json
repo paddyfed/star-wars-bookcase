@@ -273,10 +273,10 @@
       "type": "novel",
       "bought": true,
       "era": "Fall Of The Jedi",
-      "next": 166
+      "next": 164
     },
     {
-      "id": 166,
+      "id": 164,
       "series": "Star Wars",
       "title": "Episode I: The Phantom Menace",
       "author": "",
@@ -317,10 +317,10 @@
       "type": "novel",
       "bought": true,
       "era": "Fall Of The Jedi",
-      "next": 162
+      "next": 165
     },
     {
-      "id": 162,
+      "id": 165,
       "series": "Star Wars",
       "title": "Episode II: Attack of the Clones",
       "author": "",
@@ -427,10 +427,10 @@
       "type": "novel",
       "bought": true,
       "era": "Fall Of The Jedi",
-      "next": 164
+      "next": 166
     },
     {
-      "id": 164,
+      "id": 166,
       "series": "Star Wars",
       "title": "Episode III: Revenge of the Sith",
       "author": "",

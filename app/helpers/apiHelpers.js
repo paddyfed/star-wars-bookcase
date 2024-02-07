@@ -1,3 +1,5 @@
+import { sortByReleaseDateThenId } from "./sortingHelpers";
+
 export async function getData(api) {
   const res = await fetch(api);
 
@@ -43,13 +45,14 @@ export function bookCaseTimelineOrder(bookcase) {
 export function bookCaseReleaseOrder(bookcase) {
   const ordered = bookcase.bookcase;
   const returnArr = ordered
-    .sort((a, b) => (a.releaseDate > b.releaseDate ? 1 : -1))
+    .sort((a, b) => new Date(a.releaseDate) - new Date(b.releaseDate))
     .reduce((acc, book) => {
       const releaseDate = new Date(book.releaseDate).getFullYear();
       if (!acc[releaseDate]) {
         acc[releaseDate] = [];
       }
       acc[releaseDate].push(book);
+      acc[releaseDate].sort((a, b) => sortByReleaseDateThenId(a, b));
       return acc;
     }, {});
   return returnArr;
@@ -58,7 +61,7 @@ export function bookCaseReleaseOrder(bookcase) {
 export function bookCaseByAuthor(bookcase) {
   const ordered = bookcase.bookcase;
   const returnArr = ordered
-    .sort((a, b) => (a.author > b.author ? 1 : -1)) // sort by author name
+    .sort((a, b) => a.author.localeCompare(b.author)) // sort by author name
     .reduce((acc, book) => {
       // group by author name also - returns an array of objects using the author name
       const author = book.author;
@@ -66,7 +69,7 @@ export function bookCaseByAuthor(bookcase) {
         acc[author] = [];
       }
       acc[author].push(book);
-      acc[author].sort((a, b) => (a.releaseDate > b.releaseDate ? 1 : -1));
+      acc[author].sort((a, b) => sortByReleaseDateThenId(a, b));
       return acc;
     }, {});
 
@@ -76,7 +79,7 @@ export function bookCaseByAuthor(bookcase) {
 export function bookCaseBySeries(bookcase) {
   const ordered = bookcase.bookcase;
   const returnArr = ordered
-    .sort((a, b) => (a.series > b.series ? 1 : -1)) // sort by author name
+    .sort((a, b) => a.series.localeCompare(b.series)) // sort by series a-z
     .reduce((acc, book) => {
       // group by author name also - returns an array of objects using the author name
       const series = book.series;
@@ -84,7 +87,7 @@ export function bookCaseBySeries(bookcase) {
         acc[series] = [];
       }
       acc[series].push(book);
-      acc[series].sort((a, b) => (a.releaseDate > b.releaseDate ? 1 : -1));
+      acc[series].sort((a, b) => sortByReleaseDateThenId(a, b));
       return acc;
     }, {});
 
