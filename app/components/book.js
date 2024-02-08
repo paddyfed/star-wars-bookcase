@@ -9,6 +9,7 @@ const styleClassses = {
   ya: styles.ya,
   tv: styles.tv,
   game: styles.game,
+  comic: styles.comic,
   default: styles.default,
 };
 
@@ -41,7 +42,8 @@ export default function Book({ book }) {
       book.type === "dvd" ||
       book.type === "ya" ||
       book.type === "tv" ||
-      book.type === "game" ? (
+      book.type === "game" ||
+      book.type === "comic" ? (
         <i className={styles.type}>{book.type.toUpperCase()}</i>
       ) : null}
     </div>

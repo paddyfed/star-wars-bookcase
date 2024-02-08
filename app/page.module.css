@@ -62,6 +62,10 @@
   color: white;
   height: 420px;
 }
+.comic {
+  background-color: #e58948;
+  color: black;
+}
 
 .default {
   background-color: black;
@@ -118,6 +122,7 @@
 
 .type {
   writing-mode: horizontal-tb;
+  font-size: smaller;
 }
 
 .hidden {

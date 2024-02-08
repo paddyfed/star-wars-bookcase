@@ -18,6 +18,8 @@ export default function FilterToggle({
   setShowGame,
   showTv,
   setShowTv,
+  showComic,
+  setShowComic,
   showReleaseOrErasToggle = true,
 }) {
   return (
@@ -110,6 +112,17 @@ export default function FilterToggle({
         />
         <label htmlFor="switchTv" className={styles.toggleSwitchLabel}>
           TV
+        </label>
+      </span>
+      <span className={styles.toggleSwitch}>
+        <input
+          type="checkbox"
+          id="switchComic"
+          onChange={setShowComic}
+          checked={showComic}
+        />
+        <label htmlFor="switchComic" className={styles.toggleSwitchLabel}>
+          Comic
         </label>
       </span>
     </div>

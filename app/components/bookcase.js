@@ -9,6 +9,7 @@ export default function BookCase({
   showYoungAdult,
   showVhs,
   showGame,
+  showComic,
   showTv,
 }) {
   function parseQuery(value) {
@@ -19,6 +20,7 @@ export default function BookCase({
     if (showYoungAdult === true) queryFilter.push("ya");
     if (showGame === true) queryFilter.push("game");
     if (showTv === true) queryFilter.push("tv");
+    if (showComic === true) queryFilter.push("comic");
     if (queryFilter.includes(value.type)) return true;
 
     return false;
