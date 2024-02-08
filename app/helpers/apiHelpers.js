@@ -38,10 +38,6 @@ export function bookCaseTimelineOrder(bookcase) {
   return returnArr;
 }
 
-// export function bookCaseReleaseOrder(bookcase) {
-//   const ordered = bookcase.bookcase;
-//   return ordered.sort((a, b) => (a.releaseDate > b.releaseDate ? 1 : -1));
-// }
 export function bookCaseReleaseOrder(bookcase) {
   const ordered = bookcase.bookcase;
   const returnArr = ordered

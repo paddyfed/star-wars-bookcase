@@ -7,8 +7,75 @@
       "author": "Tim Lebbon",
       "releaseDate": "2013-03-31",
       "type": "novel",
-      "next": 2,
-      "era": "The Old Republic"
+      "bought": true,
+      "era": "The Old Republic",
+      "next": 266
+    },
+    {
+      "id": 266,
+      "series": "Legends Epic Collection",
+      "title": "Tales of the Jedi Vol. 1",
+      "author": "",
+      "releaseDate": "2020-12-08",
+      "type": "comic",
+      "bought": true,
+      "era": "The Old Republic",
+      "next": 267
+    },
+    {
+      "id": 267,
+      "series": "Legends Epic Collection",
+      "title": "Tales of the Jedi Vol. 2",
+      "author": "",
+      "releaseDate": "2022-06-28",
+      "type": "comic",
+      "bought": true,
+      "era": "The Old Republic",
+      "next": 268
+    },
+    {
+      "id": 268,
+      "series": "Legends Epic Collection",
+      "title": "Tales of the Jedi Vol. 3",
+      "author": "",
+      "releaseDate": "2023-07-11",
+      "type": "comic",
+      "bought": true,
+      "era": "The Old Republic",
+      "next": 269
+    },
+    {
+      "id": 269,
+      "series": "Legends Epic Collection",
+      "title": "The Old Republic Vol. 1",
+      "author": "",
+      "releaseDate": "2015-07-01",
+      "type": "comic",
+      "bought": true,
+      "era": "The Old Republic",
+      "next": 270
+    },
+    {
+      "id": 270,
+      "series": "Legends Epic Collection",
+      "title": "The Old Republic Vol. 2",
+      "author": "",
+      "releaseDate": "2017-03-21",
+      "type": "comic",
+      "bought": true,
+      "era": "The Old Republic",
+      "next": 271
+    },
+    {
+      "id": 271,
+      "series": "Legends Epic Collection",
+      "title": "The Old Republic Vol. 3",
+      "author": "",
+      "releaseDate": "2019-04-02",
+      "type": "comic",
+      "bought": true,
+      "era": "The Old Republic",
+      "next": 2
     },
     {
       "id": 2,
@@ -17,8 +84,9 @@
       "author": "John Jackson Miller",
       "releaseDate": "2012-08-02",
       "type": "novel",
-      "next": 3,
-      "era": "The Old Republic"
+      "bought": true,
+      "era": "The Old Republic",
+      "next": 3
     },
     {
       "id": 3,
@@ -27,8 +95,20 @@
       "author": "Drew Karpyshyn",
       "releaseDate": "2011-10-21",
       "type": "novel",
-      "next": 4,
-      "era": "The Old Republic"
+      "bought": true,
+      "era": "The Old Republic",
+      "next": 272
+    },
+    {
+      "id": 272,
+      "series": "Legends Epic Collection",
+      "title": "The Old Republic Vol. 4",
+      "author": "",
+      "releaseDate": "2021-06-23",
+      "type": "comic",
+      "bought": true,
+      "era": "The Old Republic",
+      "next": 4
     },
     {
       "id": 4,
@@ -36,9 +116,10 @@
       "title": "Deceived",
       "author": "Paul S Kemp",
       "releaseDate": "2011-03-01",
-      "next": 5,
       "type": "novel",
-      "era": "The Old Republic"
+      "bought": true,
+      "era": "The Old Republic",
+      "next": 5
     },
     {
       "id": 5,
@@ -46,9 +127,10 @@
       "title": "Red Harvest",
       "author": "Joe Schreiber",
       "releaseDate": "2010-12-01",
-      "next": 6,
       "type": "novel",
-      "era": "The Old Republic"
+      "bought": true,
+      "era": "The Old Republic",
+      "next": 6
     },
     {
       "id": 6,
@@ -57,8 +139,9 @@
       "author": "Sean Williams",
       "releaseDate": "2010-07-02",
       "type": "novel",
-      "next": 7,
-      "era": "The Old Republic"
+      "bought": true,
+      "era": "The Old Republic",
+      "next": 7
     },
     {
       "id": 7,
@@ -67,8 +150,20 @@
       "author": "Drew Karpyshyn",
       "releaseDate": "2012-11-13",
       "type": "novel",
-      "next": 8,
-      "era": "The Old Republic"
+      "bought": true,
+      "era": "The Old Republic",
+      "next": 273
+    },
+    {
+      "id": 273,
+      "series": "Legends Epic Collection",
+      "title": "The Old Republic Vol. 5",
+      "author": "",
+      "releaseDate": "2023-03-14",
+      "type": "comic",
+      "bought": true,
+      "era": "The Old Republic",
+      "next": 8
     },
     {
       "id": 8,
@@ -77,8 +172,9 @@
       "author": "John Jackson Miller",
       "releaseDate": "2011-01-01",
       "type": "novel",
-      "next": 9,
-      "era": "The Old Republic"
+      "bought": true,
+      "era": "The Old Republic",
+      "next": 9
     },
     {
       "id": 9,
@@ -87,8 +183,9 @@
       "author": "Drew Karpyshyn",
       "releaseDate": "2006-09-02",
       "type": "novel",
-      "next": 10,
-      "era": "The Old Republic"
+      "bought": true,
+      "era": "The Old Republic",
+      "next": 10
     },
     {
       "id": 10,
@@ -97,8 +194,9 @@
       "author": "Drew Karpyshyn",
       "releaseDate": "2007-12-01",
       "type": "novel",
-      "next": 11,
-      "era": "The Old Republic"
+      "bought": true,
+      "era": "The Old Republic",
+      "next": 11
     },
     {
       "id": 11,
@@ -107,8 +205,9 @@
       "author": "Drew Karpyshyn",
       "releaseDate": "2009-12-01",
       "type": "novel",
-      "next": 12,
-      "era": "The Old Republic"
+      "bought": true,
+      "era": "The Old Republic",
+      "next": 12
     },
     {
       "id": 12,
@@ -117,8 +216,20 @@
       "author": "James Luceno",
       "releaseDate": "2011-12-27",
       "type": "novel",
-      "next": 13,
-      "era": "Rise of the Empire"
+      "bought": true,
+      "era": "Rise of the Empire",
+      "next": 274
+    },
+    {
+      "id": 274,
+      "series": "Legends Epic Collection",
+      "title": "Rise of the Sith Vol. 1",
+      "author": "",
+      "releaseDate": "2015-08-26",
+      "type": "comic",
+      "bought": true,
+      "era": "Rise of the Empire",
+      "next": 13
     },
     {
       "id": 13,
@@ -127,8 +238,20 @@
       "author": "James Luceno",
       "releaseDate": "2001-07-01",
       "type": "novel",
-      "next": 14,
-      "era": "Rise of the Empire"
+      "bought": true,
+      "era": "Rise of the Empire",
+      "next": 275
+    },
+    {
+      "id": 275,
+      "series": "Legends Epic Collection",
+      "title": "Rise of the Sith Vol. 2",
+      "author": "",
+      "releaseDate": "2017-11-28",
+      "type": "comic",
+      "bought": true,
+      "era": "Rise of the Empire",
+      "next": 14
     },
     {
       "id": 14,
@@ -137,8 +260,9 @@
       "author": "Michael Reaves",
       "releaseDate": "2001-02-01",
       "type": "novel",
-      "next": 15,
-      "era": "Rise of the Empire"
+      "bought": true,
+      "era": "Rise of the Empire",
+      "next": 15
     },
     {
       "id": 15,
@@ -146,9 +270,10 @@
       "title": "Maul: Lockdown",
       "author": "Joe Schreiber",
       "releaseDate": "2013-11-30",
-      "next": 16,
       "type": "novel",
-      "era": "Rise of the Empire"
+      "bought": true,
+      "era": "Rise of the Empire",
+      "next": 16
     },
     {
       "id": 16,
@@ -157,8 +282,9 @@
       "author": "Terry Brooks",
       "releaseDate": "1999-05-01",
       "type": "novel",
-      "next": 161,
-      "era": "Rise of the Empire"
+      "bought": true,
+      "era": "Rise of the Empire",
+      "next": 161
     },
     {
       "id": 161,
@@ -167,8 +293,9 @@
       "author": "",
       "releaseDate": "2000-04-08",
       "type": "vhs",
-      "next": 164,
-      "era": "Rise of the Empire"
+      "bought": true,
+      "era": "Rise of the Empire",
+      "next": 164
     },
     {
       "id": 164,
@@ -177,8 +304,42 @@
       "author": "",
       "releaseDate": "2001-10-16",
       "type": "dvd",
-      "next": 17,
-      "era": "Rise of the Empire"
+      "bought": true,
+      "era": "Rise of the Empire",
+      "next": 276
+    },
+    {
+      "id": 276,
+      "series": "Legends Epic Collection",
+      "title": "The Menace Revealed Vol. 1",
+      "author": "",
+      "releaseDate": "2018-10-02",
+      "type": "comic",
+      "bought": true,
+      "era": "Rise of the Empire",
+      "next": 277
+    },
+    {
+      "id": 277,
+      "series": "Legends Epic Collection",
+      "title": "The Menace Revealed Vol. 2",
+      "author": "",
+      "releaseDate": "2019-11-19",
+      "type": "comic",
+      "bought": true,
+      "era": "Rise of the Empire",
+      "next": 278
+    },
+    {
+      "id": 278,
+      "series": "Legends Epic Collection",
+      "title": "The Menace Revealed Vol. 3",
+      "author": "",
+      "releaseDate": "2023-02-07",
+      "type": "comic",
+      "bought": true,
+      "era": "Rise of the Empire",
+      "next": 17
     },
     {
       "id": 17,
@@ -187,8 +348,9 @@
       "author": "Greg Bear",
       "releaseDate": "2000-05-01",
       "type": "novel",
-      "next": 18,
-      "era": "Rise of the Empire"
+      "bought": true,
+      "era": "Rise of the Empire",
+      "next": 18
     },
     {
       "id": 18,
@@ -197,8 +359,20 @@
       "author": "Timothy Zahn",
       "releaseDate": "2006-02-01",
       "type": "novel",
-      "next": 19,
-      "era": "Rise of the Empire"
+      "bought": true,
+      "era": "Rise of the Empire",
+      "next": 279
+    },
+    {
+      "id": 279,
+      "series": "Legends Epic Collection",
+      "title": "The Menace Revealed Vol. 4",
+      "author": "",
+      "releaseDate": "2024-01-30",
+      "type": "comic",
+      "bought": true,
+      "era": "Rise of the Empire",
+      "next": 19
     },
     {
       "id": 19,
@@ -207,8 +381,9 @@
       "author": "Alan Dean Foster",
       "releaseDate": "2002-02-02",
       "type": "novel",
-      "next": 20,
-      "era": "Rise of the Empire"
+      "bought": true,
+      "era": "Rise of the Empire",
+      "next": 20
     },
     {
       "id": 20,
@@ -217,8 +392,9 @@
       "author": "R.A. Salvatore",
       "releaseDate": "2002-04-01",
       "type": "novel",
-      "next": 162,
-      "era": "Rise of the Empire"
+      "bought": true,
+      "era": "Rise of the Empire",
+      "next": 162
     },
     {
       "id": 162,
@@ -227,8 +403,9 @@
       "author": "",
       "releaseDate": "2002-11-01",
       "type": "vhs",
-      "next": 165,
-      "era": "Rise of the Empire"
+      "bought": true,
+      "era": "Rise of the Empire",
+      "next": 165
     },
     {
       "id": 165,
@@ -237,8 +414,9 @@
       "author": "",
       "releaseDate": "2002-11-01",
       "type": "dvd",
-      "next": 21,
-      "era": "Rise of the Empire"
+      "bought": true,
+      "era": "Rise of the Empire",
+      "next": 21
     },
     {
       "id": 21,
@@ -247,8 +425,9 @@
       "author": "Karen Traviss",
       "releaseDate": "2008-07-01",
       "type": "novel",
-      "next": 22,
-      "era": "Rise of the Empire"
+      "bought": true,
+      "era": "Rise of the Empire",
+      "next": 22
     },
     {
       "id": 22,
@@ -257,8 +436,9 @@
       "author": "Karen Miller",
       "releaseDate": "2008-12-01",
       "type": "novel",
-      "next": 23,
-      "era": "Rise of the Empire"
+      "bought": true,
+      "era": "Rise of the Empire",
+      "next": 23
     },
     {
       "id": 23,
@@ -267,8 +447,9 @@
       "author": "Karen Traviss",
       "releaseDate": "2009-05-01",
       "type": "novel",
-      "next": 24,
-      "era": "Rise of the Empire"
+      "bought": true,
+      "era": "Rise of the Empire",
+      "next": 24
     },
     {
       "id": 24,
@@ -277,8 +458,9 @@
       "author": "Karen Miller",
       "releaseDate": "2010-02-01",
       "type": "novel",
-      "next": 25,
-      "era": "Rise of the Empire"
+      "bought": true,
+      "era": "Rise of the Empire",
+      "next": 25
     },
     {
       "id": 25,
@@ -287,8 +469,20 @@
       "author": "Karen Miller",
       "releaseDate": "2010-07-01",
       "type": "novel",
-      "next": 26,
-      "era": "Rise of the Empire"
+      "bought": true,
+      "era": "Rise of the Empire",
+      "next": 280
+    },
+    {
+      "id": 280,
+      "series": "Legends Epic Collection",
+      "title": "The Clone Wars Vol. 1",
+      "author": "",
+      "releaseDate": "2017-01-10",
+      "type": "comic",
+      "bought": true,
+      "era": "Rise of the Empire",
+      "next": 26
     },
     {
       "id": 26,
@@ -297,8 +491,9 @@
       "author": "Karen Traviss",
       "releaseDate": "2004-11-01",
       "type": "novel",
-      "next": 27,
-      "era": "Rise of the Empire"
+      "bought": true,
+      "era": "Rise of the Empire",
+      "next": 27
     },
     {
       "id": 27,
@@ -307,8 +502,20 @@
       "author": "Karen Traviss",
       "releaseDate": "2006-02-02",
       "type": "novel",
-      "next": 28,
-      "era": "Rise of the Empire"
+      "bought": true,
+      "era": "Rise of the Empire",
+      "next": 281
+    },
+    {
+      "id": 281,
+      "series": "Legends Epic Collection",
+      "title": "The Clone Wars Vol. 2",
+      "author": "",
+      "releaseDate": "2018-04-03",
+      "type": "comic",
+      "bought": true,
+      "era": "Rise of the Empire",
+      "next": 28
     },
     {
       "id": 28,
@@ -317,8 +524,9 @@
       "author": "Karen Traviss",
       "releaseDate": "2007-10-02",
       "type": "novel",
-      "next": 29,
-      "era": "Rise of the Empire"
+      "bought": true,
+      "era": "Rise of the Empire",
+      "next": 29
     },
     {
       "id": 29,
@@ -327,8 +535,9 @@
       "author": "Karen Traviss",
       "releaseDate": "2008-09-01",
       "type": "novel",
-      "next": 30,
-      "era": "Rise of the Empire"
+      "bought": true,
+      "era": "Rise of the Empire",
+      "next": 30
     },
     {
       "id": 30,
@@ -337,8 +546,9 @@
       "author": "Matthew Stover",
       "releaseDate": "2003-06-01",
       "type": "novel",
-      "next": 31,
-      "era": "Rise of the Empire"
+      "bought": true,
+      "era": "Rise of the Empire",
+      "next": 31
     },
     {
       "id": 31,
@@ -347,8 +557,9 @@
       "author": "Steven Barnes",
       "releaseDate": "2004-06-01",
       "type": "novel",
-      "next": 32,
-      "era": "Rise of the Empire"
+      "bought": true,
+      "era": "Rise of the Empire",
+      "next": 32
     },
     {
       "id": 32,
@@ -357,8 +568,9 @@
       "author": "Michael Reaves, Steve Perry",
       "releaseDate": "2004-07-01",
       "type": "novel",
-      "next": 33,
-      "era": "Rise of the Empire"
+      "bought": true,
+      "era": "Rise of the Empire",
+      "next": 33
     },
     {
       "id": 33,
@@ -367,8 +579,31 @@
       "author": "Michael Reaves, Steve Perry",
       "releaseDate": "2004-10-01",
       "type": "novel",
-      "next": 34,
-      "era": "Rise of the Empire"
+      "bought": true,
+      "era": "Rise of the Empire",
+      "next": 282
+    },
+    {
+      "id": 282,
+      "series": "Legends Epic Collection",
+      "title": "The Clone Wars Vol. 3",
+      "author": "",
+      "releaseDate": "2020-04-07",
+      "type": "comic",
+      "bought": true,
+      "era": "Rise of the Empire",
+      "next": 283
+    },
+    {
+      "id": 283,
+      "series": "Legends Epic Collection",
+      "title": "The Clone Wars Vol. 4",
+      "author": "",
+      "releaseDate": "2022-08-09",
+      "type": "comic",
+      "bought": true,
+      "era": "Rise of the Empire",
+      "next": 34
     },
     {
       "id": 34,
@@ -377,8 +612,9 @@
       "author": "David Sherman, Dan Cragg",
       "releaseDate": "2004-10-02",
       "type": "novel",
-      "next": 35,
-      "era": "Rise of the Empire"
+      "bought": true,
+      "era": "Rise of the Empire",
+      "next": 35
     },
     {
       "id": 35,
@@ -387,8 +623,9 @@
       "author": "Sean Stewart",
       "releaseDate": "2004-12-01",
       "type": "novel",
-      "next": 36,
-      "era": "Rise of the Empire"
+      "bought": true,
+      "era": "Rise of the Empire",
+      "next": 36
     },
     {
       "id": 36,
@@ -397,18 +634,20 @@
       "author": "James Luceno",
       "releaseDate": "2005-02-01",
       "type": "novel",
-      "next": 37,
-      "era": "Rise of the Empire"
+      "bought": true,
+      "era": "Rise of the Empire",
+      "next": 37
     },
     {
       "id": 37,
       "series": "Star Wars",
       "title": "Episode III: Revenge of the Sith",
       "author": "Matthew Stover",
-      "type": "novel",
       "releaseDate": "2005-04-01",
-      "next": 163,
-      "era": "Rise of the Empire"
+      "type": "novel",
+      "bought": true,
+      "era": "Rise of the Empire",
+      "next": 163
     },
     {
       "id": 163,
@@ -417,8 +656,9 @@
       "author": "",
       "releaseDate": "2005-11-01",
       "type": "vhs",
-      "next": 166,
-      "era": "Rise of the Empire"
+      "bought": true,
+      "era": "Rise of the Empire",
+      "next": 166
     },
     {
       "id": 166,
@@ -427,8 +667,20 @@
       "author": "",
       "releaseDate": "2005-11-01",
       "type": "dvd",
-      "next": 38,
-      "era": "Rise of the Empire"
+      "bought": true,
+      "era": "Rise of the Empire",
+      "next": 284
+    },
+    {
+      "id": 284,
+      "series": "Legends Epic Collection",
+      "title": "The Empire Vol. 1",
+      "author": "",
+      "releaseDate": "2015-04-28",
+      "type": "comic",
+      "bought": true,
+      "era": "Rise of the Empire",
+      "next": 38
     },
     {
       "id": 38,
@@ -437,8 +689,9 @@
       "author": "John Jackson Miller",
       "releaseDate": "2013-08-27",
       "type": "novel",
-      "next": 39,
-      "era": "Rise of the Empire"
+      "bought": true,
+      "era": "Rise of the Empire",
+      "next": 39
     },
     {
       "id": 39,
@@ -447,8 +700,9 @@
       "author": "James Luceno",
       "releaseDate": "2005-11-01",
       "type": "novel",
-      "next": 40,
-      "era": "Rise of the Empire"
+      "bought": true,
+      "era": "Rise of the Empire",
+      "next": 40
     },
     {
       "id": 40,
@@ -457,8 +711,9 @@
       "author": "Karen Traviss",
       "releaseDate": "2009-10-02",
       "type": "novel",
-      "next": 41,
-      "era": "Rise of the Empire"
+      "bought": true,
+      "era": "Rise of the Empire",
+      "next": 41
     },
     {
       "id": 41,
@@ -467,8 +722,31 @@
       "author": "Michael Reaves",
       "releaseDate": "2008-06-01",
       "type": "novel",
-      "next": 42,
-      "era": "Rise of the Empire"
+      "bought": true,
+      "era": "Rise of the Empire",
+      "next": 285
+    },
+    {
+      "id": 285,
+      "series": "Legends Epic Collection",
+      "title": "The Empire Vol. 2",
+      "author": "",
+      "releaseDate": "2015-11-03",
+      "type": "comic",
+      "bought": true,
+      "era": "Rise of the Empire",
+      "next": 286
+    },
+    {
+      "id": 286,
+      "series": "Legends Epic Collection",
+      "title": "The Empire Vol. 3",
+      "author": "",
+      "releaseDate": "2017-02-21",
+      "type": "comic",
+      "bought": true,
+      "era": "Rise of the Empire",
+      "next": 42
     },
     {
       "id": 42,
@@ -477,8 +755,9 @@
       "author": "Michael Reaves",
       "releaseDate": "2008-08-02",
       "type": "novel",
-      "next": 43,
-      "era": "Rise of the Empire"
+      "bought": true,
+      "era": "Rise of the Empire",
+      "next": 43
     },
     {
       "id": 43,
@@ -487,8 +766,20 @@
       "author": "Michael Reaves",
       "releaseDate": "2009-01-01",
       "type": "novel",
-      "next": 44,
-      "era": "Rise of the Empire"
+      "bought": true,
+      "era": "Rise of the Empire",
+      "next": 287
+    },
+    {
+      "id": 287,
+      "series": "Legends Epic Collection",
+      "title": "The Original Marvel Years - Droids & Ewoks",
+      "author": "",
+      "releaseDate": "2024-12-31",
+      "type": "comic",
+      "bought": false,
+      "era": "Rise of the Empire",
+      "next": 44
     },
     {
       "id": 44,
@@ -497,8 +788,9 @@
       "author": "Michael Reaves",
       "releaseDate": "2013-02-28",
       "type": "novel",
-      "next": 45,
-      "era": "Rise of the Empire"
+      "bought": true,
+      "era": "Rise of the Empire",
+      "next": 45
     },
     {
       "id": 45,
@@ -507,8 +799,31 @@
       "author": "A.C Crispin",
       "releaseDate": "1997-07-01",
       "type": "novel",
-      "next": 46,
-      "era": "Rise of the Empire"
+      "bought": true,
+      "era": "Rise of the Empire",
+      "next": 288
+    },
+    {
+      "id": 288,
+      "series": "Legends Epic Collection",
+      "title": "The Empire Vol. 4",
+      "author": "",
+      "releaseDate": "2018-05-23",
+      "type": "comic",
+      "bought": true,
+      "era": "Rise of the Empire",
+      "next": 289
+    },
+    {
+      "id": 289,
+      "series": "Legends Epic Collection",
+      "title": "The Empire Vol. 5",
+      "author": "",
+      "releaseDate": "2019-05-07",
+      "type": "comic",
+      "bought": true,
+      "era": "Rise of the Empire",
+      "next": 46
     },
     {
       "id": 46,
@@ -517,8 +832,9 @@
       "author": "A.C Crispin",
       "releaseDate": "1997-09-01",
       "type": "novel",
-      "next": 47,
-      "era": "Rise of the Empire"
+      "bought": true,
+      "era": "Rise of the Empire",
+      "next": 47
     },
     {
       "id": 47,
@@ -527,8 +843,9 @@
       "author": "A.C Crispin",
       "releaseDate": "1998-03-01",
       "type": "novel",
-      "next": 48,
-      "era": "Rise of the Empire"
+      "bought": true,
+      "era": "Rise of the Empire",
+      "next": 48
     },
     {
       "id": 48,
@@ -537,8 +854,9 @@
       "author": "L. Neil Smith",
       "releaseDate": "1983-07-01",
       "type": "novel",
-      "next": 49,
-      "era": "Rise of the Empire"
+      "bought": true,
+      "era": "Rise of the Empire",
+      "next": 49
     },
     {
       "id": 49,
@@ -547,8 +865,9 @@
       "author": "L. Neil Smith",
       "releaseDate": "1983-10-01",
       "type": "novel",
-      "next": 50,
-      "era": "Rise of the Empire"
+      "bought": true,
+      "era": "Rise of the Empire",
+      "next": 50
     },
     {
       "id": 50,
@@ -557,8 +876,9 @@
       "author": "L. Neil Smith",
       "releaseDate": "1983-12-01",
       "type": "novel",
-      "next": 51,
-      "era": "Rise of the Empire"
+      "bought": true,
+      "era": "Rise of the Empire",
+      "next": 51
     },
     {
       "id": 51,
@@ -567,8 +887,20 @@
       "author": "Sean Williams",
       "releaseDate": "2008-08-01",
       "type": "novel",
-      "next": 52,
-      "era": "Rise of the Empire"
+      "bought": true,
+      "era": "Rise of the Empire",
+      "next": 290
+    },
+    {
+      "id": 290,
+      "series": "Legends Epic Collection",
+      "title": "The Empire Vol. 6",
+      "author": "",
+      "releaseDate": "2020-09-16",
+      "type": "comic",
+      "bought": true,
+      "era": "Rise of the Empire",
+      "next": 52
     },
     {
       "id": 52,
@@ -577,8 +909,9 @@
       "author": "Brian Daley",
       "releaseDate": "1979-04-01",
       "type": "novel",
-      "next": 53,
-      "era": "Rise of the Empire"
+      "bought": true,
+      "era": "Rise of the Empire",
+      "next": 53
     },
     {
       "id": 53,
@@ -587,8 +920,20 @@
       "author": "Brian Daley",
       "releaseDate": "1979-11-01",
       "type": "novel",
-      "next": 54,
-      "era": "Rise of the Empire"
+      "bought": true,
+      "era": "Rise of the Empire",
+      "next": 291
+    },
+    {
+      "id": 291,
+      "series": "Legends Epic Collection",
+      "title": "The Empire Vol. 7",
+      "author": "",
+      "releaseDate": "2022-09-06",
+      "type": "comic",
+      "bought": true,
+      "era": "Rise of the Empire",
+      "next": 54
     },
     {
       "id": 54,
@@ -597,8 +942,9 @@
       "author": "Brian Daley",
       "releaseDate": "1980-09-01",
       "type": "novel",
-      "next": 55,
-      "era": "Rise of the Empire"
+      "bought": true,
+      "era": "Rise of the Empire",
+      "next": 55
     },
     {
       "id": 55,
@@ -607,8 +953,20 @@
       "author": "Joe Schreiber",
       "releaseDate": "2009-10-01",
       "type": "novel",
-      "next": 56,
-      "era": "Rise of the Empire"
+      "bought": true,
+      "era": "Rise of the Empire",
+      "next": 292
+    },
+    {
+      "id": 292,
+      "series": "Legends Epic Collection",
+      "title": "The Empire Vol. 8",
+      "author": "",
+      "releaseDate": "2023-11-14",
+      "type": "comic",
+      "bought": true,
+      "era": "Rise of the Empire",
+      "next": 56
     },
     {
       "id": 56,
@@ -617,8 +975,9 @@
       "author": "Sean Williams",
       "releaseDate": "2010-10-01",
       "type": "novel",
-      "next": 57,
-      "era": "Rise of the Empire"
+      "bought": true,
+      "era": "Rise of the Empire",
+      "next": 57
     },
     {
       "id": 57,
@@ -627,8 +986,9 @@
       "author": "Michael Reaves, Steve Perry",
       "releaseDate": "2007-10-01",
       "type": "novel",
-      "next": 58,
-      "era": "Rise of the Empire"
+      "bought": true,
+      "era": "Rise of the Empire",
+      "next": 58
     },
     {
       "id": 58,
@@ -637,8 +997,9 @@
       "author": "Michael Reaves",
       "releaseDate": "2011-12-01",
       "type": "novel",
-      "next": 59,
-      "era": "Rise of the Empire"
+      "bought": true,
+      "era": "Rise of the Empire",
+      "next": 59
     },
     {
       "id": 59,
@@ -647,28 +1008,64 @@
       "author": "George Lucas",
       "releaseDate": "1976-12-01",
       "type": "novel",
-      "next": 158,
-      "era": "The Rebellion"
+      "bought": true,
+      "era": "The Rebellion",
+      "next": 158
     },
     {
       "id": 158,
       "series": "Star Wars",
       "title": "Episode IV: A New Hope",
-      "releaseDate": "1995-06-16",
       "author": "",
+      "releaseDate": "1995-06-16",
       "type": "vhs",
-      "next": 167,
-      "era": "The Rebellion"
+      "bought": true,
+      "era": "The Rebellion",
+      "next": 167
     },
     {
       "id": 167,
       "series": "Star Wars",
       "title": "Episode IV: A New Hope",
-      "releaseDate": "2004-09-21",
       "author": "",
+      "releaseDate": "2004-09-21",
       "type": "dvd",
-      "next": 60,
-      "era": "The Rebellion"
+      "bought": true,
+      "era": "The Rebellion",
+      "next": 293
+    },
+    {
+      "id": 293,
+      "series": "Legends Epic Collection",
+      "title": "The Rebellion Vol. 1",
+      "author": "",
+      "releaseDate": "2016-07-12",
+      "type": "comic",
+      "bought": true,
+      "era": "The Rebellion",
+      "next": 294
+    },
+    {
+      "id": 294,
+      "series": "Legends Epic Collection",
+      "title": "The Rebellion Vol. 2",
+      "author": "",
+      "releaseDate": "2017-05-23",
+      "type": "comic",
+      "bought": true,
+      "era": "The Rebellion",
+      "next": 295
+    },
+    {
+      "id": 295,
+      "series": "Legends Epic Collection",
+      "title": "The Rebellion Vol. 3",
+      "author": "",
+      "releaseDate": "2019-06-04",
+      "type": "comic",
+      "bought": true,
+      "era": "The Rebellion",
+      "next": 60
     },
     {
       "id": 60,
@@ -677,8 +1074,9 @@
       "author": "Various",
       "releaseDate": "1995-07-01",
       "type": "novel",
-      "next": 61,
-      "era": "The Rebellion"
+      "bought": true,
+      "era": "The Rebellion",
+      "next": 61
     },
     {
       "id": 61,
@@ -687,8 +1085,9 @@
       "author": "Various",
       "releaseDate": "1997-11-01",
       "type": "novel",
-      "next": 62,
-      "era": "The Rebellion"
+      "bought": true,
+      "era": "The Rebellion",
+      "next": 62
     },
     {
       "id": 62,
@@ -697,8 +1096,9 @@
       "author": "Various",
       "releaseDate": "1999-12-01",
       "type": "novel",
-      "next": 63,
-      "era": "The Rebellion"
+      "bought": true,
+      "era": "The Rebellion",
+      "next": 63
     },
     {
       "id": 63,
@@ -707,8 +1107,9 @@
       "author": "Timothy Zahn",
       "releaseDate": "2013-08-01",
       "type": "novel",
-      "next": 64,
-      "era": "The Rebellion"
+      "bought": true,
+      "era": "The Rebellion",
+      "next": 64
     },
     {
       "id": 64,
@@ -717,8 +1118,9 @@
       "author": "Timothy Zahn",
       "releaseDate": "2007-02-01",
       "type": "novel",
-      "next": 65,
-      "era": "The Rebellion"
+      "bought": true,
+      "era": "The Rebellion",
+      "next": 65
     },
     {
       "id": 65,
@@ -727,8 +1129,20 @@
       "author": "Timothy Zahn",
       "releaseDate": "2011-08-02",
       "type": "novel",
-      "next": 66,
-      "era": "The Rebellion"
+      "bought": true,
+      "era": "The Rebellion",
+      "next": 296
+    },
+    {
+      "id": 296,
+      "series": "Legends Epic Collection",
+      "title": "The Rebellion Vol. 4",
+      "author": "",
+      "releaseDate": "2020-09-01",
+      "type": "comic",
+      "bought": true,
+      "era": "The Rebellion",
+      "next": 66
     },
     {
       "id": 66,
@@ -737,8 +1151,9 @@
       "author": "James S. A. Corey",
       "releaseDate": "2014-03-04",
       "type": "novel",
-      "next": 67,
-      "era": "The Rebellion"
+      "bought": true,
+      "era": "The Rebellion",
+      "next": 67
     },
     {
       "id": 67,
@@ -747,8 +1162,9 @@
       "author": "Veronica Whitney-Robinson, Haden Blackman",
       "releaseDate": "2004-01-01",
       "type": "novel",
-      "next": 68,
-      "era": "The Rebellion"
+      "bought": true,
+      "era": "The Rebellion",
+      "next": 68
     },
     {
       "id": 68,
@@ -757,8 +1173,20 @@
       "author": "Alan Dean Foster",
       "releaseDate": "1978-04-01",
       "type": "novel",
-      "next": 69,
-      "era": "The Rebellion"
+      "bought": true,
+      "era": "The Rebellion",
+      "next": 297
+    },
+    {
+      "id": 297,
+      "series": "Legends Epic Collection",
+      "title": "The Rebellion Vol. 5",
+      "author": "",
+      "releaseDate": "2022-12-13",
+      "type": "comic",
+      "bought": true,
+      "era": "The Rebellion",
+      "next": 69
     },
     {
       "id": 69,
@@ -767,8 +1195,9 @@
       "author": "Martha Wells",
       "releaseDate": "2013-12-15",
       "type": "novel",
-      "next": 70,
-      "era": "The Rebellion"
+      "bought": true,
+      "era": "The Rebellion",
+      "next": 70
     },
     {
       "id": 70,
@@ -777,28 +1206,31 @@
       "author": "Donald F. Glut",
       "releaseDate": "1980-05-01",
       "type": "novel",
-      "next": 159,
-      "era": "The Rebellion"
+      "bought": true,
+      "era": "The Rebellion",
+      "next": 159
     },
     {
       "id": 159,
       "series": "Star Wars",
       "title": "Episode V: The Empire Strikes Back",
-      "releaseDate": "1995-06-16",
       "author": "",
+      "releaseDate": "1995-06-16",
       "type": "vhs",
-      "next": 168,
-      "era": "The Rebellion"
+      "bought": true,
+      "era": "The Rebellion",
+      "next": 168
     },
     {
       "id": 168,
       "series": "Star Wars",
       "title": "Episode V: The Empire Strikes Back",
-      "releaseDate": "2004-09-21",
       "author": "",
+      "releaseDate": "2004-09-21",
       "type": "dvd",
-      "next": 71,
-      "era": "The Rebellion"
+      "bought": true,
+      "era": "The Rebellion",
+      "next": 71
     },
     {
       "id": 71,
@@ -807,8 +1239,9 @@
       "author": "Various",
       "releaseDate": "1996-12-02",
       "type": "novel",
-      "next": 72,
-      "era": "The Rebellion"
+      "bought": true,
+      "era": "The Rebellion",
+      "next": 72
     },
     {
       "id": 72,
@@ -817,8 +1250,20 @@
       "author": "Steve Perry",
       "releaseDate": "1996-05-01",
       "type": "novel",
-      "next": 73,
-      "era": "The Rebellion"
+      "bought": true,
+      "era": "The Rebellion",
+      "next": 298
+    },
+    {
+      "id": 298,
+      "series": "Legends Epic Collection",
+      "title": "The Rebellion Vol. 6",
+      "author": "",
+      "releaseDate": "2024-09-24",
+      "type": "comic",
+      "bought": false,
+      "era": "The Rebellion",
+      "next": 73
     },
     {
       "id": 73,
@@ -827,8 +1272,9 @@
       "author": "James Kahn",
       "releaseDate": "1983-06-01",
       "type": "novel",
-      "next": 160,
-      "era": "The Rebellion"
+      "bought": true,
+      "era": "The Rebellion",
+      "next": 160
     },
     {
       "id": 160,
@@ -837,8 +1283,9 @@
       "author": "",
       "releaseDate": "1995-06-16",
       "type": "vhs",
-      "next": 169,
-      "era": "The Rebellion"
+      "bought": true,
+      "era": "The Rebellion",
+      "next": 169
     },
     {
       "id": 169,
@@ -847,8 +1294,20 @@
       "author": "",
       "releaseDate": "2004-09-21",
       "type": "dvd",
-      "next": 74,
-      "era": "The Rebellion"
+      "bought": true,
+      "era": "The Rebellion",
+      "next": 299
+    },
+    {
+      "id": 299,
+      "series": "Legends Epic Collection",
+      "title": "The New Republic Vol. 1",
+      "author": "",
+      "releaseDate": "2015-05-13",
+      "type": "comic",
+      "bought": true,
+      "era": "The Rebellion",
+      "next": 74
     },
     {
       "id": 74,
@@ -857,8 +1316,9 @@
       "author": "Various",
       "releaseDate": "1996-01-01",
       "type": "novel",
-      "next": 75,
-      "era": "The Rebellion"
+      "bought": true,
+      "era": "The Rebellion",
+      "next": 75
     },
     {
       "id": 75,
@@ -867,8 +1327,9 @@
       "author": "K.W. Jeter",
       "releaseDate": "1998-06-01",
       "type": "novel",
-      "next": 76,
-      "era": "The Rebellion"
+      "bought": true,
+      "era": "The Rebellion",
+      "next": 76
     },
     {
       "id": 76,
@@ -877,8 +1338,9 @@
       "author": "K.W. Jeter",
       "releaseDate": "1998-10-01",
       "type": "novel",
-      "next": 77,
-      "era": "The Rebellion"
+      "bought": true,
+      "era": "The Rebellion",
+      "next": 77
     },
     {
       "id": 77,
@@ -887,8 +1349,9 @@
       "author": "K.W. Jeter",
       "releaseDate": "1999-07-01",
       "type": "novel",
-      "next": 78,
-      "era": "The Rebellion"
+      "bought": true,
+      "era": "The Rebellion",
+      "next": 78
     },
     {
       "id": 78,
@@ -897,8 +1360,31 @@
       "author": "Kathy Tyers",
       "releaseDate": "1994-01-01",
       "type": "novel",
-      "next": 79,
-      "era": "The Rebellion"
+      "bought": true,
+      "era": "The Rebellion",
+      "next": 300
+    },
+    {
+      "id": 300,
+      "series": "Legends Epic Collection",
+      "title": "The New Republic Vol. 2",
+      "author": "",
+      "releaseDate": "2016-04-05",
+      "type": "comic",
+      "bought": true,
+      "era": "The New Republic",
+      "next": 301
+    },
+    {
+      "id": 301,
+      "series": "Legends Epic Collection",
+      "title": "The New Republic Vol. 3",
+      "author": "",
+      "releaseDate": "2017-12-19",
+      "type": "comic",
+      "bought": true,
+      "era": "The New Republic",
+      "next": 79
     },
     {
       "id": 79,
@@ -907,8 +1393,9 @@
       "author": "Matthew Stover",
       "releaseDate": "2008-12-02",
       "type": "novel",
-      "next": 80,
-      "era": "The New Republic"
+      "bought": true,
+      "era": "The New Republic",
+      "next": 80
     },
     {
       "id": 80,
@@ -917,8 +1404,9 @@
       "author": "Michael A Stackpole",
       "releaseDate": "1996-02-01",
       "type": "novel",
-      "next": 81,
-      "era": "The New Republic"
+      "bought": true,
+      "era": "The New Republic",
+      "next": 81
     },
     {
       "id": 81,
@@ -927,8 +1415,9 @@
       "author": "Michael A Stackpole",
       "releaseDate": "1996-06-01",
       "type": "novel",
-      "next": 82,
-      "era": "The New Republic"
+      "bought": true,
+      "era": "The New Republic",
+      "next": 82
     },
     {
       "id": 82,
@@ -937,8 +1426,9 @@
       "author": "Michael A Stackpole",
       "releaseDate": "1996-10-01",
       "type": "novel",
-      "next": 83,
-      "era": "The New Republic"
+      "bought": true,
+      "era": "The New Republic",
+      "next": 83
     },
     {
       "id": 83,
@@ -947,8 +1437,9 @@
       "author": "Michael A Stackpole",
       "releaseDate": "1997-02-01",
       "type": "novel",
-      "next": 84,
-      "era": "The New Republic"
+      "bought": true,
+      "era": "The New Republic",
+      "next": 84
     },
     {
       "id": 84,
@@ -957,8 +1448,9 @@
       "author": "Aaron Allston",
       "releaseDate": "1998-02-01",
       "type": "novel",
-      "next": 85,
-      "era": "The New Republic"
+      "bought": true,
+      "era": "The New Republic",
+      "next": 85
     },
     {
       "id": 85,
@@ -967,8 +1459,9 @@
       "author": "Aaron Allston",
       "releaseDate": "1998-07-01",
       "type": "novel",
-      "next": 86,
-      "era": "The New Republic"
+      "bought": true,
+      "era": "The New Republic",
+      "next": 86
     },
     {
       "id": 86,
@@ -977,8 +1470,9 @@
       "author": "Aaron Allston",
       "releaseDate": "1999-02-01",
       "type": "novel",
-      "next": 87,
-      "era": "The New Republic"
+      "bought": true,
+      "era": "The New Republic",
+      "next": 87
     },
     {
       "id": 87,
@@ -987,8 +1481,9 @@
       "author": "Dave Wolverton",
       "releaseDate": "1994-05-01",
       "type": "novel",
-      "next": 88,
-      "era": "The New Republic"
+      "bought": true,
+      "era": "The New Republic",
+      "next": 88
     },
     {
       "id": 88,
@@ -997,8 +1492,9 @@
       "author": "Troy Denning",
       "releaseDate": "2003-03-01",
       "type": "novel",
-      "next": 89,
-      "era": "The New Republic"
+      "bought": true,
+      "era": "The New Republic",
+      "next": 89
     },
     {
       "id": 89,
@@ -1007,8 +1503,20 @@
       "author": "Timothy Zahn",
       "releaseDate": "1991-06-01",
       "type": "novel",
-      "next": 90,
-      "era": "The New Republic"
+      "bought": true,
+      "era": "The New Republic",
+      "next": 302
+    },
+    {
+      "id": 302,
+      "series": "Legends Epic Collection",
+      "title": "The New Republic Vol. 4",
+      "author": "",
+      "releaseDate": "2018-10-30",
+      "type": "comic",
+      "bought": true,
+      "era": "The New Republic",
+      "next": 90
     },
     {
       "id": 90,
@@ -1017,8 +1525,9 @@
       "author": "Timothy Zahn",
       "releaseDate": "1992-06-01",
       "type": "novel",
-      "next": 91,
-      "era": "The New Republic"
+      "bought": true,
+      "era": "The New Republic",
+      "next": 91
     },
     {
       "id": 91,
@@ -1027,8 +1536,9 @@
       "author": "Timothy Zahn",
       "releaseDate": "1993-05-01",
       "type": "novel",
-      "next": 92,
-      "era": "The New Republic"
+      "bought": true,
+      "era": "The New Republic",
+      "next": 92
     },
     {
       "id": 92,
@@ -1037,8 +1547,31 @@
       "author": "Michael A Stackpole",
       "releaseDate": "1999-04-01",
       "type": "novel",
-      "next": 93,
-      "era": "The New Republic"
+      "bought": true,
+      "era": "The New Republic",
+      "next": 303
+    },
+    {
+      "id": 303,
+      "series": "Legends Epic Collection",
+      "title": "The New Republic Vol. 5",
+      "author": "",
+      "releaseDate": "2021-03-23",
+      "type": "comic",
+      "bought": true,
+      "era": "The New Republic",
+      "next": 304
+    },
+    {
+      "id": 304,
+      "series": "Legends Epic Collection",
+      "title": "The New Republic Vol. 6",
+      "author": "",
+      "releaseDate": "2022-10-04",
+      "type": "comic",
+      "bought": true,
+      "era": "The New Republic",
+      "next": 93
     },
     {
       "id": 93,
@@ -1047,8 +1580,9 @@
       "author": "Kevin J Anderson",
       "releaseDate": "1994-04-01",
       "type": "novel",
-      "next": 94,
-      "era": "The New Republic"
+      "bought": true,
+      "era": "The New Republic",
+      "next": 94
     },
     {
       "id": 94,
@@ -1057,8 +1591,9 @@
       "author": "Kevin J Anderson",
       "releaseDate": "1994-07-01",
       "type": "novel",
-      "next": 95,
-      "era": "The New Republic"
+      "bought": true,
+      "era": "The New Republic",
+      "next": 95
     },
     {
       "id": 95,
@@ -1067,8 +1602,9 @@
       "author": "Kevin J Anderson",
       "releaseDate": "1994-10-01",
       "type": "novel",
-      "next": 96,
-      "era": "The New Republic"
+      "bought": true,
+      "era": "The New Republic",
+      "next": 96
     },
     {
       "id": 96,
@@ -1077,8 +1613,9 @@
       "author": "Michael A Stackpole",
       "releaseDate": "1998-05-01",
       "type": "novel",
-      "next": 97,
-      "era": "The New Republic"
+      "bought": true,
+      "era": "The New Republic",
+      "next": 97
     },
     {
       "id": 97,
@@ -1087,8 +1624,9 @@
       "author": "Barbara Hambly",
       "releaseDate": "1995-05-01",
       "type": "novel",
-      "next": 98,
-      "era": "The New Republic"
+      "bought": true,
+      "era": "The New Republic",
+      "next": 98
     },
     {
       "id": 98,
@@ -1097,8 +1635,9 @@
       "author": "Kevin J Anderson",
       "releaseDate": "1995-11-01",
       "type": "novel",
-      "next": 99,
-      "era": "The New Republic"
+      "bought": true,
+      "era": "The New Republic",
+      "next": 99
     },
     {
       "id": 99,
@@ -1107,8 +1646,20 @@
       "author": "Barbara Hambly",
       "releaseDate": "1997-03-01",
       "type": "novel",
-      "next": 100,
-      "era": "The New Republic"
+      "bought": true,
+      "era": "The New Republic",
+      "next": 305
+    },
+    {
+      "id": 305,
+      "series": "Legends Epic Collection",
+      "title": "The New Republic Vol. 7",
+      "author": "",
+      "releaseDate": "2023-12-05",
+      "type": "comic",
+      "bought": true,
+      "era": "The New Republic",
+      "next": 100
     },
     {
       "id": 100,
@@ -1117,8 +1668,9 @@
       "author": "Aaron Allston",
       "releaseDate": "1999-08-01",
       "type": "novel",
-      "next": 101,
-      "era": "The New Republic"
+      "bought": true,
+      "era": "The New Republic",
+      "next": 101
     },
     {
       "id": 101,
@@ -1127,8 +1679,9 @@
       "author": "Vonda N. McIntyre",
       "releaseDate": "1994-12-01",
       "type": "novel",
-      "next": 102,
-      "era": "The New Republic"
+      "bought": true,
+      "era": "The New Republic",
+      "next": 102
     },
     {
       "id": 102,
@@ -1137,8 +1690,9 @@
       "author": "Michael P. Kube-McDowell",
       "releaseDate": "1996-04-01",
       "type": "novel",
-      "next": 103,
-      "era": "The New Republic"
+      "bought": true,
+      "era": "The New Republic",
+      "next": 103
     },
     {
       "id": 103,
@@ -1147,8 +1701,9 @@
       "author": "Michael P. Kube-McDowell",
       "releaseDate": "1996-09-01",
       "type": "novel",
-      "next": 104,
-      "era": "The New Republic"
+      "bought": true,
+      "era": "The New Republic",
+      "next": 104
     },
     {
       "id": 104,
@@ -1157,8 +1712,9 @@
       "author": "Michael P. Kube-McDowell",
       "releaseDate": "1997-01-01",
       "type": "novel",
-      "next": 105,
-      "era": "The New Republic"
+      "bought": true,
+      "era": "The New Republic",
+      "next": 105
     },
     {
       "id": 105,
@@ -1167,8 +1723,9 @@
       "author": "Kristine Kathryn Rusch",
       "releaseDate": "1996-12-01",
       "type": "novel",
-      "next": 106,
-      "era": "The New Republic"
+      "bought": true,
+      "era": "The New Republic",
+      "next": 106
     },
     {
       "id": 106,
@@ -1177,8 +1734,9 @@
       "author": "Roger MacBride Allen",
       "releaseDate": "1995-03-01",
       "type": "novel",
-      "next": 107,
-      "era": "The New Republic"
+      "bought": true,
+      "era": "The New Republic",
+      "next": 107
     },
     {
       "id": 107,
@@ -1187,8 +1745,9 @@
       "author": "Roger MacBride Allen",
       "releaseDate": "1995-07-01",
       "type": "novel",
-      "next": 108,
-      "era": "The New Republic"
+      "bought": true,
+      "era": "The New Republic",
+      "next": 108
     },
     {
       "id": 108,
@@ -1197,8 +1756,9 @@
       "author": "Roger MacBride Allen",
       "releaseDate": "1995-10-01",
       "type": "novel",
-      "next": 109,
-      "era": "The New Republic"
+      "bought": true,
+      "era": "The New Republic",
+      "next": 109
     },
     {
       "id": 109,
@@ -1207,8 +1767,9 @@
       "author": "Timothy Zahn",
       "releaseDate": "1997-12-01",
       "type": "novel",
-      "next": 110,
-      "era": "The New Republic"
+      "bought": true,
+      "era": "The New Republic",
+      "next": 110
     },
     {
       "id": 110,
@@ -1217,8 +1778,9 @@
       "author": "Timothy Zahn",
       "releaseDate": "1998-09-01",
       "type": "novel",
-      "next": 111,
-      "era": "The New Republic"
+      "bought": true,
+      "era": "The New Republic",
+      "next": 111
     },
     {
       "id": 111,
@@ -1227,8 +1789,9 @@
       "author": "Jeff Grubb",
       "releaseDate": "2012-04-24",
       "type": "novel",
-      "next": 112,
-      "era": "The New Republic"
+      "bought": true,
+      "era": "The New Republic",
+      "next": 112
     },
     {
       "id": 112,
@@ -1237,8 +1800,9 @@
       "author": "Timothy Zahn",
       "releaseDate": "2004-02-01",
       "type": "novel",
-      "next": 113,
-      "era": "The New Republic"
+      "bought": true,
+      "era": "The New Republic",
+      "next": 113
     },
     {
       "id": 113,
@@ -1247,8 +1811,20 @@
       "author": "R.A. Salvatore",
       "releaseDate": "1999-11-01",
       "type": "novel",
-      "next": 114,
-      "era": "The New Jedi Order"
+      "bought": true,
+      "era": "The New Jedi Order",
+      "next": 306
+    },
+    {
+      "id": 306,
+      "series": "Legends Epic Collection",
+      "title": "The New Republic Vol. 8",
+      "author": "",
+      "releaseDate": "2024-10-29",
+      "type": "comic",
+      "bought": false,
+      "era": "The New Jedi Order",
+      "next": 114
     },
     {
       "id": 114,
@@ -1257,8 +1833,9 @@
       "author": "Michael A Stackpole",
       "releaseDate": "2000-02-01",
       "type": "novel",
-      "next": 115,
-      "era": "The New Jedi Order"
+      "bought": true,
+      "era": "The New Jedi Order",
+      "next": 115
     },
     {
       "id": 115,
@@ -1267,8 +1844,9 @@
       "author": "Michael A Stackpole",
       "releaseDate": "2000-06-01",
       "type": "novel",
-      "next": 116,
-      "era": "The New Jedi Order"
+      "bought": true,
+      "era": "The New Jedi Order",
+      "next": 116
     },
     {
       "id": 116,
@@ -1277,8 +1855,9 @@
       "author": "James Luceno",
       "releaseDate": "2000-08-01",
       "type": "novel",
-      "next": 117,
-      "era": "The New Jedi Order"
+      "bought": true,
+      "era": "The New Jedi Order",
+      "next": 117
     },
     {
       "id": 117,
@@ -1287,8 +1866,9 @@
       "author": "James Luceno",
       "releaseDate": "2000-10-01",
       "type": "novel",
-      "next": 118,
-      "era": "The New Jedi Order"
+      "bought": true,
+      "era": "The New Jedi Order",
+      "next": 118
     },
     {
       "id": 118,
@@ -1297,8 +1877,9 @@
       "author": "Kathy Tyers",
       "releaseDate": "2000-11-01",
       "type": "novel",
-      "next": 119,
-      "era": "The New Jedi Order"
+      "bought": true,
+      "era": "The New Jedi Order",
+      "next": 119
     },
     {
       "id": 119,
@@ -1307,8 +1888,9 @@
       "author": "Greg Keyes",
       "releaseDate": "2001-04-01",
       "type": "novel",
-      "next": 120,
-      "era": "The New Jedi Order"
+      "bought": true,
+      "era": "The New Jedi Order",
+      "next": 120
     },
     {
       "id": 120,
@@ -1317,8 +1899,9 @@
       "author": "Greg Keyes",
       "releaseDate": "2001-08-01",
       "type": "novel",
-      "next": 121,
-      "era": "The New Jedi Order"
+      "bought": true,
+      "era": "The New Jedi Order",
+      "next": 121
     },
     {
       "id": 121,
@@ -1326,8 +1909,10 @@
       "title": "Star by Star",
       "author": "Troy Denning",
       "releaseDate": "2001-11-01",
-      "next": 122,
-      "era": "The New Jedi Order"
+      "type": "",
+      "bought": true,
+      "era": "The New Jedi Order",
+      "next": 122
     },
     {
       "id": 122,
@@ -1336,8 +1921,9 @@
       "author": "Elaine Cunningham",
       "releaseDate": "2002-02-01",
       "type": "novel",
-      "next": 123,
-      "era": "The New Jedi Order"
+      "bought": true,
+      "era": "The New Jedi Order",
+      "next": 123
     },
     {
       "id": 123,
@@ -1346,8 +1932,9 @@
       "author": "Aaron Allston",
       "releaseDate": "2002-04-02",
       "type": "novel",
-      "next": 124,
-      "era": "The New Jedi Order"
+      "bought": true,
+      "era": "The New Jedi Order",
+      "next": 124
     },
     {
       "id": 124,
@@ -1356,8 +1943,9 @@
       "author": "Aaron Allston",
       "releaseDate": "2002-06-01",
       "type": "novel",
-      "next": 125,
-      "era": "The New Jedi Order"
+      "bought": true,
+      "era": "The New Jedi Order",
+      "next": 125
     },
     {
       "id": 125,
@@ -1366,8 +1954,9 @@
       "author": "Matthew Stover",
       "releaseDate": "2002-08-01",
       "type": "novel",
-      "next": 126,
-      "era": "The New Jedi Order"
+      "bought": true,
+      "era": "The New Jedi Order",
+      "next": 126
     },
     {
       "id": 126,
@@ -1376,8 +1965,9 @@
       "author": "Walter Jon Williams",
       "releaseDate": "2002-10-01",
       "type": "novel",
-      "next": 127,
-      "era": "The New Jedi Order"
+      "bought": true,
+      "era": "The New Jedi Order",
+      "next": 127
     },
     {
       "id": 127,
@@ -1386,8 +1976,9 @@
       "author": "Sean Williams, Shane Dix",
       "releaseDate": "2003-02-01",
       "type": "novel",
-      "next": 128,
-      "era": "The New Jedi Order"
+      "bought": true,
+      "era": "The New Jedi Order",
+      "next": 128
     },
     {
       "id": 128,
@@ -1396,8 +1987,9 @@
       "author": "Sean Williams, Shane Dix",
       "releaseDate": "2003-05-01",
       "type": "novel",
-      "next": 129,
-      "era": "The New Jedi Order"
+      "bought": true,
+      "era": "The New Jedi Order",
+      "next": 129
     },
     {
       "id": 129,
@@ -1406,8 +1998,9 @@
       "author": "Sean Williams, Shane Dix",
       "releaseDate": "2003-07-01",
       "type": "novel",
-      "next": 130,
-      "era": "The New Jedi Order"
+      "bought": true,
+      "era": "The New Jedi Order",
+      "next": 130
     },
     {
       "id": 130,
@@ -1416,8 +2009,9 @@
       "author": "Greg Keyes",
       "releaseDate": "2003-10-01",
       "type": "novel",
-      "next": 131,
-      "era": "The New Jedi Order"
+      "bought": true,
+      "era": "The New Jedi Order",
+      "next": 131
     },
     {
       "id": 131,
@@ -1426,8 +2020,9 @@
       "author": "James Luceno",
       "releaseDate": "2003-11-01",
       "type": "novel",
-      "next": 132,
-      "era": "The New Jedi Order"
+      "bought": true,
+      "era": "The New Jedi Order",
+      "next": 132
     },
     {
       "id": 132,
@@ -1436,8 +2031,9 @@
       "author": "Troy Denning",
       "releaseDate": "2005-07-01",
       "type": "novel",
-      "next": 133,
-      "era": "The New Jedi Order"
+      "bought": true,
+      "era": "The New Jedi Order",
+      "next": 133
     },
     {
       "id": 133,
@@ -1446,8 +2042,9 @@
       "author": "Troy Denning",
       "releaseDate": "2005-09-01",
       "type": "novel",
-      "next": 134,
-      "era": "The New Jedi Order"
+      "bought": true,
+      "era": "The New Jedi Order",
+      "next": 134
     },
     {
       "id": 134,
@@ -1456,8 +2053,9 @@
       "author": "Troy Denning",
       "releaseDate": "2005-12-01",
       "type": "novel",
-      "next": 135,
-      "era": "The New Jedi Order"
+      "bought": true,
+      "era": "The New Jedi Order",
+      "next": 135
     },
     {
       "id": 135,
@@ -1466,8 +2064,9 @@
       "author": "Aaron Allston",
       "releaseDate": "2006-06-01",
       "type": "novel",
-      "next": 136,
-      "era": "Legacy"
+      "bought": true,
+      "era": "Legacy",
+      "next": 136
     },
     {
       "id": 136,
@@ -1476,8 +2075,9 @@
       "author": "Karen Miller",
       "releaseDate": "2006-09-01",
       "type": "novel",
-      "next": 137,
-      "era": "Legacy"
+      "bought": true,
+      "era": "Legacy",
+      "next": 137
     },
     {
       "id": 137,
@@ -1486,8 +2086,9 @@
       "author": "Troy Denning",
       "releaseDate": "2006-12-01",
       "type": "novel",
-      "next": 138,
-      "era": "Legacy"
+      "bought": true,
+      "era": "Legacy",
+      "next": 138
     },
     {
       "id": 138,
@@ -1496,8 +2097,9 @@
       "author": "Aaron Allston",
       "releaseDate": "2007-03-01",
       "type": "novel",
-      "next": 139,
-      "era": "Legacy"
+      "bought": true,
+      "era": "Legacy",
+      "next": 139
     },
     {
       "id": 139,
@@ -1506,8 +2108,9 @@
       "author": "Karen Traviss",
       "releaseDate": "2007-06-01",
       "type": "novel",
-      "next": 140,
-      "era": "Legacy"
+      "bought": true,
+      "era": "Legacy",
+      "next": 140
     },
     {
       "id": 140,
@@ -1516,8 +2119,9 @@
       "author": "Troy Denning",
       "releaseDate": "2007-08-01",
       "type": "novel",
-      "next": 141,
-      "era": "Legacy"
+      "bought": true,
+      "era": "Legacy",
+      "next": 141
     },
     {
       "id": 141,
@@ -1526,8 +2130,9 @@
       "author": "Aaron Allston",
       "releaseDate": "2007-11-01",
       "type": "novel",
-      "next": 142,
-      "era": "Legacy"
+      "bought": true,
+      "era": "Legacy",
+      "next": 142
     },
     {
       "id": 142,
@@ -1536,8 +2141,9 @@
       "author": "Karen Traviss",
       "releaseDate": "2008-02-01",
       "type": "novel",
-      "next": 143,
-      "era": "Legacy"
+      "bought": true,
+      "era": "Legacy",
+      "next": 143
     },
     {
       "id": 143,
@@ -1546,8 +2152,9 @@
       "author": "Troy Denning",
       "releaseDate": "2008-05-01",
       "type": "novel",
-      "next": 144,
-      "era": "Legacy"
+      "bought": true,
+      "era": "Legacy",
+      "next": 144
     },
     {
       "id": 144,
@@ -1556,8 +2163,9 @@
       "author": "Paul S Kemp",
       "releaseDate": "2010-01-01",
       "type": "novel",
-      "next": 145,
-      "era": "Legacy"
+      "bought": true,
+      "era": "Legacy",
+      "next": 145
     },
     {
       "id": 145,
@@ -1566,8 +2174,9 @@
       "author": "Paul S Kemp",
       "releaseDate": "2011-10-01",
       "type": "novel",
-      "next": 146,
-      "era": "Legacy"
+      "bought": true,
+      "era": "Legacy",
+      "next": 146
     },
     {
       "id": 146,
@@ -1576,8 +2185,9 @@
       "author": "James Luceno",
       "releaseDate": "2008-10-01",
       "type": "novel",
-      "next": 147,
-      "era": "Legacy"
+      "bought": true,
+      "era": "Legacy",
+      "next": 147
     },
     {
       "id": 147,
@@ -1586,8 +2196,9 @@
       "author": "Aaron Allston",
       "releaseDate": "2009-03-01",
       "type": "novel",
-      "next": 148,
-      "era": "Legacy"
+      "bought": true,
+      "era": "Legacy",
+      "next": 148
     },
     {
       "id": 148,
@@ -1596,8 +2207,9 @@
       "author": "Christie Golden",
       "releaseDate": "2009-06-01",
       "type": "novel",
-      "next": 149,
-      "era": "Legacy"
+      "bought": true,
+      "era": "Legacy",
+      "next": 149
     },
     {
       "id": 149,
@@ -1606,8 +2218,9 @@
       "author": "Troy Denning",
       "releaseDate": "2009-08-01",
       "type": "novel",
-      "next": 150,
-      "era": "Legacy"
+      "bought": true,
+      "era": "Legacy",
+      "next": 150
     },
     {
       "id": 150,
@@ -1616,8 +2229,9 @@
       "author": "Aaron Allston",
       "releaseDate": "2010-03-01",
       "type": "novel",
-      "next": 151,
-      "era": "Legacy"
+      "bought": true,
+      "era": "Legacy",
+      "next": 151
     },
     {
       "id": 151,
@@ -1626,8 +2240,9 @@
       "author": "Christie Golden",
       "releaseDate": "2010-05-01",
       "type": "novel",
-      "next": 152,
-      "era": "Legacy"
+      "bought": true,
+      "era": "Legacy",
+      "next": 152
     },
     {
       "id": 152,
@@ -1636,8 +2251,9 @@
       "author": "Troy Denning",
       "releaseDate": "2010-11-01",
       "type": "novel",
-      "next": 153,
-      "era": "Legacy"
+      "bought": true,
+      "era": "Legacy",
+      "next": 153
     },
     {
       "id": 153,
@@ -1646,8 +2262,9 @@
       "author": "Aaron Allston",
       "releaseDate": "2011-05-01",
       "type": "novel",
-      "next": 154,
-      "era": "Legacy"
+      "bought": true,
+      "era": "Legacy",
+      "next": 154
     },
     {
       "id": 154,
@@ -1656,8 +2273,9 @@
       "author": "Christie Golden",
       "releaseDate": "2011-08-01",
       "type": "novel",
-      "next": 155,
-      "era": "Legacy"
+      "bought": true,
+      "era": "Legacy",
+      "next": 155
     },
     {
       "id": 155,
@@ -1666,8 +2284,9 @@
       "author": "Troy Denning",
       "releaseDate": "2012-04-01",
       "type": "novel",
-      "next": 156,
-      "era": "Legacy"
+      "bought": true,
+      "era": "Legacy",
+      "next": 156
     },
     {
       "id": 156,
@@ -1676,8 +2295,9 @@
       "author": "Aaron Allston",
       "releaseDate": "2012-08-16",
       "type": "novel",
-      "next": 157,
-      "era": "Legacy"
+      "bought": true,
+      "era": "Legacy",
+      "next": 157
     },
     {
       "id": 157,
@@ -1686,8 +2306,64 @@
       "author": "Troy Denning",
       "releaseDate": "2013-08-01",
       "type": "novel",
-      "next": null,
-      "era": "Legacy"
+      "bought": true,
+      "era": "Legacy",
+      "next": 307
+    },
+    {
+      "id": 307,
+      "series": "Legends Epic Collection",
+      "title": "Legacy Vol. 1",
+      "author": "",
+      "releaseDate": "2016-10-11",
+      "type": "comic",
+      "bought": true,
+      "era": "Legacy",
+      "next": 308
+    },
+    {
+      "id": 308,
+      "series": "Legends Epic Collection",
+      "title": "Legacy Vol. 2",
+      "author": "",
+      "releaseDate": "2018-01-30",
+      "type": "comic",
+      "bought": true,
+      "era": "Legacy",
+      "next": 309
+    },
+    {
+      "id": 309,
+      "series": "Legends Epic Collection",
+      "title": "Legacy Vol. 3",
+      "author": "",
+      "releaseDate": "2020-07-21",
+      "type": "comic",
+      "bought": true,
+      "era": "Legacy",
+      "next": 310
+    },
+    {
+      "id": 310,
+      "series": "Legends Epic Collection",
+      "title": "Legacy Vol. 4",
+      "author": "",
+      "releaseDate": "2022-03-15",
+      "type": "comic",
+      "bought": true,
+      "era": "Legacy",
+      "next": 311
+    },
+    {
+      "id": 311,
+      "series": "Legends Epic Collection",
+      "title": "Infinities",
+      "author": "",
+      "releaseDate": "2015-12-29",
+      "type": "comic",
+      "bought": true,
+      "era": "Legacy",
+      "next": null
     }
   ]
 }
