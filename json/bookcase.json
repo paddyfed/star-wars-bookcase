@@ -1032,6 +1032,17 @@
       "type": "dvd",
       "bought": true,
       "era": "The Rebellion",
+      "next": 312
+    },
+    {
+      "id": 312,
+      "series": "Legends Epic Collection",
+      "title": "The Original Marvel Years Vol. 1",
+      "author": "",
+      "releaseDate": "2016-09-08",
+      "type": "comic",
+      "bought": true,
+      "era": "The Rebellion",
       "next": 293
     },
     {
@@ -1118,6 +1129,39 @@
       "author": "Timothy Zahn",
       "releaseDate": "2007-02-01",
       "type": "novel",
+      "bought": true,
+      "era": "The Rebellion",
+      "next": 313
+    },
+    {
+      "id": 313,
+      "series": "Legends Epic Collection",
+      "title": "The Original Marvel Years Vol. 2",
+      "author": "",
+      "releaseDate": "2017-07-25",
+      "type": "comic",
+      "bought": true,
+      "era": "The Rebellion",
+      "next": 318
+    },
+    {
+      "id": 318,
+      "series": "Legends Epic Collection",
+      "title": "The Newspaper Strips Vol. 1",
+      "author": "",
+      "releaseDate": "2017-02-07",
+      "type": "comic",
+      "bought": true,
+      "era": "The Rebellion",
+      "next": 319
+    },
+    {
+      "id": 319,
+      "series": "Legends Epic Collection",
+      "title": "The Newspaper Strips Vol. 2",
+      "author": "",
+      "releaseDate": "2019-07-16",
+      "type": "comic",
       "bought": true,
       "era": "The Rebellion",
       "next": 65
@@ -1230,6 +1274,28 @@
       "type": "dvd",
       "bought": true,
       "era": "The Rebellion",
+      "next": 314
+    },
+    {
+      "id": 314,
+      "series": "Legends Epic Collection",
+      "title": "The Original Marvel Years Vol. 3",
+      "author": "",
+      "releaseDate": "2018-07-31",
+      "type": "comic",
+      "bought": true,
+      "era": "The Rebellion",
+      "next": 315
+    },
+    {
+      "id": 315,
+      "series": "Legends Epic Collection",
+      "title": "The Original Marvel Years Vol. 4",
+      "author": "",
+      "releaseDate": "2019-08-20",
+      "type": "comic",
+      "bought": true,
+      "era": "The Rebellion",
       "next": 71
     },
     {
@@ -1262,6 +1328,17 @@
       "releaseDate": "2024-09-24",
       "type": "comic",
       "bought": false,
+      "era": "The Rebellion",
+      "next": 316
+    },
+    {
+      "id": 316,
+      "series": "Legends Epic Collection",
+      "title": "The Original Marvel Years Vol. 5",
+      "author": "",
+      "releaseDate": "2021-08-17",
+      "type": "comic",
+      "bought": true,
       "era": "The Rebellion",
       "next": 73
     },
@@ -1362,6 +1439,17 @@
       "type": "novel",
       "bought": true,
       "era": "The Rebellion",
+      "next": 317
+    },
+    {
+      "id": 317,
+      "series": "Legends Epic Collection",
+      "title": "The Original Marvel Years Vol. 6",
+      "author": "",
+      "releaseDate": "2023-05-30",
+      "type": "comic",
+      "bought": true,
+      "era": "The New Republic",
       "next": 300
     },
     {
@@ -1909,7 +1997,7 @@
       "title": "Star by Star",
       "author": "Troy Denning",
       "releaseDate": "2001-11-01",
-      "type": "",
+      "type": "novel",
       "bought": true,
       "era": "The New Jedi Order",
       "next": 122
