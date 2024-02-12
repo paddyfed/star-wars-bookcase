@@ -1,6 +1,6 @@
 import { NextResponse } from "next/server";
 import bookcase from "@/json/canonbookcase.json";
-import { bookCaseTimelineOrder } from "@/app/helpers/apiHelpers";
+import bookCaseTimelineOrder from "@/app/helpers/bookCaseTimelineOrder";
 
 const reversedBooks = bookCaseTimelineOrder(bookcase);
 

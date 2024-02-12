@@ -1,6 +1,6 @@
 import { NextResponse } from "next/server";
 import bookcase from "@/json/canonbookcase.json";
-import { bookCaseByAuthor } from "@/app/helpers/apiHelpers";
+import bookCaseByAuthor from "@/app/helpers/bookCaseByAuthor";
 
 const ordered = bookCaseByAuthor(bookcase);
 
