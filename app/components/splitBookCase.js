@@ -56,11 +56,11 @@ export default function SplitBookCase({
       )}
       {showSplit ? (
         <div className={styles.splitBookCases}>
-          {Object.entries(data.bookcase).map(([groupItem, books]) => (
+          {Object.entries(data.bookcase).map(([groupItem, bookcase]) => (
             <div key={groupItem} className={styles.splitBookCase}>
               <BookCaseHeader header={groupItem} />
               <BookCase
-                bookcase={books}
+                bookcase={bookcase}
                 onlyShowBoughtBooks={onlyShowBoughtBooks}
                 showNovels={showNovels}
                 showDvds={showDvds}

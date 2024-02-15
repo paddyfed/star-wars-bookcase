@@ -57,11 +57,13 @@
   color: white;
   height: 420px;
 }
+
 .game {
   background-color: darkslateblue;
   color: white;
   height: 420px;
 }
+
 .comic {
   background-color: #e58948;
   color: black;
@@ -76,16 +78,13 @@
   opacity: 0.75;
   border: 1px dashed white;
 }
+
 .bought {
   opacity: 1;
 }
 
 .title {
   font-weight: bold;
-}
-
-.image {
-  fill: blue;
 }
 
 .splitBookCases {
