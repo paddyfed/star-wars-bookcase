@@ -25,27 +25,21 @@ export default function Book({ book }) {
       `}
     >
       <div>
-        <Image
-          src={StarWarsIcon}
-          width={50}
-          height={100}
-          alt="Star Wars"
-          className={styles.image}
-        />
+        <Image src={StarWarsIcon} width={50} height={100} alt="Star Wars" />
       </div>
       <div className={styles.bookText}>
         <div className={styles.series}>{book.series}</div>
         <div className={styles.title}>{book.title}</div>
         <div className={styles.author}>{book.author}</div>
       </div>
-      {book.type === "vhs" ||
-      book.type === "dvd" ||
-      book.type === "ya" ||
-      book.type === "tv" ||
-      book.type === "game" ||
-      book.type === "comic" ? (
+      {(book.type === "vhs" ||
+        book.type === "dvd" ||
+        book.type === "ya" ||
+        book.type === "tv" ||
+        book.type === "game" ||
+        book.type === "comic") && (
         <i className={styles.type}>{book.type.toUpperCase()}</i>
-      ) : null}
+      )}
     </div>
   );
 }

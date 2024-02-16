@@ -1,5 +1,5 @@
 import SplitBookCase from "@/app/components/splitBookCase";
-import { getData } from "../../helpers/apiHelpers";
+import getApiData from "@/app/helpers/getApiData";
 
 const title = "Canon - By Author";
 
@@ -10,7 +10,7 @@ export const metadata = {
 export default async function Home() {
   const api = `${process.env.API_URL}/books/canon/by-author`;
 
-  const data = await getData(api);
+  const data = await getApiData(api);
 
   return (
     <SplitBookCase

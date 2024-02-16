@@ -1,5 +1,5 @@
 import SplitBookCase from "./components/splitBookCase";
-import { getData } from "./helpers/apiHelpers";
+import getApiData from "./helpers/getApiData";
 
 const title = "Home - Legends - By Timeline";
 
@@ -10,7 +10,7 @@ export const metadata = {
 export default async function Home() {
   const api = `${process.env.API_URL}/books/legends/timeline-order`;
 
-  const data = await getData(api);
+  const data = await getApiData(api);
 
   return (
     <SplitBookCase
