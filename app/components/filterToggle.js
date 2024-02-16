@@ -20,6 +20,8 @@ export default function FilterToggle({
   setShowTv,
   showComic,
   setShowComic,
+  showLegendsEpicCollection,
+  setShowLegendsEpicCollection,
   showReleaseOrErasToggle = true,
 }) {
   return (
@@ -123,6 +125,20 @@ export default function FilterToggle({
         />
         <label htmlFor="switchComic" className={styles.toggleSwitchLabel}>
           Comic
+        </label>
+      </span>
+      <span className={styles.toggleSwitch}>
+        <input
+          type="checkbox"
+          id="switchLegendsEpicCollection"
+          onChange={setShowLegendsEpicCollection}
+          checked={showLegendsEpicCollection}
+        />
+        <label
+          htmlFor="switchLegendsEpicCollection"
+          className={styles.toggleSwitchLabel}
+        >
+          Legends Epic Collection
         </label>
       </span>
     </div>

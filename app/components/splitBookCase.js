@@ -21,6 +21,8 @@ export default function SplitBookCase({
   const [onlyShowBoughtBooks, setOnlyShowBoughtBooks] = useState(false);
   const [showTv, setShowTv] = useState(true);
   const [showComic, setShowComic] = useState(true);
+  const [showLegendsEpicCollection, setShowLegendsEpicCollection] =
+    useState(true);
   const [showSplit, setShowSplit] = useState(showSplitPass);
 
   return (
@@ -45,6 +47,10 @@ export default function SplitBookCase({
             setShowTv={() => setShowTv(!showTv)}
             showComic={showComic}
             setShowComic={() => setShowComic(!showComic)}
+            showLegendsEpicCollection={showLegendsEpicCollection}
+            setShowLegendsEpicCollection={() =>
+              setShowLegendsEpicCollection(!showLegendsEpicCollection)
+            }
             onlyShowBoughtBooks={onlyShowBoughtBooks}
             setOnlyShowBoughtBooks={() =>
               setOnlyShowBoughtBooks(!onlyShowBoughtBooks)
@@ -69,6 +75,7 @@ export default function SplitBookCase({
                 showGame={showGame}
                 showTv={showTv}
                 showComic={showComic}
+                showLegendsEpicCollection={showLegendsEpicCollection}
               />
             </div>
           ))}
@@ -84,6 +91,7 @@ export default function SplitBookCase({
           showGame={showGame}
           showTv={showTv}
           showComic={showComic}
+          showLegendsEpicCollection={showLegendsEpicCollection}
         />
       )}
     </>
