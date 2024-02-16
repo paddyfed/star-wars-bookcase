@@ -22,6 +22,8 @@ export default function FilterToggle({
   setShowComic,
   showLegendsEpicCollection,
   setShowLegendsEpicCollection,
+  showOmnibus,
+  setShowOmnibus,
   showReleaseOrErasToggle = true,
 }) {
   return (
@@ -139,6 +141,17 @@ export default function FilterToggle({
           className={styles.toggleSwitchLabel}
         >
           Legends Epic Collection
+        </label>
+      </span>
+      <span className={styles.toggleSwitch}>
+        <input
+          type="checkbox"
+          id="switchOmnibus"
+          onChange={setShowOmnibus}
+          checked={showOmnibus}
+        />
+        <label htmlFor="switchOmnibus" className={styles.toggleSwitchLabel}>
+          Omnibus
         </label>
       </span>
     </div>

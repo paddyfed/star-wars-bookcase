@@ -11,6 +11,7 @@ export default function BookCase({
   showGame,
   showComic,
   showLegendsEpicCollection,
+  showOmnibus,
   showTv,
 }) {
   function parseQuery(value) {
@@ -29,6 +30,7 @@ export default function BookCase({
       value.series === "Legends Epic Collection"
     )
       return true;
+    if (showOmnibus === true && value.series === "Omnibus") return true;
 
     return false;
   }

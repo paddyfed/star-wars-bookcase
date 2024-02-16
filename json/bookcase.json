@@ -20,6 +20,17 @@
       "type": "comic",
       "bought": true,
       "era": "The Old Republic",
+      "next": 320
+    },
+    {
+      "id": 320,
+      "series": "Omnibus",
+      "title": "Tales of the Jedi Vol. 1",
+      "author": "",
+      "releaseDate": "2007-10-17",
+      "type": "comic",
+      "bought": true,
+      "era": "The Old Republic",
       "next": 267
     },
     {
@@ -39,6 +50,17 @@
       "title": "Tales of the Jedi Vol. 3",
       "author": "",
       "releaseDate": "2023-07-11",
+      "type": "comic",
+      "bought": true,
+      "era": "The Old Republic",
+      "next": 321
+    },
+    {
+      "id": 321,
+      "series": "Omnibus",
+      "title": "Tales of the Jedi Vol. 2",
+      "author": "",
+      "releaseDate": "2008-04-09",
       "type": "comic",
       "bought": true,
       "era": "The Old Republic",
