@@ -47,7 +47,17 @@ export default function SplitBookCase({
             showTv={showTv}
             setShowTv={() => setShowTv(!showTv)}
             showComic={showComic}
-            setShowComic={() => setShowComic(!showComic)}
+            setShowComic={() => {
+              setShowComic(!showComic);
+              if (showComic === true) {
+                setShowLegendsEpicCollection(false);
+                setShowOmnibus(false);
+              }
+              if (showComic === false) {
+                setShowLegendsEpicCollection(true);
+                setShowOmnibus(true);
+              }
+            }}
             showLegendsEpicCollection={showLegendsEpicCollection}
             setShowLegendsEpicCollection={() =>
               setShowLegendsEpicCollection(!showLegendsEpicCollection)
