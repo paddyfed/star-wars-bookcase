@@ -48,7 +48,6 @@ export default function SplitBookCase({
             setShowTv={() => setShowTv(!showTv)}
             showComic={showComic}
             setShowComic={() => {
-              setShowComic(!showComic);
               if (showComic === true) {
                 setShowLegendsEpicCollection(false);
                 setShowOmnibus(false);
@@ -57,13 +56,28 @@ export default function SplitBookCase({
                 setShowLegendsEpicCollection(true);
                 setShowOmnibus(true);
               }
+              setShowComic(!showComic);
             }}
             showLegendsEpicCollection={showLegendsEpicCollection}
-            setShowLegendsEpicCollection={() =>
-              setShowLegendsEpicCollection(!showLegendsEpicCollection)
-            }
+            setShowLegendsEpicCollection={() => {
+              if (showLegendsEpicCollection === true) {
+                setShowComic(false);
+              }
+              if (showLegendsEpicCollection === false && showOmnibus === true) {
+                setShowComic(true);
+              }
+              setShowLegendsEpicCollection(!showLegendsEpicCollection);
+            }}
             showOmnibus={showOmnibus}
-            setShowOmnibus={() => setShowOmnibus(!showOmnibus)}
+            setShowOmnibus={() => {
+              if (showOmnibus === true) {
+                setShowComic(false);
+              }
+              if (showOmnibus === false && showLegendsEpicCollection === true) {
+                setShowComic(true);
+              }
+              setShowOmnibus(!showOmnibus);
+            }}
             onlyShowBoughtBooks={onlyShowBoughtBooks}
             setOnlyShowBoughtBooks={() =>
               setOnlyShowBoughtBooks(!onlyShowBoughtBooks)
