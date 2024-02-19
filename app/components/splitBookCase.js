@@ -33,6 +33,15 @@ export default function SplitBookCase({
   const [showOmnibus, setShowOmnibus] = useState(true);
   const [showSplit, setShowSplit] = useState(showSplitPass);
 
+  const togglesToShow = [
+    ...new Set(
+      Object.entries(data.bookcase)
+        .map((item) => item.flat())
+        .flat()
+        .map((item) => item.type)
+    ),
+  ];
+
   return (
     <>
       {title && (
@@ -49,67 +58,82 @@ export default function SplitBookCase({
                 setOnlyShowBoughtBooks(!onlyShowBoughtBooks)
               }
             />
-            <NovelsToggle
-              showNovels={showNovels}
-              setShowNovels={() => setShowNovels(!showNovels)}
-            />
-            <YoungAdultToggle
-              showYoungAdult={showYoungAdult}
-              setShowYoungAdult={() => setShowYoungAdult(!showYoungAdult)}
-            />
-            <DvdToggle
-              showDvds={showDvds}
-              setShowDvds={() => setShowDvds(!showDvds)}
-            />
-            <VhsToggle
-              showVhs={showVhs}
-              setShowVhs={() => setShowVhs(!showVhs)}
-            />
-            <GameToggle
-              showGame={showGame}
-              setShowGame={() => setShowGame(!showGame)}
-            />
-            <TvToggle showTv={showTv} setShowTv={() => setShowTv(!showTv)} />
-            <ComicToggle
-              showComic={showComic}
-              setShowComic={() => {
-                if (showComic === true) {
-                  setShowLegendsEpicCollection(false);
-                  setShowOmnibus(false);
-                }
-                if (showComic === false) {
-                  setShowLegendsEpicCollection(true);
-                  setShowOmnibus(true);
-                }
-                setShowComic(!showComic);
-              }}
-              showLegendsEpicCollection={showLegendsEpicCollection}
-              setShowLegendsEpicCollection={() => {
-                if (showLegendsEpicCollection === true) {
-                  setShowComic(false);
-                }
-                if (
-                  showLegendsEpicCollection === false &&
-                  showOmnibus === true
-                ) {
-                  setShowComic(true);
-                }
-                setShowLegendsEpicCollection(!showLegendsEpicCollection);
-              }}
-              showOmnibus={showOmnibus}
-              setShowOmnibus={() => {
-                if (showOmnibus === true) {
-                  setShowComic(false);
-                }
-                if (
-                  showOmnibus === false &&
-                  showLegendsEpicCollection === true
-                ) {
-                  setShowComic(true);
-                }
-                setShowOmnibus(!showOmnibus);
-              }}
-            />
+            {togglesToShow.includes("novel") && (
+              <NovelsToggle
+                showNovels={showNovels}
+                setShowNovels={() => setShowNovels(!showNovels)}
+              />
+            )}
+
+            {togglesToShow.includes("ya") && (
+              <YoungAdultToggle
+                showYoungAdult={showYoungAdult}
+                setShowYoungAdult={() => setShowYoungAdult(!showYoungAdult)}
+              />
+            )}
+            {togglesToShow.includes("dvd") && (
+              <DvdToggle
+                showDvds={showDvds}
+                setShowDvds={() => setShowDvds(!showDvds)}
+              />
+            )}
+            {togglesToShow.includes("vhs") && (
+              <VhsToggle
+                showVhs={showVhs}
+                setShowVhs={() => setShowVhs(!showVhs)}
+              />
+            )}
+            {togglesToShow.includes("game") && (
+              <GameToggle
+                showGame={showGame}
+                setShowGame={() => setShowGame(!showGame)}
+              />
+            )}
+            {togglesToShow.includes("tv") && (
+              <TvToggle showTv={showTv} setShowTv={() => setShowTv(!showTv)} />
+            )}
+            {togglesToShow.includes("comic") && (
+              <ComicToggle
+                showComic={showComic}
+                setShowComic={() => {
+                  if (showComic === true) {
+                    setShowLegendsEpicCollection(false);
+                    setShowOmnibus(false);
+                  }
+                  if (showComic === false) {
+                    setShowLegendsEpicCollection(true);
+                    setShowOmnibus(true);
+                  }
+                  setShowComic(!showComic);
+                }}
+                showLegendsEpicCollection={showLegendsEpicCollection}
+                setShowLegendsEpicCollection={() => {
+                  if (showLegendsEpicCollection === true) {
+                    setShowComic(false);
+                  }
+                  if (
+                    showLegendsEpicCollection === false &&
+                    showOmnibus === true
+                  ) {
+                    setShowComic(true);
+                  }
+                  setShowLegendsEpicCollection(!showLegendsEpicCollection);
+                }}
+                showOmnibus={showOmnibus}
+                setShowOmnibus={() => {
+                  if (showOmnibus === true) {
+                    setShowComic(false);
+                  }
+                  if (
+                    showOmnibus === false &&
+                    showLegendsEpicCollection === true
+                  ) {
+                    setShowComic(true);
+                  }
+                  setShowOmnibus(!showOmnibus);
+                }}
+              />
+            )}
           </div>
         </header>
       )}
