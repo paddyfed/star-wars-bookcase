@@ -1,4 +1,4 @@
-import styles from "@/app/page.module.css";
+import MediaToggle from "./mediaToggle";
 
 export default function ComicToggle({
   showComic,
@@ -10,42 +10,24 @@ export default function ComicToggle({
 }) {
   return (
     <>
-      <span className={styles.toggleSwitch}>
-        <input
-          type="checkbox"
-          id="switchComic"
-          onChange={setShowComic}
-          checked={showComic}
-        />
-        <label htmlFor="switchComic" className={styles.toggleSwitchLabel}>
-          Comic
-        </label>
-      </span>
-      <span className={styles.toggleSwitch}>
-        <input
-          type="checkbox"
-          id="switchLegendsEpicCollection"
-          onChange={setShowLegendsEpicCollection}
-          checked={showLegendsEpicCollection}
-        />
-        <label
-          htmlFor="switchLegendsEpicCollection"
-          className={styles.toggleSwitchLabel}
-        >
-          Legends Epic Collection
-        </label>
-      </span>
-      <span className={styles.toggleSwitch}>
-        <input
-          type="checkbox"
-          id="switchOmnibus"
-          onChange={setShowOmnibus}
-          checked={showOmnibus}
-        />
-        <label htmlFor="switchOmnibus" className={styles.toggleSwitchLabel}>
-          Omnibus
-        </label>
-      </span>
+      <MediaToggle
+        toggleLabel={"Comic"}
+        toggleId={"switchComic"}
+        onChangeEventHandler={setShowComic}
+        checkedValue={showComic}
+      />
+      <MediaToggle
+        toggleLabel={"Legends Epic Collection"}
+        toggleId={"switchLegendsEpicCollection"}
+        onChangeEventHandler={setShowLegendsEpicCollection}
+        checkedValue={showLegendsEpicCollection}
+      />
+      <MediaToggle
+        toggleLabel={"Omnibus"}
+        toggleId={"switchOmnibus"}
+        onChangeEventHandler={setShowOmnibus}
+        checkedValue={showOmnibus}
+      />
     </>
   );
 }

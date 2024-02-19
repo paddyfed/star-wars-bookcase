@@ -1,4 +1,4 @@
-import styles from "@/app/page.module.css";
+import MediaToggle from "./mediaToggle";
 
 export default function ReleaseOrErasToggle({
   showSplit,
@@ -11,29 +11,19 @@ export default function ReleaseOrErasToggle({
   return (
     <>
       {showReleaseOrErasToggle && (
-        <span className={styles.toggleSwitch}>
-          <input
-            type="checkbox"
-            id="switch"
-            onChange={setShowSplit}
-            checked={showSplit}
-          />
-          <label htmlFor="switch" className={styles.toggleSwitchLabel}>
-            {releaseOrTimeline}
-          </label>
-        </span>
-      )}
-      <span className={styles.toggleSwitch}>
-        <input
-          type="checkbox"
-          id="switchNotBought"
-          onChange={setOnlyShowBoughtBooks}
-          checked={onlyShowBoughtBooks}
+        <MediaToggle
+          toggleLabel={releaseOrTimeline}
+          toggleId={"switch"}
+          onChangeEventHandler={setShowSplit}
+          checkedValue={showSplit}
         />
-        <label htmlFor="switchNotBought" className={styles.toggleSwitchLabel}>
-          Only show bought books
-        </label>
-      </span>
+      )}
+      <MediaToggle
+        toggleLabel={"Only show bought books"}
+        toggleId={"switchNotBought"}
+        onChangeEventHandler={setOnlyShowBoughtBooks}
+        checkedValue={onlyShowBoughtBooks}
+      />
     </>
   );
 }

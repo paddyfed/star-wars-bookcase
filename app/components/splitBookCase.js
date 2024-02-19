@@ -6,12 +6,7 @@ import BookCase from "@/app/components/bookcase";
 import BookCaseHeader from "@/app/components/bookCaseHeader";
 import ComicToggle from "./toggles/comicToggle";
 import ReleaseOrErasToggle from "./toggles/releaseOrErasToggle";
-import NovelsToggle from "./toggles/novelsToggle";
-import DvdToggle from "./toggles/dvdToggle";
-import YoungAdultToggle from "./toggles/youngAdultToggle";
-import VhsToggle from "./toggles/vhsToggle";
-import GameToggle from "./toggles/gameToggle";
-import TvToggle from "./toggles/tvToggle";
+import MediaToggle from "./toggles/mediaToggle";
 
 export default function SplitBookCase({
   data,
@@ -59,38 +54,53 @@ export default function SplitBookCase({
               }
             />
             {togglesToShow.includes("novel") && (
-              <NovelsToggle
-                showNovels={showNovels}
-                setShowNovels={() => setShowNovels(!showNovels)}
+              <MediaToggle
+                toggleLabel={"Novel"}
+                toggleId={"switchNovel"}
+                checkedValue={showNovels}
+                onChangeEventHandler={() => setShowNovels(!showNovels)}
               />
             )}
 
             {togglesToShow.includes("ya") && (
-              <YoungAdultToggle
-                showYoungAdult={showYoungAdult}
-                setShowYoungAdult={() => setShowYoungAdult(!showYoungAdult)}
+              <MediaToggle
+                toggleLabel={"Young Adult"}
+                toggleId={"switchYoungAdult"}
+                onChangeEventHandler={() => setShowYoungAdult(!showYoungAdult)}
+                checkedValue={showYoungAdult}
               />
             )}
             {togglesToShow.includes("dvd") && (
-              <DvdToggle
-                showDvds={showDvds}
-                setShowDvds={() => setShowDvds(!showDvds)}
+              <MediaToggle
+                toggleLabel={"DVD"}
+                toggleId={"switchDvd"}
+                onChangeEventHandler={() => setShowDvds(!showDvds)}
+                checkedValue={showDvds}
               />
             )}
             {togglesToShow.includes("vhs") && (
-              <VhsToggle
-                showVhs={showVhs}
-                setShowVhs={() => setShowVhs(!showVhs)}
+              <MediaToggle
+                toggleLabel={"VHS"}
+                toggleId={"switchVhs"}
+                checkedValue={showVhs}
+                onChangeEventHandler={() => setShowVhs(!showVhs)}
               />
             )}
             {togglesToShow.includes("game") && (
-              <GameToggle
-                showGame={showGame}
-                setShowGame={() => setShowGame(!showGame)}
+              <MediaToggle
+                toggleLabel={"Game"}
+                toggleId={"switchGame"}
+                checkedValue={showGame}
+                onChangeEventHandler={() => setShowGame(!showGame)}
               />
             )}
             {togglesToShow.includes("tv") && (
-              <TvToggle showTv={showTv} setShowTv={() => setShowTv(!showTv)} />
+              <MediaToggle
+                toggleLabel={"TV"}
+                toggleId={"switchTv"}
+                checkedValue={showTv}
+                onChangeEventHandler={() => setShowTv(!showTv)}
+              />
             )}
             {togglesToShow.includes("comic") && (
               <ComicToggle
