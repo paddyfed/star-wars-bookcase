@@ -10,6 +10,8 @@ export default function BookCase({
   showVhs,
   showGame,
   showComic,
+  showLegendsEpicCollection,
+  showOmnibus,
   showTv,
 }) {
   function parseQuery(value) {
@@ -22,6 +24,13 @@ export default function BookCase({
     if (showTv === true) queryFilter.push("tv");
     if (showComic === true) queryFilter.push("comic");
     if (queryFilter.includes(value.type)) return true;
+
+    if (
+      showLegendsEpicCollection === true &&
+      value.series === "Legends Epic Collection"
+    )
+      return true;
+    if (showOmnibus === true && value.series === "Omnibus") return true;
 
     return false;
   }
