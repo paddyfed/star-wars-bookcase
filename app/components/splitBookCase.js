@@ -4,7 +4,14 @@ import { useState } from "react";
 import styles from "@/app/page.module.css";
 import BookCase from "@/app/components/bookcase";
 import BookCaseHeader from "@/app/components/bookCaseHeader";
-import FilterToggle from "./filterToggle";
+import ComicToggle from "./toggles/comicToggle";
+import ReleaseOrErasToggle from "./toggles/releaseOrErasToggle";
+import NovelsToggle from "./toggles/novelsToggle";
+import DvdToggle from "./toggles/dvdToggle";
+import YoungAdultToggle from "./toggles/youngAdultToggle";
+import VhsToggle from "./toggles/vhsToggle";
+import GameToggle from "./toggles/gameToggle";
+import TvToggle from "./toggles/tvToggle";
 
 export default function SplitBookCase({
   data,
@@ -31,60 +38,79 @@ export default function SplitBookCase({
       {title && (
         <header className={styles.toggleSwitchHeader}>
           <h2>{title}</h2>
-          <FilterToggle
-            showSplit={showSplit}
-            showReleaseOrErasToggle={showReleaseOrErasToggle}
-            showNovels={showNovels}
-            setShowNovels={() => setShowNovels(!showNovels)}
-            showDvds={showDvds}
-            setShowDvds={() => setShowDvds(!showDvds)}
-            showYoungAdult={showYoungAdult}
-            setShowYoungAdult={() => setShowYoungAdult(!showYoungAdult)}
-            showVhs={showVhs}
-            setShowVhs={() => setShowVhs(!showVhs)}
-            showGame={showGame}
-            setShowGame={() => setShowGame(!showGame)}
-            showTv={showTv}
-            setShowTv={() => setShowTv(!showTv)}
-            showComic={showComic}
-            setShowComic={() => {
-              if (showComic === true) {
-                setShowLegendsEpicCollection(false);
-                setShowOmnibus(false);
+          <div>
+            <ReleaseOrErasToggle
+              showReleaseOrErasToggle={showReleaseOrErasToggle}
+              showSplit={showSplit}
+              setShowSplit={() => setShowSplit(!showSplit)}
+              releaseOrTimeline={releaseOrTimeline}
+              onlyShowBoughtBooks={onlyShowBoughtBooks}
+              setOnlyShowBoughtBooks={() =>
+                setOnlyShowBoughtBooks(!onlyShowBoughtBooks)
               }
-              if (showComic === false) {
-                setShowLegendsEpicCollection(true);
-                setShowOmnibus(true);
-              }
-              setShowComic(!showComic);
-            }}
-            showLegendsEpicCollection={showLegendsEpicCollection}
-            setShowLegendsEpicCollection={() => {
-              if (showLegendsEpicCollection === true) {
-                setShowComic(false);
-              }
-              if (showLegendsEpicCollection === false && showOmnibus === true) {
-                setShowComic(true);
-              }
-              setShowLegendsEpicCollection(!showLegendsEpicCollection);
-            }}
-            showOmnibus={showOmnibus}
-            setShowOmnibus={() => {
-              if (showOmnibus === true) {
-                setShowComic(false);
-              }
-              if (showOmnibus === false && showLegendsEpicCollection === true) {
-                setShowComic(true);
-              }
-              setShowOmnibus(!showOmnibus);
-            }}
-            onlyShowBoughtBooks={onlyShowBoughtBooks}
-            setOnlyShowBoughtBooks={() =>
-              setOnlyShowBoughtBooks(!onlyShowBoughtBooks)
-            }
-            setShowSplit={() => setShowSplit(!showSplit)}
-            releaseOrTimeline={releaseOrTimeline}
-          />
+            />
+            <NovelsToggle
+              showNovels={showNovels}
+              setShowNovels={() => setShowNovels(!showNovels)}
+            />
+            <YoungAdultToggle
+              showYoungAdult={showYoungAdult}
+              setShowYoungAdult={() => setShowYoungAdult(!showYoungAdult)}
+            />
+            <DvdToggle
+              showDvds={showDvds}
+              setShowDvds={() => setShowDvds(!showDvds)}
+            />
+            <VhsToggle
+              showVhs={showVhs}
+              setShowVhs={() => setShowVhs(!showVhs)}
+            />
+            <GameToggle
+              showGame={showGame}
+              setShowGame={() => setShowGame(!showGame)}
+            />
+            <TvToggle showTv={showTv} setShowTv={() => setShowTv(!showTv)} />
+            <ComicToggle
+              showComic={showComic}
+              setShowComic={() => {
+                if (showComic === true) {
+                  setShowLegendsEpicCollection(false);
+                  setShowOmnibus(false);
+                }
+                if (showComic === false) {
+                  setShowLegendsEpicCollection(true);
+                  setShowOmnibus(true);
+                }
+                setShowComic(!showComic);
+              }}
+              showLegendsEpicCollection={showLegendsEpicCollection}
+              setShowLegendsEpicCollection={() => {
+                if (showLegendsEpicCollection === true) {
+                  setShowComic(false);
+                }
+                if (
+                  showLegendsEpicCollection === false &&
+                  showOmnibus === true
+                ) {
+                  setShowComic(true);
+                }
+                setShowLegendsEpicCollection(!showLegendsEpicCollection);
+              }}
+              showOmnibus={showOmnibus}
+              setShowOmnibus={() => {
+                if (showOmnibus === true) {
+                  setShowComic(false);
+                }
+                if (
+                  showOmnibus === false &&
+                  showLegendsEpicCollection === true
+                ) {
+                  setShowComic(true);
+                }
+                setShowOmnibus(!showOmnibus);
+              }}
+            />
+          </div>
         </header>
       )}
       {showSplit ? (
