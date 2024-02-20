@@ -112,11 +112,12 @@
 }
 
 .toggleSwitch {
-  margin: 0.5em;
+  margin-right: 0.5em;
 }
 
 .toggleSwitchLabel {
-  margin-left: 0.5em;
+  margin: 0.5em;
+  text-wrap: nowrap;
 }
 
 .type {
