@@ -43,12 +43,22 @@ export default function BookCase({
     return true;
   }
 
+  const returnValue = bookcase
+    .filter((b) => parseBoughtBooksQuery(b))
+    .filter((d) => parseQuery(d));
+
+  if (returnValue.length === 0) {
+    return (
+      <div className={`${styles.bookcase} ${styles.emptyBookcase}`}>
+        No Items
+      </div>
+    );
+  }
+
   return (
-    <div className={styles.bookcase}>
-      {bookcase
-        .filter((b) => parseBoughtBooksQuery(b))
-        .filter((d) => parseQuery(d))
-        .map((book) => {
+    <>
+      <div className={styles.bookcase}>
+        {returnValue.map((book) => {
           return (
             <Book
               book={book}
@@ -57,6 +67,7 @@ export default function BookCase({
             />
           );
         })}
-    </div>
+      </div>
+    </>
   );
 }

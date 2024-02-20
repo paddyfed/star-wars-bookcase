@@ -10,6 +10,10 @@
   align-items: flex-end; /* keeps the books at the bottom of the bookcase */
 }
 
+.emptyBookcase {
+  writing-mode: vertical-rl;
+}
+
 .book {
   background-color: black;
   border: 1px solid gray;
