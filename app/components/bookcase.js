@@ -48,7 +48,11 @@ export default function BookCase({
     .filter((d) => parseQuery(d));
 
   if (returnValue.length === 0) {
-    return <div className={styles.bookcase}>Empty</div>;
+    return (
+      <div className={`${styles.bookcase} ${styles.emptyBookcase}`}>
+        No Items
+      </div>
+    );
   }
 
   return (
