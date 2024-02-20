@@ -27,31 +27,39 @@ export default function RootLayout({ children }) {
             <Link href="/">Star Wars Bookcase</Link>
           </h1>
           <ul>
-            <li>
-              <Link href="/legends/timeline-order">Legends - By Timeline</Link>
+            <li className="menu legendsMenu">
+              Legends
+              <ul>
+                <li>
+                  <Link href="/legends/timeline-order">By Timeline</Link>
+                </li>
+                <li>
+                  <Link href="/legends/release-date">By Release Date</Link>
+                </li>
+                <li>
+                  <Link href="/legends/by-author">By Author</Link>
+                </li>
+                <li>
+                  <Link href="/legends/by-series">By Series</Link>
+                </li>
+              </ul>
             </li>
-            <li>
-              <Link href="/legends/release-date">
-                Legends - By Release Date
-              </Link>
-            </li>
-            <li>
-              <Link href="/legends/by-author">Legends - By Author</Link>
-            </li>
-            <li>
-              <Link href="/legends/by-series">Legends - By Series</Link>
-            </li>
-            <li>
-              <Link href="/canon/timeline-order">Canon - By Timeline</Link>
-            </li>
-            <li>
-              <Link href="/canon/release-date">Canon - By Release Date</Link>
-            </li>
-            <li>
-              <Link href="/canon/by-author">Canon - By Author</Link>
-            </li>
-            <li>
-              <Link href="/canon/by-series">Canon - By Series</Link>
+            <li className="menu canonMenu">
+              Canon
+              <ul>
+                <li>
+                  <Link href="/canon/timeline-order">By Timeline</Link>
+                </li>
+                <li>
+                  <Link href="/canon/release-date">By Release Date</Link>
+                </li>
+                <li>
+                  <Link href="/canon/by-author">By Author</Link>
+                </li>
+                <li>
+                  <Link href="/canon/by-series">By Series</Link>
+                </li>
+              </ul>
             </li>
           </ul>
         </nav>
