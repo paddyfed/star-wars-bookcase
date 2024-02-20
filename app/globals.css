@@ -33,3 +33,16 @@ h2 {
 h3 {
   font-size: 1em;
 }
+
+.menu {
+  color: red;
+  padding: 0.5em;
+}
+
+.legendsMenu {
+  border: 1px solid green;
+}
+
+.canonMenu {
+  border: 1px solid blue;
+}
