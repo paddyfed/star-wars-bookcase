@@ -29,7 +29,7 @@
       "author": "George Mann",
       "releaseDate": "2023-02-14",
       "type": "novel",
-      "bought": false,
+      "bought": true,
       "era": "The High Republic",
       "next": 226
     },
