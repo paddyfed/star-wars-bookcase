@@ -865,7 +865,7 @@
       "author": "Beth Revis",
       "releaseDate": "2022-08-16",
       "type": "novel",
-      "bought": false,
+      "bought": true,
       "era": "The New Republic",
       "next": 192
     },
