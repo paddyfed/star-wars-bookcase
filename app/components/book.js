@@ -2,7 +2,7 @@ import StarWarsIcon from "../../public/images/Star_Wars_Logo.svg";
 import Image from "next/image";
 import styles from "../page.module.css";
 
-const styleClassses = {
+const styleClasses = {
   novel: styles.novel,
   vhs: styles.vhs,
   dvd: styles.dvd,
@@ -17,7 +17,7 @@ export default function Book({ book }) {
   const type = book.type ?? "default";
   return (
     <div
-      className={`${styles.book} ${styleClassses[type]} ${
+      className={`${styles.book} ${styleClasses[type]} ${
         !Object.hasOwn(book, "bought") || book.bought // if the book hasn't got the 'bought' property or where the bought property is true
           ? styles.bought
           : styles.notbought
